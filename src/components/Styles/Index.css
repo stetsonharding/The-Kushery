@@ -1,0 +1,244 @@
+
+@font-face{
+    font-family: weedFont;
+    src: url(../fonts/Sapphiresativa-0vJ9.ttf)
+}
+
+
+
+/* Carousel */
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+
+.carousel-caption{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-55%);
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px black;  
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 200px;
+    text-shadow: 1px 1px 10px #000;  
+    padding-bottom: 1rem;
+}
+.btn-outline-light{
+color: black;
+background-color: white;
+border: 1px solid orange;
+transition: 0.3s;
+}
+.btn-outline-light:hover{
+color: orange;
+background-color: green;
+}
+
+
+
+
+
+
+
+/* JumpboTron */
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background-color: black;
+}
+.jumbotron p{
+   color:white;
+}
+.btn-outline-secondary{
+    background-color: white;
+    color:green;
+    transition: 0.3s
+}
+.btn-outline-secondary:hover{
+    color: orange;
+    background-color: green;
+}
+.padding{
+    padding-bottom:2.5rem;
+}
+
+
+/* welcome */
+.welcome{
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    padding-top: 2rem;
+    background-color: black;
+}
+.welcome h1{
+    font-family: weedFont;
+   color: white;
+   text-shadow: 1px 2px 10px green; 
+}
+.fa-cannabis{
+    color: green;
+}
+.welcome hr{
+    border-top: 2px solid orange;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.welcome p{
+    color: white;
+    font-size: 1.7em;
+    font-family: cursive;
+}
+
+
+
+
+
+/* 3 columb Icons */
+.fa-dog, .fa-wheelchair, .fa-money-bill-alt{
+    font-size: 6em;
+    margin: 1rem;
+    color: white;
+    
+}
+/* text under fas fa icons and heading */
+.FasfaText{
+    color:white;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+.fasFaHeading{
+    color: green;
+    font-family: cursive;
+}
+
+
+
+
+
+/* SpringBig Section */
+#springBigText{
+    color:white;
+    border: 2px solid white;
+    font-family: cursive;
+}
+#springBigHeading{
+    color:orange
+}
+#springBigtext{
+    color:orange;
+    padding-top: 7px;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+
+
+
+
+
+
+/* Vendor Button */
+.vendor{
+    width: 100%;
+}
+.vendor:hover{
+    color: orange;
+    background-color: green;
+}
+
+
+
+
+/* Social Media Connect */
+.social a{
+    font-size: 2em;
+    padding: 3rem;
+}
+#connectText{
+    color:orange;
+    font-size:2.5em;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+   color: #517fa8; 
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color: teal;
+}
+#connectBackground{
+    background-color: black;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+ /* carousel */
+    .carousel-caption{
+        top: 45%;
+      
+    }
+    /* .carousel-inner img{
+        width: 50px;
+        height: 50px;
+    } */
+    .carousel-caption h1{
+        font-size: 250%
+    }
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400px;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+    }
+
+    /* jumbotron */
+    .btn-outline-secondary{
+        background-color: white;
+        color:green;
+        font-size: 18px;
+    }
+
+  
+/* Welcome  */
+    .display-4{
+        font-size: 250%;
+        padding-bottom: 5px; 
+    }
+
+ 
+
+
+
+}
+@media (max-width: 576px) {
+
+}

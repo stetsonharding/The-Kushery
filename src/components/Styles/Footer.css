@@ -1,0 +1,28 @@
+footer{
+    background-color: #0d0d0d;
+    color: white;
+    padding-top: 2rem;
+}
+
+
+
+.linkColor{
+    color: green;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+}
+
+.linkColor:hover{
+    color: orange;
+    
+}
+
+h5{
+    color: orange;
+    font-size: 1.5em;
+}
+
+#rightReserved{
+    border-top: 1.5px solid orange;
+    padding-top: 8px;
+}

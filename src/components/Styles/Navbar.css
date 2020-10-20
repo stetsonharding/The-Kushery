@@ -1,0 +1,32 @@
+
+.navbar{
+    padding: .12rem;
+}
+.navbar-nav li{
+    padding-right: 60px;
+}
+
+.nav-link{
+    font-size: 1.7em !important;  
+}
+
+.nav-item{
+    color: #2fa300;
+    font-family: poynter;
+}
+.nav-item:hover{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
