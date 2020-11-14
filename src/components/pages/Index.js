@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-// import Weedimage1 from "../../images/WeedCarousel_1.jpg"
 
-// import background from "../../images/background.png"
 
 import weedImage1 from "../../images/weedImage1.jpg"
 import weedImage2 from "../../images/weedImage_2.jpg"
@@ -13,17 +11,10 @@ import Vendor2 from "../../images/Vendor2.png"
 import Vendor3 from "../../images/Vendor3.jpg"
 import Vendor4 from "../../images/Vendor4.png"
 
-// import fixedImg from "../../images/fixedImg.png"
-
-
-
-
 import "../Styles/Index.css"
-// import "../../App.css"
+
 
 function Index() {
-
-
 
   return (
     <div>
@@ -101,7 +92,7 @@ function Index() {
       </div>
 
       {/* Three column images */}
-      <div style={{ backgroundColor: "black" }} class="container-fluid padding">
+      <div class="container-fluid padding threeColumnImages">
         <div class="row text-center padding">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <i class="fas fa-dog "></i>
@@ -123,8 +114,8 @@ function Index() {
       </div>
 
       {/* Two column section */}
-      <div class="container-fluid padding">
-        <div style={{backgroundColor:"black"}} class="row text-center padding">
+      <div class="container-fluid padding springBigContainer">
+        <div class="row text-center padding">
           <div id="springBigText" class="col-lg-6">
             <h2 id="springBigHeading">SpringBig Loyalty Program</h2>
             <p>After every purchase you'll earn one point for every dollar that you've spent.</p>
@@ -132,7 +123,7 @@ function Index() {
             <br />
             <Link to="/Rewards"><button type="button" class="btn btn-primary">Learn More</button></Link>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 springBigLogo">
             <Link to="/Rewards"><img style={{ height: "100px" }} src={springBig} alt="SpringBig Logo" class="img-fluid"></img></Link>
             <p  id="springBigtext">The more you spend, the more you save.</p>
           </div>
@@ -140,14 +131,6 @@ function Index() {
       </div>
       <hr class="my-4"></hr>
 
-      {/* fixed Background */}
-      {/* <figure >
-        <div class="fixed-wrap">
-          <div id="fixed">
-        
-          </div>
-        </div>
-      </figure> */}
 
       {/* Vendor Section */}
       <button class="vendor" data-toggle="collapse" data-target="#emoji">Click To See Our Top Vendors

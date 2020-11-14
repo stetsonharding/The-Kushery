@@ -4,8 +4,6 @@
     src: url(../fonts/Sapphiresativa-0vJ9.ttf)
 }
 
-
-
 /* Carousel */
 
 /*---Firefox Bug Fix --*/
@@ -50,24 +48,22 @@ background-color: green;
 }
 
 
-
-
-
-
-
 /* JumpboTron */
 .jumbotron{
     padding: 1rem;
     border-radius: 0;
     background-color: black;
+   
 }
 .jumbotron p{
-   color:white;
+   color: white;
+  
 }
 .btn-outline-secondary{
     background-color: white;
     color:green;
-    transition: 0.3s
+    transition: 0.3s;
+   
 }
 .btn-outline-secondary:hover{
     color: orange;
@@ -80,14 +76,11 @@ background-color: green;
 
 /* welcome */
 .welcome{
-    /* width: 100%; */
-    /* margin: 0 auto; */
     padding-top: 2rem;
-    background-color: black;
 }
 .welcome h1{
     font-family: weedFont;
-   color: white;
+   color: black;
    text-shadow: 1px 2px 10px green; 
 }
 .fa-cannabis{
@@ -100,25 +93,23 @@ background-color: green;
     margin-bottom: 1rem;
 }
 .welcome p{
-    color: white;
+    color: black;
     font-size: 1.7em;
     font-family: cursive;
 }
-
-
-
 
 
 /* 3 columb Icons */
 .fa-dog, .fa-wheelchair, .fa-money-bill-alt{
     font-size: 6em;
     margin: 1rem;
-    color: white;
-    
+    color:black; 
 }
+
+
 /* text under fas fa icons and heading */
 .FasfaText{
-    color:white;
+    color: black;
     font-size: 1.3em;
     font-family: cursive;
 }
@@ -128,12 +119,9 @@ background-color: green;
 }
 
 
-
-
-
 /* SpringBig Section */
 #springBigText{
-    color:white;
+    color:black;
     border: 2px solid white;
     font-family: cursive;
 }
@@ -148,10 +136,6 @@ background-color: green;
 }
 
 
-
-
-
-
 /* Vendor Button */
 .vendor{
     width: 100%;
@@ -160,8 +144,6 @@ background-color: green;
     color: orange;
     background-color: green;
 }
-
-
 
 
 /* Social Media Connect */
@@ -187,9 +169,7 @@ background-color: green;
 .fa-youtube:hover{
     color: teal;
 }
-#connectBackground{
-    background-color: black;
-}
+
 
 
 /*---Media Queries --*/
@@ -201,12 +181,7 @@ background-color: green;
  /* carousel */
     .carousel-caption{
         top: 45%;
-      
     }
-    /* .carousel-inner img{
-        width: 50px;
-        height: 50px;
-    } */
     .carousel-caption h1{
         font-size: 250%
     }
@@ -233,12 +208,39 @@ background-color: green;
         font-size: 250%;
         padding-bottom: 5px; 
     }
-
- 
-
-
-
 }
-@media (max-width: 576px) {
 
+
+
+    @media (max-width: 576px) {
+     .threeColumnImages{
+        margin-top: -50px;
+     }
+     .springBigContainer{
+        margin-top: -8rem
+     }
+     .vendor{
+         margin-top: -90px
+     }
 }
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

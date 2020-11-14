@@ -1,6 +1,7 @@
 
 .navbar{
-    padding: .12rem;
+    padding: .12rem 0;
+    
 }
 .navbar-nav li{
     padding-right: 60px;
@@ -14,12 +15,21 @@
     color: #2fa300;
     font-family: poynter;
 }
-.nav-item:hover{
+.nav-item:hover,
+.nav-item:focus{
     color: orange;
 }
 
 
-
+/* logo Rotation */
+#logo {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+ #logo:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 
 
 

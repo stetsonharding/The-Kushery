@@ -1,0 +1,150 @@
+/* Banner */
+.banner{
+    height: 35vh;  
+}
+
+/* Opacity on the background but not the banner text */
+.banner::before{
+    content: "";
+    background-image: url(../../images/Location_BannerBG.PNG);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.28;
+}
+
+
+.banner-text{
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 33vh;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: orange;
+text-transform: uppercase;
+text-shadow: 1px 2px 4px green 
+}
+
+.banner-directory,
+.banner-description,
+.banner-welcome{
+    text-align: center;
+}
+
+
+.banner-directory{
+    font-size: 5rem;
+}
+.banner-description{
+    font-size: 3rem;
+    
+}
+.banner-welcome{
+    font-size:2rem
+}
+
+
+@media (max-width: 700px) { 
+    .banner-directory{
+        font-size: 3rem;
+    }
+    .banner-description{
+        font-size: 2rem;
+        
+    }
+    .banner-welcome{
+        font-size:1.5rem
+    }
+ }
+
+/* ========================= */
+
+
+
+
+
+/* ======================-> */
+/* Location CARD COMPONENT */
+
+.cards-container{
+    margin:0.75em; 
+    display: flex;
+       flex-flow: column wrap;
+}
+.cards{
+    margin: 0 0.5em;
+    display:flex;
+    height: 100%;
+    border: 1px solid green;
+}
+
+.cards:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.553) !important;
+}
+.card-img{
+   width: 90%;
+   height: 250px;
+   object-fit: cover;
+   padding: 1em
+}
+
+.card-title{
+    font-size: 2rem;
+    color: green;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.locationBtn{
+    margin: .5em;
+    width: 70%;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding: .5em;
+}
+
+.locationBtn:hover{
+    color: orange;
+}
+
+
+
+
+@media (min-width: 1094px) and (max-width:1564px){
+
+
+}
+
+/* ======================-> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

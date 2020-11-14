@@ -12,7 +12,7 @@ function Navbar() {
    return (
       <nav class="navbar navbar-expand-md navbar-dark bg-light sticky-top">
          <div style={{backgroundColor:"black"}} class="container-fluid">
-            <Link to="/" class="navbar-brand"><img style={{width:"190px"}} src={Logo} alt="The Kushery Logo"></img></Link>
+            <Link to="/" class="navbar-brand"><img id="logo" style={{width:"190px"}} src={Logo} alt="The Kushery Logo"></img></Link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                <span class="navbar-toggler-icon"></span>
             </button>
