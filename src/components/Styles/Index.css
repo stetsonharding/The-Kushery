@@ -145,7 +145,6 @@ background-color: green;
     background-color: green;
 }
 
-
 /* Social Media Connect */
 .social a{
     font-size: 2em;
@@ -171,29 +170,25 @@ background-color: green;
 }
 
 
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-}
-
 @media (max-width: 768px) {
  /* carousel */
     .carousel-caption{
-        top: 45%;
+        top: 55%;
     }
-    .carousel-caption h1{
-        font-size: 250%
-    }
-    .carousel-caption h3{
-        font-size: 140%;
+    /* .carousel-caption h1{
+        font-size: 4rem;
+    } */
+    /* .carousel-caption h3{
+        font-size: 2.5rem;
         font-weight: 400px;
         padding-bottom: .2rem;
-    }
-    .carousel-caption .btn{
-    font-size: 95%;
-    padding: 8px 14px;
-    }
+        margin-bottom: 2em;
+    } */
+    /* .carousel-caption .btn{
+        font-size: 1.8rem;
+        padding: 8px 14px;
+        margin-top: 1em;
+    } */
 
     /* jumbotron */
     .btn-outline-secondary{
@@ -202,8 +197,7 @@ background-color: green;
         font-size: 18px;
     }
 
-  
-/* Welcome  */
+    /* Welcome  */
     .display-4{
         font-size: 250%;
         padding-bottom: 5px; 
@@ -213,12 +207,37 @@ background-color: green;
 
 
     @media (max-width: 576px) {
+
+ /* carousel */
+    .carousel-caption{
+        top: 45%;
+    }
+    .carousel-caption h1{
+        font-size: 2.4rem;
+    }
+    .carousel-caption h3{
+        font-size: 1.3rem;
+        font-weight: 400px;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+        margin-top: 1em;
+    font-size: 1.4rem;
+    padding: 8px 14px;
+    }
+
+
+/* Three Column Icons */
      .threeColumnImages{
         margin-top: -50px;
      }
+
+     /* springBig */
      .springBigContainer{
         margin-top: -8rem
      }
+
+     /* vendor button */
      .vendor{
          margin-top: -90px
      }

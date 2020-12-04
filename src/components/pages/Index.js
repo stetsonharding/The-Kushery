@@ -30,10 +30,10 @@ function Index() {
             <img style={{ height: "900px", width: "100%" }} src={weedImage3} alt="weed" />
             <div class="carousel-caption">
               <h1 class="display-2">The Kushery Cannabis Dispensary</h1>
-              <h3>The Kushery has four shops located in Cathcart,<br />
+              <h3>The Kushery has 4 shops located in Cathcart,<br />
               Clearview, Lake Forest park, and Standwood.
         </h3>
-              <h2>Top quality and customer service is our number one goal.</h2>
+              <h4>Top quality and customer service is our number one goal.</h4>
               <Link to="/Location"><button type="button" class="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
           </div>
@@ -41,10 +41,10 @@ function Index() {
             <img style={{ height: "900px", width: "100%" }} src={weedImage1} alt="weed" />
             <div class="carousel-caption">
               <h1 class="display-2">The Kushery Cannabis Dispensary</h1>
-              <h3>The Kushery has four shops located in Cathcart,<br />
+              <h3>The Kushery has 4 shops located in Cathcart,<br />
               Clearview, Lake Forest park, and Standwood.
         </h3>
-              <h2>Top quality and customer service is our number one goal.</h2>
+              <h4>Top quality and customer service is our number one goal.</h4>
               <Link to="/Location"><button type="button" class="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
           </div>
@@ -52,10 +52,10 @@ function Index() {
             <img style={{ height: "900px", width: "100%" }} src={weedImage2} alt="weed" />
             <div class="carousel-caption">
               <h1 class="display-2">The Kushery Cannabis Dispensary</h1>
-              <h3>The Kushery has four shops located in Cathcart,<br />
+              <h3>The Kushery has 4 shops located in Cathcart,<br />
               Clearview, Lake Forest park, and Standwood.
         </h3>
-              <h2>Top quality and customer service is our number one goal.</h2>
+              <h4>Top quality and customer service is our number one goal.</h4>
               <Link to="/Location"><button type="button" class="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
           </div>
