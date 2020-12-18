@@ -1,0 +1,13 @@
+.Information-heading,
+.Products-heading,
+.Laws-heading{
+text-align: center;
+}
+
+.page-wrapper{
+    padding: 2em 2em;
+}
+
+.page-wrapper p{
+    letter-spacing: 1px;
+}

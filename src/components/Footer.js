@@ -16,7 +16,7 @@ function Footer() {
                             <hr class="light" />
                             <Link class="linkColor" to="/">Home</Link><br />
                             <Link class="linkColor" to="/Contact">Contact</Link><br />
-                            <Link class="linkColor" to="">Know your Facts</Link>
+                            <Link class="linkColor" to="/KnowYourFacts">Know your Facts</Link>
                         </div>
                         <div class="col-lg-6">
                             <hr class="light"></hr>

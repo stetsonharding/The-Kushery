@@ -63,7 +63,7 @@ function Rewards(){
           <div className="form-group">
             <h3 className="form-heading">Questions? Reach out to us!</h3>
              <label className="email-label" for="emailAddress">Email</label>
-             <input name="email" type="email" className="form-control" id="form-email" placeholder="Please enter your email" required="required" data-error="Lastname is required."/>
+             <input name="email" type="email" className="form-control" id="form-email" placeholder="Please enter your email" required="required" data-error="email is required."/>
           </div>
           <div class="form-group">
             <label className="questions-label" for="textArea">Questions & Comments</label>

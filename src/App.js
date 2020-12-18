@@ -8,12 +8,14 @@ import Location from "./components/pages/Location"
 import Contact from "./components/pages/Contact"
 import OrderOnline from "./components/pages/OrderOnline"
 import Rewards from "./components/pages/Rewards"
+import KnowYourFacts from "./components/pages/KnowYourFacts"
 
 
 
 
 
 import "./App.css"
+
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
          <Route path="/Rewards" component={Rewards}/>
          <Route path="/Contact" component={Contact}/>
          <Route path="/OrderOnline" component={OrderOnline}/>
+         <Route path="/KnowYourFacts" component={KnowYourFacts}/>
          </Switch>
          <Footer />
       </div>
