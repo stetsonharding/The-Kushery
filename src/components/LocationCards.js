@@ -1,6 +1,7 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
-import "./Styles/Locations.css"
+
 
 function LocationCards(props){
     return(
@@ -15,7 +16,8 @@ function LocationCards(props){
                     <p className="card-text ">{props.hours}</p>
                     <p className="card-text ">{props.address}</p>
                     <a href={props.directions} className="btn btn-success locationBtn">Directions</a>
-                    <a href={props.menu} className="btn btn-success locationBtn">Order Online</a>
+                    <Link to={props.menu} className="btn btn-success locationBtn">Order Online</Link> 
+                   
                 </div>
           </div>
         

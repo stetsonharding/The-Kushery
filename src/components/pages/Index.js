@@ -27,7 +27,7 @@ function Index() {
         </ul>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img style={{ height: "900px", width: "100%" }} src={weedImage3} alt="weed" />
+            <img style={{ height: "900px", width: "100%" }} src={weedImage1} alt="weed" />
             <div class="carousel-caption">
               <h1 class="display-2">The Kushery Cannabis Dispensary</h1>
               <h3>The Kushery has 4 shops located in Cathcart,<br />
@@ -38,7 +38,7 @@ function Index() {
             </div>
           </div>
           <div class="carousel-item ">
-            <img style={{ height: "900px", width: "100%" }} src={weedImage1} alt="weed" />
+            <img style={{ height: "900px", width: "100%" }} src={weedImage3} alt="weed" />
             <div class="carousel-caption">
               <h1 class="display-2">The Kushery Cannabis Dispensary</h1>
               <h3>The Kushery has 4 shops located in Cathcart,<br />

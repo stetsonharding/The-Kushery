@@ -8,9 +8,9 @@
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, -webkit-transform 0.8s ease;
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
   }
@@ -143,6 +143,7 @@ background-color: green;
 .vendor:hover{
     color: orange;
     background-color: green;
+    cursor: pointer;
 }
 
 /* Social Media Connect */
@@ -173,22 +174,22 @@ background-color: green;
 @media (max-width: 768px) {
  /* carousel */
     .carousel-caption{
-        top: 55%;
+        top: 41%;
     }
-    /* .carousel-caption h1{
+     .carousel-caption h1{
         font-size: 4rem;
-    } */
-    /* .carousel-caption h3{
+    } 
+     .carousel-caption h3{
         font-size: 2.5rem;
         font-weight: 400px;
         padding-bottom: .2rem;
         margin-bottom: 2em;
-    } */
-    /* .carousel-caption .btn{
+    } 
+     .carousel-caption .btn{
         font-size: 1.8rem;
         padding: 8px 14px;
         margin-top: 1em;
-    } */
+    } 
 
     /* jumbotron */
     .btn-outline-secondary{

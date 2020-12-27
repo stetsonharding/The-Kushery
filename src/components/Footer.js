@@ -18,9 +18,8 @@ function Footer() {
                             <Link class="linkColor" to="/Contact">Contact</Link><br />
                             <Link class="linkColor" to="/KnowYourFacts">Know your Facts</Link>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 info-links">
                             <hr class="light"></hr>
-                            <h5>Information</h5>
                             <hr class="light" />
                             <Link class="linkColor" to="/Location">Location</Link><br />
                             <Link class="linkColor" to="/Rewards">Rewards</Link><br />
@@ -29,7 +28,7 @@ function Footer() {
                     </div>
                     <div class="col-12 text-center padding">
                         <hr style={{color: "orange"}}></hr>
-                        <p id="rightReserved">©2020 All Rights The Kushery</p>
+                        <p id="rightReserved">©2021 All Rights The Kushery</p>
                         <p>Disclaimer: Cannabis can impair concentration, coordination, and judgment. Do not operate a vehicle or machinery under the influence of this drug.
                         This product has intoxicating effects and may be habit forming. There may be health risks associated with consumption of this product.
                         For use only by adults twenty-one and older. Keep out of the reach of children.</p>

@@ -1,9 +1,17 @@
 import React from "react"
 
+import "../Banner"
+import Banner from "../Banner"
+
+
 function Contact(){
     return(
         <div>
-      <h1>Contact Page</h1>
+      <Banner
+      directory="Contact us"
+      description="You've got questions, we've got answers"
+      />
+
         </div>
     )
 }

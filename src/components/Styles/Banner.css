@@ -1,0 +1,78 @@
+/* Banner */
+.banner{
+    height: 35vh;  
+    border-bottom: 3px solid green;
+    margin: 0 auto;
+}
+
+/* Opacity on the background but not the banner text */
+.banner::before{
+    content: "";
+    background-image: url(../../images/Location_BannerBG.PNG);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.28;
+}
+
+.banner-text{
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 29vh;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: orange;
+text-transform: uppercase;
+text-shadow: 4.5px 2.5px 4px green 
+}
+
+.banner-directory,
+.banner-description,
+.banner-welcome{
+    text-align: center;
+}
+
+.banner-directory{
+    font-size: 5rem;
+}
+
+.banner-description{
+    font-size: 3rem; 
+}
+
+.banner-welcome{
+    font-size:2rem
+}
+
+
+
+/* Media Queries mobile */
+@media (max-width: 576px) { 
+
+    /* banner */
+   .banner{
+       height: 55vh;  
+   }
+
+   .banner-directory{
+       padding-top: 3.3em;
+   }
+ }
+
+
+/* tablet */
+ @media (min-width: 768px) {
+   /* banner */
+   .banner{
+       height: 45vh;  
+   }
+
+   .banner-directory{
+       padding-top: 2em;
+   }
+  }
+

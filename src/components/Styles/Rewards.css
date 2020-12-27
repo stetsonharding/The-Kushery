@@ -1,18 +1,19 @@
 /* Banner */
+.banner-info{
+    color: orange;
+}
+
 .banner-wrapper {
-    height: 40vh;
+    background-image: url(../../images/Location_BannerBG.PNG);
+    height: 42vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: 2px solid green;
+    border-bottom: 3px solid green;
     /* flexbox */
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
     /* == */ 
 }
-
-
-
 
 .banner-directory {
     font-size: 2.5rem;
@@ -26,11 +27,12 @@
 /* <==============> */
 
 
+
+
 /* Col-1 */
 .main-text {
    font-size: 2rem; 
    padding-top: 1em;
-   
 }
 
 .main-img {
@@ -45,25 +47,21 @@ margin: .8em;
 }
 
 .btn-wallet:hover,
-.btn-join:hover{
+.btn-join:hover {
     color: orange;
     background-color: green;
 }
-
-
-
-
-
-
-
-
 
 /* <==============> */
 
 
 
-/* col-2 */
 
+
+
+
+
+/* col-2 */
 .FAQs-heading,
 .aboutHeading {
     font-size: 2.2rem;
@@ -82,12 +80,10 @@ margin: .8em;
     font-size: 1.2rem;
     padding: 0 1em;
     letter-spacing: 1px;
-    
 }
 
 .FAQs-container{
 border-bottom: 1px solid green;
-
 }
 
 .FAQs-text{
@@ -95,8 +91,6 @@ font-size: 1.1rem;
 padding: 0 1em;
 letter-spacing: 1px;
 }
-
-
 
 /* form */
 form{
@@ -112,38 +106,20 @@ textarea, textarea[placeholder] {
 }
 /* <==============> */
 
-
+/* end-col-2 */
 /* <==============> */
 
 
 
 
 
+/* Mobile */
+@media (max-width: 576px) { 
 
-
-/* large screens */
-@media (min-width: 1300px) { 
-    /* col-1 */
-    .main-img {
-      max-width: 45%;
-    }
-
-
- }
-
-
-
-/* desktops */
-@media (min-width: 992px) {
- /* col-1 */
-.main-img {
-   margin: 1em;
-   width: 45%;
-   }
- }
-
-
-
+.banner-info {
+  margin-bottom: 5em;
+  }
+}
 
  /* tablets */
  @media (min-width: 768px) { 
@@ -154,28 +130,26 @@ textarea, textarea[placeholder] {
 
 .main-text {
     font-size: 2.2rem;
-}
-/* <==============> */
+  }
 
 /* banner */
 .banner-directory {
     font-size: 5rem;
-}
+  }
 
 .banner-description {
     font-size: 3rem;
-}
-/* <==============> */
+  }
 
+  .banner-info {
+    margin-bottom: 7em;
+    }
 
 /* form */
 .email-label,
 .questions-label {
     font-size: 1.4rem;
-}
-/* <==============> */
-
-
+  }
 }
 
 
@@ -185,6 +159,30 @@ textarea, textarea[placeholder] {
 
 
 
+
+
+/* desktops */
+@media (min-width: 992px) {
+    /* col-1 */
+   .main-img {
+      margin: 1em;
+      width: 45%;
+    }
+
+    .banner-info {
+        margin-bottom: 7em;
+    }
+}
+   
+
+
+/* large screens */
+@media (min-width: 1300px) { 
+    /* col-1 */
+    .main-img {
+      max-width: 45%;
+    }
+ }
 
 
 

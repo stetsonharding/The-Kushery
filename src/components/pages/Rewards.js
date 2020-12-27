@@ -2,24 +2,17 @@ import React from "react"
 import "../Styles/Rewards.css"
 
 
-
+import Banner from "../Banner"
 import springBigRewardsPg from "../../images/springBigRewardsPg.png"
 
 function Rewards(){
     return(
-        <div>
+        <>
           {/* Banner */}
-          <div className="container-fluid banner-wrapper">
-            <div classname="row">
-                <div className="col-md-12">
-                    <div className="rewardsBanner">
-                    <h1 className="banner-directory">We appreciate your buisness.</h1>
-                    <h2 className="banner-description">The Kushery Loyalty Program.</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      <Banner 
+      directory="We Appreciate your buisness"
+      description="The Kushery Loyalty Program" 
+      />
 
          {/* col-1 */}
       <div className="container-fluid rewards-container">
@@ -75,7 +68,7 @@ function Rewards(){
           </div>
         </div>
       </div>
-    </div>
+    </>
     
     )
 }

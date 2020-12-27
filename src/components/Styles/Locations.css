@@ -1,10 +1,10 @@
 /* Banner */
-.banner{
+/* .banner{
     height: 35vh;  
-}
+} */
 
 /* Opacity on the background but not the banner text */
-.banner::before{
+/* .banner::before{
     content: "";
     background-image: url(../../images/Location_BannerBG.PNG);
     position: absolute;
@@ -21,11 +21,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 33vh;
+height: 29vh;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: orange;
 text-transform: uppercase;
-text-shadow: 1px 2px 4px green 
+text-shadow: 4.5px 2.5px 4px green 
 }
 
 .banner-directory,
@@ -44,7 +44,7 @@ text-shadow: 1px 2px 4px green
 
 .banner-welcome{
     font-size:2rem
-}
+} */
 
 /* ========================= */
 
@@ -115,25 +115,61 @@ text-shadow: 1px 2px 4px green
 
 /* ======================-> */
 
-/* Media Queries  */
-@media (max-width: 850px) { 
-    /* banner */
+/* Media Queries mobile */
+ @media (max-width: 576px) { 
+
+     /* banner */
+    .banner{
+        height: 55vh;  
+    }
+
     .banner-directory{
-        font-size: 2rem;
+        padding-top: 3.3em;
     }
-    .banner-description{
-        font-size: 1.6rem;
-        
+
+  }
+
+
+/* tablet */
+  @media (min-width: 768px) {
+    /* banner */
+    .banner{
+        height: 45vh;  
     }
-    .banner-welcome{
-        font-size:1.5rem
+
+    .banner-directory{
+        padding-top: 2em;
     }
- }
+   }
 
 
 
 
 
+
+
+
+
+
+
+
+
+ /*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
 
 
 
