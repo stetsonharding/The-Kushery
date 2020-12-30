@@ -21,8 +21,8 @@ function Rewards(){
             <h1 className="main-text">The Kushery Rewards.<br/> We're Here For You Anytime.</h1>
            <img className="main-img" src={springBigRewardsPg} alt="SpringBig Logo"/>
            <br/>
-           <button type="button" class="btn btn-primary btn-join">Join SpringBig</button>
-           <button type="button" class="btn btn-primary btn-wallet">View My Rewards</button>
+           <a href="https://enrollnow.vip/join/2617"><button class="btn btn-primary btn-wallet">Join SpringBig</button></a>
+           <a href="https://join.mywallet.deals/?id=c183800f-c7a0-4c9e-b101-fcab053b3e63&location=/#/login"><button class="btn btn-primary btn-wallet">View My Rewards</button></a>
           </div>
 
           {/* col-2 */}
