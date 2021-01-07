@@ -10,25 +10,25 @@ import "./Styles/Navbar.css"
 
 function Navbar() {
    return (
-      <nav class="navbar navbar-expand-md navbar-dark bg-light sticky-top">
-         <div style={{backgroundColor:"black"}} class="container-fluid">
-            <Link to="/" class="navbar-brand"><img id="logo" style={{width:"190px"}} src={Logo} alt="The Kushery Logo"></img></Link>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-               <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-md navbar-dark bg-light sticky-top">
+         <div style={{backgroundColor:"black"}} className="container-fluid">
+            <Link to="/" className="navbar-brand"><img id="logo" style={{width:"190px"}} src={Logo} alt="The Kushery Logo"></img></Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+               <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-               <ul class="navbar-nav ml-auto">
-                  <Link  to="/Location" class="nav-link">
-                     <li class="nav-item">Location</li>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+               <ul className="navbar-nav ml-auto">
+                  <Link  to="/Location" className="nav-link">
+                     <li className="nav-item">Location</li>
                   </Link>
-                  <Link to="/Rewards" class="nav-link">
-                     <li class="nav-item">Rewards</li>
+                  <Link to="/Rewards" className="nav-link">
+                     <li className="nav-item">Rewards</li>
                   </Link>
-                  <Link to="/Contact"class="nav-link">
-                     <li class="nav-item">Contact</li>
+                  <Link to="/Contact"className="nav-link">
+                     <li className="nav-item">Contact</li>
                   </Link>
-                  <Link to="/OrderOnline" class="nav-link">
-                     <li class="nav-item">Order Online</li>
+                  <Link to="/OrderOnline" className="nav-link">
+                     <li className="nav-item">Order Online</li>
                   </Link>
                </ul>
             </div>

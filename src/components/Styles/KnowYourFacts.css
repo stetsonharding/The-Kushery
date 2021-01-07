@@ -11,3 +11,8 @@ text-align: center;
 .page-wrapper p{
     letter-spacing: 1px;
 }
+
+.warning{
+    color: red;
+    font-weight: 900;
+}

@@ -84,7 +84,7 @@ function KnowYourFacts(){
 
                 <p>
                     <span className="warning">WARNING:</span>
-                    Marijuana remains illegal under federal law Federal authorities may enforce federal law anywhere within Washington. They especially may choose to do so on federal property (including national parks and forests, federal buildings, and military bases); on navigable waters; 
+                     Marijuana remains illegal under federal law Federal authorities may enforce federal law anywhere within Washington. They especially may choose to do so on federal property (including national parks and forests, federal buildings, and military bases); on navigable waters; 
                     and at or near the Canadian border, the coast, airports, and seaports. Federal authorities may choose to seize marijuana. They also may choose to pursue federal criminal prosecution, particularly in situations involving the presence of firearms, minors acquiring marijuana, 
                     interstate transport, and/or large quantities of marijuana.
                 </p>

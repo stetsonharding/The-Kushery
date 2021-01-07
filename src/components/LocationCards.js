@@ -7,7 +7,7 @@ function LocationCards(props){
     return(
     
             <div className="card text-center cards">
-                <div class="overflow">
+                <div className="overflow">
                     <img src={props.img} alt={props.alt} className="card-img-top card-img"/>
                 </div>
                 <div className="card-body text-dark">
@@ -15,8 +15,10 @@ function LocationCards(props){
                     <p className="card-text">{props.phone}</p>
                     <p className="card-text ">{props.hours}</p>
                     <p className="card-text ">{props.address}</p>
-                    <a href={props.directions} className="btn btn-success locationBtn">Directions</a>
-                    <Link to={props.menu} className="btn btn-success locationBtn">Order Online</Link> 
+                    <div className="card-buttons">
+                      <a href={props.directions} className="btn btn-success locationBtn">Directions</a>
+                      <Link to={props.menu} className="btn btn-success locationBtn">Order Online</Link> 
+                    </div>
                    
                 </div>
           </div>

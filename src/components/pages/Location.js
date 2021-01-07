@@ -23,7 +23,6 @@ function Location(props){
     />
 
 
-  
     {/* Card Component */}
         <div className="container-fuild d-flex justify-content-center cards-container">
             <div className="row cardRows">
@@ -52,7 +51,7 @@ function Location(props){
                     alt="Clearview Building" title="Lake Forest Park" 
                     phone="(206) 403-1106"
                     hours="Sunday - Thursday 8am - 10pm Friday & Saturday 8am - 12am"
-                    address="19258 15th Ave NE # B, Lake Forest Park, WA 98155"
+                    address="19258 15th Ave NE #B, Lake Forest Park, WA 98155"
                     directions="https://www.google.com/maps/dir//kushery+lfp/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x54901043c7444211:0x2dc611155f2ba4da?sa=X&ved=2ahUKEwjowPyKn-nsAhWhIzQIHW8vDGgQ9RcwC3oECBAQBA"
                     menu="/LakeForestParkOnlineMenu"
                     />   

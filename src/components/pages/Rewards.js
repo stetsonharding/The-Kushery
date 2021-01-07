@@ -17,12 +17,12 @@ function Rewards(){
          {/* col-1 */}
       <div className="container-fluid rewards-container">
         <div className="row text-center">
-          <div id="col1-springBig" class="col-lg-6">
+          <div id="col1-springBig" className="col-lg-6">
             <h1 className="main-text">The Kushery Rewards.<br/> We're Here For You Anytime.</h1>
            <img className="main-img" src={springBigRewardsPg} alt="SpringBig Logo"/>
            <br/>
-           <a href="https://enrollnow.vip/join/2617"><button class="btn btn-primary btn-wallet">Join SpringBig</button></a>
-           <a href="https://join.mywallet.deals/?id=c183800f-c7a0-4c9e-b101-fcab053b3e63&location=/#/login"><button class="btn btn-primary btn-wallet">View My Rewards</button></a>
+           <a href="https://enrollnow.vip/join/2617"><button className="btn btn-primary btn-wallet">Join SpringBig</button></a>
+           <a href="https://join.mywallet.deals/?id=c183800f-c7a0-4c9e-b101-fcab053b3e63&location=/#/login"><button className="btn btn-primary btn-wallet">View My Rewards</button></a>
           </div>
 
           {/* col-2 */}
@@ -42,13 +42,13 @@ function Rewards(){
               <p className="FAQs-text">No you do not. You can access your wallet from any computer, tablet, or smart phone. 
               We will also be able to access your wallet to redeem rewards and inform you of your points balance whenever you stop by.</p>
             <h4 className="FAQs-subHeading"> Do Points Expire?</h4>
-              <p class="FAQs-text">No, your points will never expire at any of our locations.</p>
+              <p className="FAQs-text">No, your points will never expire at any of our locations.</p>
             <h4 className="FAQs-subHeading">Do You Sell My Information?</h4>
-              <p class="FAQs-text">Here at The kushery we respect your privacy. We will never share or sell any of your personal information.</p>
+              <p className="FAQs-text">Here at The kushery we respect your privacy. We will never share or sell any of your personal information.</p>
             <h4 className="FAQs-subHeading">Are You Going To Text Me Everyday?</h4>
-              <p class="FAQs-text">You will recieve text messages about our daily specials each day, plus any flash sales, upcoming holiday specials ect.</p>
+              <p className="FAQs-text">You will recieve text messages about our daily specials each day, plus any flash sales, upcoming holiday specials ect.</p>
             <h4 className="FAQs-subHeading">Can I Transfer My Points To Friends or Family?</h4>
-              <p class="FAQs-text">At this time we are unable to transer any points.</p>
+              <p className="FAQs-text">At this time we are unable to transer any points.</p>
               <hr/>
           </div>
           {/* form */}
@@ -58,11 +58,11 @@ function Rewards(){
              <label className="email-label" for="emailAddress">Email</label>
              <input name="email" type="email" className="form-control" id="form-email" placeholder="Please enter your email" required="required" data-error="email is required."/>
           </div>
-          <div class="form-group">
-            <label className="questions-label" for="textArea">Questions & Comments</label>
-            <textarea name="message" id="form_message" class="form-control" rows="3" placeholder="Leave us your questions or comments and we will get back you as soon as we can." required="required" data-error="Please,leave us a message."></textarea>
+          <div className="form-group">
+            <label className="questions-label" htmlFor="textArea">Questions & Comments</label>
+            <textarea name="message" id="form_message" className="form-control" rows="3" placeholder="Leave us your questions or comments and we will get back you as soon as we can." required="required" data-error="Please,leave us a message."></textarea>
           </div>
-          <input type="submit" class="btn btn-success btn-send" required="required" value="Send message"/>
+          <input type="submit" className="btn btn-success btn-send" required="required" value="Send message"/>
         </form>
            </div>
           </div>

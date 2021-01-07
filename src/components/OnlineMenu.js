@@ -8,8 +8,8 @@ function OnlineMenu(props){
         <div>
           
   <div className="container">
-              <div class="row">
-                  <div class="col col-md-12 onlineMenu ">
+              <div className="row">
+                  <div className="col col-md-12 onlineMenu ">
                       <div >{props.storeMenu}</div>
                   </div>
               </div>
