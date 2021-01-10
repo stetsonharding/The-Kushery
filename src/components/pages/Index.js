@@ -15,10 +15,6 @@ import "../Styles/Index.css"
 
 
 
-
-
-
-
 function Index() {
 
   return (
