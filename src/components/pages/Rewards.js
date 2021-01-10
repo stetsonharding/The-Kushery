@@ -52,7 +52,7 @@ function Rewards(){
               <hr/>
           </div>
           {/* form */}
-          <form className="container center" id="contact-form" method="post" action="contact.php">
+          {/* <form className="container center" id="contact-form" method="post" action="contact.php">
           <div className="form-group">
             <h3 className="form-heading">Questions? Reach out to us!</h3>
              <label className="email-label" for="emailAddress">Email</label>
@@ -63,7 +63,7 @@ function Rewards(){
             <textarea name="message" id="form_message" className="form-control" rows="3" placeholder="Leave us your questions or comments and we will get back you as soon as we can." required="required" data-error="Please,leave us a message."></textarea>
           </div>
           <input type="submit" className="btn btn-success btn-send" required="required" value="Send message"/>
-        </form>
+        </form> */}
            </div>
           </div>
         </div>

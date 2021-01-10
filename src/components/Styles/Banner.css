@@ -36,8 +36,8 @@ text-shadow: 4.5px 2.5px 4px green;
     text-align: center;
 }
 
-.banner-directory{
-    font-size: 5rem;
+.banner .banner-directory{
+    font-size: 4.2rem;
 }
 
 .banner-description{
@@ -58,8 +58,12 @@ text-shadow: 4.5px 2.5px 4px green;
        height: 59vh;  
    }
 
-   .banner-directory{
-       padding-top: 3.3em;
+   .banner .banner-directory{
+    font-size: 3rem;
+}
+
+   .banner .banner-directory{
+       padding-top: 3.4em;
    }
  }
 

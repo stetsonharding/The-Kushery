@@ -2,14 +2,18 @@
 /* Location CARD COMPONENT */
 
 .cards-container{
-    margin:0.75em; 
     display: flex;
     flex-flow: column wrap;
+    
+  
 }
 .cards{
     display:flex;
     height: 100%;
     border: 1.9px solid green;
+   background-color: rgb(218, 209, 209)
+    
+ 
     
 }
 
