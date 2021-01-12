@@ -1,6 +1,7 @@
-import React from "react"
+import React, {useState} from "react"
 import { Link } from "react-router-dom"
 
+import AgeVerificationModal from "../AgeVerificationModal";
 
 import weedImage1 from "../../images/weedImage1.jpg"
 import weedImage2 from "../../images/weedImage_2.jpg"
@@ -16,9 +17,19 @@ import "../Styles/Index.css"
 
 
 function Index() {
+  // Age Verification btn state
+  const [modalShow, setModalShow] =  useState(true);
+
 
   return (
     <div>
+      {/* Age Verification Check */}
+      <AgeVerificationModal
+      show={modalShow}
+      onHide={() => setModalShow(false)}
+      backdrop={'static'}
+      keyboard={false}
+      />
 
       {/* Carousel */}
       <div id="slides" className="carouselSlide" data-ride="carousel">

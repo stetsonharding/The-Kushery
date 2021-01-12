@@ -49,7 +49,7 @@ function Rewards(){
               <p className="FAQs-text">You will recieve text messages about our daily specials each day, plus any flash sales, upcoming holiday specials ect.</p>
             <h4 className="FAQs-subHeading">Can I Transfer My Points To Friends or Family?</h4>
               <p className="FAQs-text">At this time we are unable to transer any points.</p>
-              <hr/>
+              
           </div>
           {/* form */}
           {/* <form className="container center" id="contact-form" method="post" action="contact.php">

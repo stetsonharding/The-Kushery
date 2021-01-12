@@ -15,7 +15,6 @@ function Footer() {
                             <img style={{ width: "130px" }} src={Logo} alt="Kushery Logo" />
                             <hr className="light" />
                             <Link className="linkColor" to="/">Home</Link><br />
-                            <Link className="linkColor" to="/Contact">Contact</Link><br />
                             <Link className="linkColor" to="/KnowYourFacts">Know your Facts</Link>
                         </div>
                         <div className="col-lg-6 info-links">
