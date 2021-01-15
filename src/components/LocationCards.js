@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
+// import {Link} from "react-router-dom"
 
 
 
@@ -17,7 +17,7 @@ function LocationCards(props){
                     <p className="card-text ">{props.address}</p>
                     <div className="card-buttons">
                       <a href={props.directions} className="btn btn-success locationBtn">Directions</a>
-                      <Link to={props.menu} className="btn btn-success locationBtn">Order Online</Link> 
+                      <a href={props.menu} target="_blank" rel="noopener noreferrer" className="btn btn-success locationBtn">Order Online</a> 
                     </div>
                    
                 </div>

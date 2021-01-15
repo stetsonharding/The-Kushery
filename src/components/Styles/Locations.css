@@ -4,6 +4,7 @@
 .cards-container{
     display: flex;
     flex-flow: column wrap;
+    margin: 1em;
     
   
 }
@@ -11,7 +12,8 @@
     display:flex;
     height: 100%;
     border: 1.9px solid green;
-   background-color: rgb(218, 209, 209)
+   background-color: rgb(218, 209, 209);
+   
     
  
     

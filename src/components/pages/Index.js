@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 
 import AgeVerificationModal from "../AgeVerificationModal";
 
-import weedImage1 from "../../images/weedImage1.jpg"
-import weedImage2 from "../../images/weedImage_2.jpg"
-import weedImage3 from "../../images/weedImage3.jpg"
+import weedImage1 from "../../images/WeedImageFilter.jpg"
+import weedImage2 from "../../images/WeedImageFilter2.jpg"
+// import weedImage3 from "../../images/weedImage3.jpg"
 import springBig from "../../images/springBig.jpg"
 import Vendor1 from "../../images/Vendor1.jpg"
 import Vendor2 from "../../images/Vendor2.png"
@@ -43,28 +43,25 @@ function Index() {
             <img style={{ height: "900px", width: "100%", objectFit: "cover" }} src={weedImage1} alt="weed" />
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              {/* <h3>The Kushery has 4 shops located in Cathcart,<br />
-              Clearview, Lake Forest park, and Standwood.</h3> */}
+              
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
               <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
           </div>
-          <div className="carousel-item ">
+          {/* <div className="carousel-item ">
             <img style={{ height: "900px", width: "100%", objectFit: "cover"}} src={weedImage3} alt="weed" />
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              {/* <h3>The Kushery has 4 shops located in Cathcart,<br />
-              Clearview, Lake Forest park, and Standwood.</h3> */}
+              
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
               <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
-          </div>
+          </div> */}
           <div className="carousel-item ">
             <img style={{ height: "900px", width: "100%", objectFit: "cover" }} src={weedImage2} alt="weed" />
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              {/* <h3>The Kushery has 4 shops located in Cathcart,<br />
-              Clearview, Lake Forest park, and Standwood.</h3> */}
+             
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
               <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
