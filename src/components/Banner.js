@@ -6,14 +6,12 @@ function Banner(props){
     return(
     
         <div>
-        <div className="container-fluid">
+        <div className="container-fluid banner">
             <div className="row">
-                <div className="col-md-12 banner">
-                    <div className="banner-text">
-                    <h1 className="banner-directory">{props.directory}</h1>
+                <div className="col banner-wrapper">
+                    <h1 className="banner-title">{props.directory}</h1>
                     <h2 className="banner-description">{props.description}</h2>
-                    <h3 className="banner-welcome">{props.welcome}</h3>
-                    </div>
+                    <h3 className="banner-message">{props.welcome}</h3>
                 </div>
             </div>
         </div>

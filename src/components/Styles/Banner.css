@@ -1,82 +1,75 @@
-/* Banner */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap');
+
+
+/* banner-wrappers */
 .banner{
-    height: 35vh;  
-    border-bottom: 3px solid green;
-    margin: 0 auto;
+    height: 40vh;
 }
 
-/* Opacity on the background but not the banner text */
-.banner::before{
-    content: "";
-    background-image: url(../../images/Location_BannerBG.PNG);
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.28;
+.banner-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 40vh;
+   text-align: center;
+   background-color: black;
+   text-transform: uppercase;
+  
 }
 
-.banner-text{
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 29vh;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: orange;
-text-transform: uppercase;
-text-shadow: 4.5px 2.5px 4px green;
-}
 
-.banner-directory,
+/* banner texts */
 .banner-description,
-.banner-welcome{
-    text-align: center;
+.banner-message,
+.banner-title{
+    color: orange;
+    letter-spacing: 4px;
+    font-family: 'Cutive', sans-serif;
+    padding: .5em;
+    
 }
 
-.banner .banner-directory{
-    font-size: 4.2rem;
-}
-
-.banner-description{
-    font-size: 3rem; 
-}
-
-.banner-welcome{
-    font-size:2rem
+.banner-title{
+    font-size: 5rem;
 }
 
 
-
-/* Media Queries mobile */
+/* Mobile */
 @media (max-width: 576px) { 
-
-    /* banner */
-   .banner{
-       height: 59vh;  
-   }
-
-   .banner .banner-directory{
-    font-size: 3rem;
+.banner-title{
+    font-size: 1.7em;
 }
 
-   .banner .banner-directory{
-       padding-top: 3.4em;
-   }
- }
+
+.banner-description,
+.banner-message
+{
+font-size: 1.2rem;
+padding: .1em; 
+}
+
+}
 
 
-/* tablet */
- @media (min-width: 768px) {
-   /* banner */
-   .banner{
-       height: 45vh;  
-   }
 
-   .banner-directory{
-       padding-top: 2em;
-   }
-  }
 
+
+
+ /*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

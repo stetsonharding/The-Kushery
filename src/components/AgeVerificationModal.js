@@ -7,8 +7,17 @@ function AgeVerificationModal(props) {
   
     // const handleClose = () => setShow(false);
     // const handleShow = () => setShow(true);
-  
+
+    function ToYoung(){
+      const modalBody = document.getElementById("modal_body");
+      modalBody.innerHTML = "Sorry! This webpage requires visitors 21 years or older to enter!"
+      const ageVerificationBtn = document.getElementById("ageVerificationBtn");
+      ageVerificationBtn.style.display = "none"
+    }
+
     return (
+
+      
         <Modal
         {...props}
         size="lg"
@@ -21,11 +30,12 @@ function AgeVerificationModal(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4>You Must be 21 Years of age or older to enter this website.</h4>
+          <h4 id="modal_body">You Must be 21+ years old to enter this website!</h4>
         </Modal.Body>
         <Modal.Footer>
-        <Button variant="success" onClick={props.onHide}>I am 21 and older</Button>
-        <Button variant="danger" onClick={props.onHide}>I am under the age of 21</Button>
+        <Button  id="ageVerificationBtn"variant="success" onClick={props.onHide}>I am 21 or older</Button>
+        <Button  id="under21Btn"variant="danger" onClick={ToYoung}>I am under the age of 21</Button>
+  
         </Modal.Footer>
       </Modal>
     );

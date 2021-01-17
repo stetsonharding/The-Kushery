@@ -1,31 +1,3 @@
-/* Banner */
-.banner-info{
-    color: orange;
-}
-
-.banner-wrapper {
-    background-image: url(../../images/Location_BannerBG.PNG);
-    height: 42vh;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: 3px solid green;
-    /* flexbox */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* == */ 
-}
-
-.banner-directory {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
-
-.banner-description {
-    font-size: 2.2rem;
-    margin-top: .5em;
-}
-/* <==============> */
-
 
 .rewards-container{
     /* background-image: url(../../images/Rewards_Background.jpg); */
