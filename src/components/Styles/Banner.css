@@ -46,11 +46,27 @@
 .banner-description,
 .banner-message
 {
-font-size: 1.2rem;
-padding: .1em; 
-}
+  font-size: 1.2rem;
+  padding: .1em; 
+ }
 
 }
+
+/* tablets */
+@media (max-width: 768px) { 
+
+    .banner-title{
+        font-size: 1.5em;
+    }
+    
+    .banner-description,
+    .banner-message
+    {
+      font-size: 1.2rem;
+      padding: .1em; 
+     }
+
+ }
 
 
 

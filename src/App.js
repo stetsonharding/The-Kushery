@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 
-import NavBar from "./components/Navbar"
+import NavigationBar from "./components/NavigationBar.js"
 import Footer from "./components/Footer"
 import Index from "./components/pages/Index"
 import Location from "./components/pages/Location"
@@ -17,7 +17,7 @@ function App() {
  return(
     <Router>
       <div className="app">
-         <NavBar />
+         <NavigationBar />
          <Switch>
          <Route exact path="/" component={Index}/>
          <Route path="/Location" component={Location}/>

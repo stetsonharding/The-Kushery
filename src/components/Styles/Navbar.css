@@ -1,25 +1,21 @@
 
-.navbar{
-    padding: .12rem 0;
-    
-}
-.navbar-nav li{
-    padding-right: 60px;
+.color-nav{
+    background-color: black;
+    border-bottom: 2px solid white;
 }
 
-.nav-link{
-    font-size: 1.7em !important;  
+
+#navbar-link{
+    color: green;
+    font-size: 1.7rem;
+    margin: 0 1em;
 }
 
-.nav-item{
-    color: #2fa300;
-    font-family: poynter;
-}
-.nav-item:hover,
-.nav-item:focus{
+#navbar-link:hover{
     color: orange;
+    border-bottom: 1.5px solid green;
+    transform: translateY(-10px);
 }
-
 
 /* logo Rotation */
 #logo {
