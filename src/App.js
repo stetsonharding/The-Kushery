@@ -8,6 +8,7 @@ import Location from "./components/pages/Location"
 import Contact from "./components/pages/Contact"
 import Rewards from "./components/pages/Rewards"
 import KnowYourFacts from "./components/pages/KnowYourFacts"
+import ReturnPolicy from "./components/pages/ReturnPolicy"
 
 
 import "./App.css"
@@ -25,6 +26,7 @@ function App() {
          <Route path="/Contact" component={Contact}/>
          <Route path="/OrderOnline" component={Location}/>
          <Route path="/KnowYourFacts" component={KnowYourFacts}/>
+         <Route path="/ReturnPolicy" component={ReturnPolicy}/>
          </Switch>
          <Footer />
       </div>

@@ -5,12 +5,19 @@ import AgeVerificationModal from "../AgeVerificationModal";
 
 import weedImage1 from "../../images/WeedImageFilter.jpg"
 import weedImage2 from "../../images/WeedImageFilter2.jpg"
-// import weedImage3 from "../../images/weedImage3.jpg"
 import springBig from "../../images/springBig.jpg"
-import Vendor1 from "../../images/Vendor1.jpg"
-import Vendor2 from "../../images/Vendor2.png"
-import Vendor3 from "../../images/Vendor3.jpg"
-import Vendor4 from "../../images/Vendor4.png"
+import Vendor1 from "../../images/Logos/Vendor1.jpg"
+import Vendor2 from "../../images/Logos/Vendor2.png"
+import Vendor3 from "../../images/Logos/Vendor3.jpg"
+import Vendor4 from "../../images/Logos/Vendor4.png"
+import doctorCrook from "../../images/Logos/doctorCrook.PNG"
+import EGH from "../../images/Logos/EGH.png"
+import Fleek from "../../images/Logos/Fleek.png"
+import GTP from "../../images/Logos/GTP.png"
+import HEF from "../../images/Logos/HEF.png"
+import Millenium from "../../images/Logos/Millenium.PNG"
+import MM from "../../images/Logos/MM.PNG"
+import Optimum from "../../images/Logos/Optimum.png"
 
 import "../Styles/Index.css"
 
@@ -140,21 +147,45 @@ function Index() {
 
 
       {/* Vendor Section */}
-      <button className="vendor" data-toggle="collapse" data-target="#emoji">Click To See Our Top Vendors</button>
+      <button className="vendor" data-toggle="collapse" data-target="#emoji">Click to check out our vendors!</button>
       <div id="emoji" className="collapse">
         <div className="container-fluid padding">
-          <div className="row text-center">
-            <div className="col-sm-6 col-md-3">
-              <img style={{ height: "100px", width: "200px" }} src={Vendor1} alt="Top Vendor"></img>
+          <div className="row text-center ">
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={Vendor1} alt="Top Vendor"></img>
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img style={{ height: "100px", width: "200px" }} src={Vendor2} alt="Top Vendor"></img>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={Vendor2} alt="Top Vendor"></img>
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img style={{ height: "100px", width: "200px" }} src={Vendor3} alt="Top Vendor"></img>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={Vendor3} alt="Top Vendor"></img>
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img style={{ height: "100px", width: "200px" }} src={Vendor4} alt="Top Vendor"></img>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={Vendor4} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={doctorCrook} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={EGH} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={Fleek} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={GTP} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={HEF} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "190px" }} src={Millenium} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={MM} alt="Top Vendor"></img>
+            </div>
+            <div className="col-sm-6 col-md-3 vendor-logo">
+              <img className="vendor-logo-img" style={{ height: "100px", width: "200px" }} src={Optimum} alt="Top Vendor"></img>
             </div>
           </div>
         </div>

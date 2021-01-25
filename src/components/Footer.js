@@ -22,7 +22,7 @@ function Footer() {
                             <hr className="light" />
                             <Link className="linkColor" to="/Location">Location</Link><br />
                             <Link className="linkColor" to="/Rewards">Rewards</Link><br />
-                            <Link className="linkColor" to="">Return Policy</Link>
+                            <Link className="linkColor" to="/ReturnPolicy">Return Policy</Link>
                         </div>
                     </div>
                     <div className="col-12 text-center padding">

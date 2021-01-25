@@ -15,12 +15,11 @@ function LocationCards(props){
                     <p className="card-text">{props.phone}</p>
                     <p className="card-text ">{props.hours}</p>
                     <p className="card-text ">{props.address}</p>
-                    <div className="card-buttons">
+                </div>
+                <div className="card-buttons">
                       <a href={props.directions} className="btn btn-success locationBtn">Directions</a>
                       <a href={props.menu} target="_blank" rel="noopener noreferrer" className="btn btn-success locationBtn">Order Online</a> 
                     </div>
-                   
-                </div>
           </div>
         
     )
