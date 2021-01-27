@@ -10,7 +10,7 @@ function Rewards(){
         <>
           {/* Banner */}
       <Banner 
-      directory="We Appreciate your buisness"
+      directory="We Appreciate your Business"
       description="The Kushery Loyalty Program" 
       />
 

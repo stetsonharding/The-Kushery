@@ -22,7 +22,6 @@ import Optimum from "../../images/Logos/Optimum.png"
 import "../Styles/Index.css"
 
 
-
 function Index() {
   // Age Verification btn state
   const [modalShow, setModalShow] =  useState(true);
@@ -38,13 +37,11 @@ function Index() {
       keyboard={false}
       />
 
+
+
+
       {/* Carousel */}
       <div id="slides" className="carouselSlide" data-ride="carousel">
-        {/* <ul className="carousel-indicators">
-          <li data-target="#slides" data-slide-to="0" className="active"></li>
-          <li data-target="#slides" data-slide-to="1"></li>
-          <li data-target="#slides" data-slide-to="2"></li>
-        </ul> */}
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img style={{ height: "900px", width: "100%", objectFit: "cover" }} src={weedImage1} alt="weed" />
@@ -55,15 +52,6 @@ function Index() {
               <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
           </div>
-          {/* <div className="carousel-item ">
-            <img style={{ height: "900px", width: "100%", objectFit: "cover"}} src={weedImage3} alt="weed" />
-            <div className="carousel-caption">
-              <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              
-              <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
-              <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
-            </div>
-          </div> */}
           <div className="carousel-item ">
             <img style={{ height: "900px", width: "100%", objectFit: "cover" }} src={weedImage2} alt="weed" />
             <div className="carousel-caption">
@@ -75,6 +63,9 @@ function Index() {
           </div>
         </div>
       </div>
+
+
+
 
       {/* JumboTron */}
       <div className="container-fluid">
@@ -91,12 +82,18 @@ function Index() {
         </div>
       </div>
 
+
+
+
       {/* Welcome section */}
       <div className="container-fluid padding">
         <div className="row welcome text-center">
-          <div className="col-12">
+          <div className="col-12 about-section">
             <h1 className="display-4">The Kushery</h1>
-            <i className="fas fa-cannabis fa-10x"></i>
+            <p id="about-us">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet 
+              ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet 
+              </p>
           </div>
           <hr />
           <div className="col-12 companyPriorities">
@@ -105,27 +102,90 @@ function Index() {
         </div>
       </div>
 
+
+
+
       {/* Three column images */}
       <div className="container-fluid padding threeColumnImages">
         <div className="row text-center padding">
-          <div className="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-xs-12 col-sm-6 col-md-4 fas-fa-img">
             <i className="fas fa-dog "></i>
             <h3 className="fasFaHeading">Dog Frendly</h3>
             <p className="FasfaText">Bring your pup while you stock up!</p>
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-xs-12 col-sm-6 col-md-4 fas-fa-img">
             <i className="fas fa-wheelchair "></i>
             <h3 className="fasFaHeading">ADA Accessible</h3>
             <p className="FasfaText">All locations are ADA Accessible</p>
           </div>
-          <div className="col-sm-12 col-md-4">
+          <div className="col-sm-12 col-md-4 fas-fa-img">
             <i className="fas fa-money-bill-alt "></i>
             <h3 className="fasFaHeading">On-Site ATM</h3>
             <p className="FasfaText">All locations are provided with ATM's</p>
           </div>
         </div>
-      
       </div>
+
+
+
+
+        {/* Daily Specials */}
+        <div>
+        <h1 id="Dailey-specials-title">Dailey Specials</h1>
+        </div>
+        <div style={{backgroundColor: "black", border: "none"}}className="card text-center cards card-specials">
+          <div className="card-specials">  
+          <div className="card-body text-dark single-card-everyday">
+                    <h4 className="title-card">Everyday Special</h4>
+                    <p className="text-card">Happy Hour: First 2 hours upon opening and last two hours upon closing, everyday.
+                    10% off for Birthdays, Seniors/Veterans, and Medical everyday!</p>
+                </div>
+
+                <div className="card-body text-dark single-card">
+                    <h4 className="title-card">Monday Madness</h4>
+                    <p className="text-card">All Edibles, CBD and Topicals 15% off!</p>
+                </div>
+               
+                <div className="card-body text-dark single-card">
+                    <h4 className="title-card">Infused Joint Tuesday</h4>
+                    <p className="text-card">Infused Joints, buy 3+ 15% off</p>
+                </div>
+               
+                <div className="card-body text-dark single-card">
+                    <h4 className="title-card">Wax Wednesday</h4>
+                    <p className="text-card">Waxes, Shatters and Oils 15% off!
+                      Excluding vape carts.</p>
+                </div>
+              
+                <div className="card-body text-dark single-card">
+                    <h4 className="title-card">High End Thursday</h4>
+                    <p className="text-card">High End Flower 15% off</p>
+                </div>
+              
+                <div className="card-body text-dark friday-special single-card">
+                    <h4 className="title-card">Saver Friday</h4>
+                    <ul className="text-card">
+                      <li>Buy 3 items: 15% off!</li>
+                      <li>Buy 5 items: 20% off!</li>
+                      <li>Buy 7 items: 25% off!</li>
+                  </ul>
+                </div>
+           
+                <div className="card-body text-dark saturday-special single-card">
+                  <h4 className="title-card">Vape Cart Saurdaze</h4>
+                  <p className="text-card">All Vape Carts 15% off!</p>
+                </div>
+          
+                <div className="card-body text-dark sunday-special single-card">
+                    <h4 className="title-card">Customer's Choice</h4>
+                    <p className="text-card">Pick any daily special! It's your choice.
+                      Up to 20% off with 7 items*.</p>
+                </div>
+           </div>
+        </div>
+
+
+
 
       {/* Two column section */}
       <div className="container-fluid padding springBigContainer">
@@ -143,7 +203,10 @@ function Index() {
           </div>
         </div>
       </div>
-      <hr className="my-4"></hr>
+     
+
+
+
 
 
       {/* Vendor Section */}
@@ -192,6 +255,9 @@ function Index() {
         <hr className="my-7"/>
       </div>
 
+
+
+
       {/* Connect */}
       <div className="container-fluid padding">
         <div id="connectBackground" className="row text-center padding">
@@ -200,12 +266,14 @@ function Index() {
           </div>
           <div className="col-12 social padding">
             <Link to="#"><i className="fab fa-facebook fa-3x"></i></Link>
-            <Link to="#"><i className="fab fa-instagram fa-3x"></i></Link>
-            <Link to="#"><i className="fab fa-youtube fa-3x"></i></Link>
+            <a href="https://www.instagram.com/thekusheryclearview0/"><i className="fab fa-instagram fa-3x"></i></a>
           </div>
         </div>
       </div>
 </div>
+
+
+
   )
 }
 export default Index
