@@ -89,10 +89,10 @@ function Index() {
       <div className="container-fluid padding">
         <div className="row welcome text-center">
           <div className="col-12 about-section">
-            <h1 className="display-4">The Kushery</h1>
-            <p id="about-us">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet 
-              ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet 
+            <h1 className="display-4">A Little About Us</h1>
+            <p id="about-us">The Kushery has 4 locations located in Clearview, East Everett, Lake Forest Park, and Stanwood. Our number one goal is to provide quality customer service.
+            All of our shops provide the highest quality, selection, and price when it comes to marijuana and glass. Whether you're looking for flower, Vape, edibles, pre-rolls, 
+            tinctures or topicals, our experienced knowledgeable budtenders will find something that suites your needs.
               </p>
           </div>
           <hr />
@@ -191,7 +191,7 @@ function Index() {
       <div className="container-fluid padding springBigContainer">
         <div className="row text-center padding">
           <div id="springBigText" className="col-lg-6">
-            <h2 id="springBigHeading">SpringBig Loyalty Program</h2>
+            <h2 id="springBigHeading">The Kushery Rewards Program</h2>
             <p>After every purchase you'll earn one point for every dollar that you've spent.</p>
             <p>These points can be redeemed for great rewards and discounts on your future purchases.</p>
             <br />
@@ -210,7 +210,7 @@ function Index() {
 
 
       {/* Vendor Section */}
-      <button className="vendor" data-toggle="collapse" data-target="#emoji">Click to check out our vendors!</button>
+      <button className="vendor" data-toggle="collapse" data-target="#emoji">Click to check out some of our vendors!</button>
       <div id="emoji" className="collapse">
         <div className="container-fluid padding">
           <div className="row text-center ">

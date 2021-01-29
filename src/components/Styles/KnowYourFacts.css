@@ -2,6 +2,7 @@
 .Products-heading,
 .Laws-heading{
 text-align: center;
+color: white;
 }
 
 .page-wrapper{
@@ -10,9 +11,14 @@ text-align: center;
 
 .page-wrapper p{
     letter-spacing: 1px;
+    color: forestgreen;
 }
 
 .warning{
     color: red;
     font-weight: 900;
+}
+
+b{
+    color: white;
 }

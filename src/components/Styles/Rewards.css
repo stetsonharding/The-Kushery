@@ -1,31 +1,37 @@
 
 .rewards-container{
     /* background-image: url(../../images/Rewards_Background.jpg); */
-    background-position: 49%;
-    object-fit: cover;
+    /* background-position: 49%;
+    object-fit: cover; */
     
 }
 
 /* Col-1 */
 .main-text {
    font-size: 2rem; 
-   padding-top: 1em;
+   padding-top: 1.5em;
    color: green;
 }
 
 .main-img {
     margin: 1em;
-    width: 90%; 
+    width: 30%; 
 }
 
-.btn-join,
-.btn-wallet {
-padding: .8em;
+a{
+  text-decoration: none;
+}
+
+.rewards-btn {
+padding: .6em;
 margin: .8em;
+background-color:#1183ca ;
+color: white;
+border-radius: 10px;
+text-decoration: none;
 }
 
-.btn-wallet:hover,
-.btn-join:hover {
+.rewards-btn:hover {
     color: orange;
     background-color: green;
 }
@@ -39,8 +45,10 @@ margin: .8em;
 .FAQs-heading,
 .aboutHeading {
     font-size: 2.2rem;
-    color: green;
+    color: orange;
     font-weight: 600;
+
+
 }
 
 .FAQs-subHeading{
@@ -51,24 +59,28 @@ margin: .8em;
 }
 
 .aboutContainer{
-    padding-bottom: .5em;
+    padding-top: 1.4em;
+    
 }
 
 .about-text {
     font-size: 1.3rem;
     padding: 0 1em;
     letter-spacing: 1px;
+    color: white;
     
 }
 
 .FAQs-container{
 border-bottom: 1px solid green;
+
 }
 
 .FAQs-text{
 font-size: 1.3rem;
 padding: 0 1em;
 letter-spacing: 1px;
+color: white;
 
 
 }
@@ -95,18 +107,22 @@ textarea, textarea[placeholder] {
 
 
 /* Mobile */
-@media (max-width: 576px) { 
+@media (min-width: 576px) { 
 
 .banner-info {
   margin-bottom: 5em;
   }
+
+  .main-img {
+    width: 40%;
+  }
 }
 
  /* tablets */
- @media (min-width: 768px) { 
+ @media (max-width: 768px) { 
 /* col-1 */
 .main-img {
-    width: 90%;
+    width: 50%;
   }
 
 .main-text {
@@ -114,7 +130,7 @@ textarea, textarea[placeholder] {
   }
 
 /* banner */
-.banner-directory {
+/* .banner-directory {
     font-size: 5rem;
   }
 
@@ -124,7 +140,7 @@ textarea, textarea[placeholder] {
 
   .banner-info {
     margin-bottom: 7em;
-    }
+    } */
 
 /* form */
 .email-label,
@@ -147,12 +163,12 @@ textarea, textarea[placeholder] {
     /* col-1 */
    .main-img {
       margin: 1em;
-      width: 45%;
+      width: 60%;
     }
 
-    .banner-info {
+    /* .banner-info {
         margin-bottom: 7em;
-    }
+    } */
 }
    
 
@@ -161,8 +177,10 @@ textarea, textarea[placeholder] {
 @media (min-width: 1300px) { 
     /* col-1 */
     .main-img {
-      max-width: 45%;
+      max-width: 35%;
     }
+
+   
  }
 
 

@@ -33,8 +33,8 @@ function AgeVerificationModal(props) {
           <h4 id="modal_body">You Must be 21+ years old to enter this website!</h4>
         </Modal.Body>
         <Modal.Footer>
-        <Button  id="ageVerificationBtn"variant="success" onClick={props.onHide}>I am 21 or older</Button>
-        <Button  id="under21Btn"variant="danger" onClick={ToYoung}>I am under the age of 21</Button>
+        <Button  id="ageVerificationBtn"variant="success" onClick={props.onHide}>I'm 21 or older</Button>
+        <Button  id="under21Btn"variant="danger" onClick={ToYoung}>I'm under the age 21</Button>
   
         </Modal.Footer>
       </Modal>

@@ -51,8 +51,8 @@
 .btn-outline-light{
 color: green;
 background-color: white;
-border: 1px solid orange;
 transition: 0.3s;
+font-weight: bolder;
 }
 .btn-outline-light:hover{
 color: orange;
@@ -75,10 +75,11 @@ background-color: green;
     background-color: white;
     color:green;
     transition: 0.3s;
+    font-weight: bolder;
    
 }
 .btn-outline-secondary:hover{
-    color: orange;
+    color: #FAAC36;
     background-color: green;
 }
 .padding{
@@ -91,10 +92,11 @@ background-color: green;
     padding-top: 2rem;
 }
 .welcome h1{
-    color: orange;
-  
+    color: #F6B95C;
+    font-family: 'Acme', Arial, Helvetica, sans-serif;
    font-size: 4.2rem; 
    text-transform: uppercase;
+   letter-spacing: 2px;
 }
 
 #about-us{
@@ -104,21 +106,19 @@ background-color: green;
     font-size: 1.8em;
 }
 
-.fa-cannabis{
+/* .fa-cannabis{
     color: green;
-}
+} */
 .welcome hr{
-    border-top: 2px solid orange;
+    border-top: 2px solid #E5AC06;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
 .welcome p{
     color: white;
-    font-size: 2em;
+    font-size: 2.3em;
     padding-top: 1.5em;
-    
-    
 }
 
 
@@ -127,6 +127,7 @@ background-color: green;
     font-size: 3em;
     margin: 1rem;
     color: white;
+    margin-top: 2em;
 }
 
 
@@ -134,10 +135,9 @@ background-color: green;
 .FasfaText{
     color: white;
     font-size: 1.5em;
-   
 }
 .fasFaHeading{
-    color: #A46204;
+    color: #E5AC06;
     font-size: 1.7rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -149,12 +149,15 @@ background-color: green;
     text-transform: uppercase;
     font-family: 'acme',Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
+    background-color: #F69603;
+    margin-top: 2em;
+    border-radius: 10px;
 }
 
 .single-card{
    align-self: flex-start;
    height: 100%;
-   background-color: #171716;
+   background-color: #242525;
    border-radius: 15px;
    box-shadow: 1px 4px 4px 4px #A46204;
 }
@@ -163,7 +166,7 @@ background-color: green;
     align-self: flex-start;
     border: 1.5px solid green;
     height: 100%;
-    background-color: #615B5D;
+    background-color: #242525;
     border-radius: 15px;
     box-shadow: 5px 5px 5px forestgreen;
  }
@@ -177,28 +180,28 @@ background-color: green;
 }
 
 .card-specials{
-  display: flex;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr);
-  min-height: 60vh;
-  gap: 3em;
-  border-radius: 10px;
-  margin: 2em;
+    display: flex;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 60vh;
+    gap: 3em;
+    border-radius: 10px;
+    margin: 2em;
   
 }
 
 .friday-special ul{
-list-style: none;
-margin: 0;
-padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
 .title-card{
     font-size: 2.3em;
     text-transform: uppercase;
-    color: forestgreen;
+    color: #18B807;
     font-weight: 500;
     font-family: 'Acme', Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -221,30 +224,30 @@ padding: 0;
 /* SpringBig Section */
 .springBigContainer{
     margin: 7em 0;
-    padding: 0 1em;
-    background-color: #242525
+    padding:  1em;
+    background-color: #242525;
 }
 
 #springBigText{
     color: white;
     font-size: 1.3rem; 
+    letter-spacing: 1px;;
 }
 #springBigHeading{
-    color: #A46204;
-    margin-bottom: 0.7em;
+    color: #E5AC06;
     font-weight: 600;
-    margin: 1em;
+  margin: 1em 0;
 }
 #springBigtext{
    
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: white; 
+    letter-spacing: 1px;;
 }
-
 
 .springBigLogo img{
     border-radius: 20px;
-    margin: 3em;
+    margin: 2em 0;
 }
 
 
@@ -298,7 +301,7 @@ padding: 0;
 @media (max-width: 1520px) {
  /* carousel */
     .carousel-caption{
-        top: 39%;
+        top: 49%;
     }
      .carousel-caption h1{
         font-size: 4rem;
@@ -306,13 +309,13 @@ padding: 0;
      .carousel-caption h3{
         font-size: 2.5rem;
         font-weight: 400px;
-        padding-bottom: .2rem;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     } 
      .carousel-caption .btn{
-        font-size: 1.8rem;
-        padding: 8px 14px;
-        margin-top: 1em;
+        font-size: 1.2rem;
+        padding-top: 3px 10px;
+        
+       
     } 
 
     .card-specials{
