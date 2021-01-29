@@ -17,7 +17,6 @@
    background-color: black;
    text-transform: uppercase;
    border-bottom: 1.5px solid orange;
-  
 }
 
 
@@ -29,7 +28,6 @@
     letter-spacing: 4px;
     font-family: 'Cutive', sans-serif;
     padding: .3em;
-    
 }
 
 .banner-title{
@@ -37,14 +35,11 @@
 }
 
 
-
-
 /* Mobile */
 @media (max-width: 576px) { 
 .banner-title{
     font-size: 1.7em;
 }
-
 
 .banner-description,
 .banner-message

@@ -35,7 +35,6 @@ function ReturnPolicy(props){
                 <li className="lead">Must retain its original packaging and original receipt</li>
                 <li className="lead">All other sales are final.</li>
             </ul>
-            <h4 style={par}>Contaminated products such as mold, can be returned as well but require approval from a manager.</h4>
            <p style={returnPolicyInfo} className="lead">**We will process your exchange for a diffrent product. Cash refunds are not aloud.</p>
           
         </div>

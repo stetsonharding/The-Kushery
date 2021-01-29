@@ -46,24 +46,10 @@ function Rewards(){
             <h4 className="FAQs-subHeading">Do You Sell My Information?</h4>
               <p className="FAQs-text">Here at The kushery we respect your privacy. We will never share or sell any of your personal information.</p>
             <h4 className="FAQs-subHeading">Are You Going To Text Me Everyday?</h4>
-              <p className="FAQs-text">You will recieve text messages about our daily specials each day, plus any flash sales, upcoming holiday specials ect.</p>
+              <p className="FAQs-text">You will receive text messages about our daily specials each day, plus any flash sales, upcoming holiday specials etc.</p>
             <h4 className="FAQs-subHeading">Can I Transfer My Points To Friends or Family?</h4>
-              <p className="FAQs-text">At this time we are unable to transer any points.</p>
-              
-          </div>
-          {/* form */}
-          {/* <form className="container center" id="contact-form" method="post" action="contact.php">
-          <div className="form-group">
-            <h3 className="form-heading">Questions? Reach out to us!</h3>
-             <label className="email-label" for="emailAddress">Email</label>
-             <input name="email" type="email" className="form-control" id="form-email" placeholder="Please enter your email" required="required" data-error="email is required."/>
-          </div>
-          <div className="form-group">
-            <label className="questions-label" htmlFor="textArea">Questions & Comments</label>
-            <textarea name="message" id="form_message" className="form-control" rows="3" placeholder="Leave us your questions or comments and we will get back you as soon as we can." required="required" data-error="Please,leave us a message."></textarea>
-          </div>
-          <input type="submit" className="btn btn-success btn-send" required="required" value="Send message"/>
-        </form> */}
+              <p className="FAQs-text">At this time we are unable to transfer any points.</p>
+             </div>
            </div>
           </div>
         </div>

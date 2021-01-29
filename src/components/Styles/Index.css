@@ -11,18 +11,9 @@
   }
 
 .carousel-caption{
-    /* position: absolute; */
     top: 55%;
     transform: translateY(-55%);
 }
-
-
-/* .carousel-inner img{
-    width: 100%;
-    height: 100%;
-} */
-
-
 
 .carousel-caption h1{
     font-family: 'Acme', sans-serif,Arial, Helvetica, sans-serif;
@@ -30,16 +21,6 @@
     text-transform: uppercase;
     text-shadow: 1px 1px 10px orange;
 }
-
-
-/* .carousel-caption h3{
-    font-size: 200%;
-    font-weight: 200px;
-    text-shadow: 1px 1px 10px #000;  
-    padding-bottom: 1rem;
-} */
-
-
 
 .carousel-subtitle{
     font-size: 2.2rem;
@@ -49,14 +30,15 @@
 }
 
 .btn-outline-light{
-color: green;
-background-color: white;
-transition: 0.3s;
-font-weight: bolder;
+    color: green;
+    background-color: white;
+    transition: 0.3s;
+    font-weight: bolder;
 }
+
 .btn-outline-light:hover{
-color: orange;
-background-color: green;
+    color: orange;
+    background-color: green;
 }
 
 
@@ -65,26 +47,28 @@ background-color: green;
     padding: 1rem;
     border-radius: 0;
     background-color: black;
-   
 }
+
 .jumbotron p{
    color: white;
-  
 }
+
 .btn-outline-secondary{
     background-color: white;
     color:green;
     transition: 0.3s;
     font-weight: bolder;
-   
 }
+
 .btn-outline-secondary:hover{
     color: #FAAC36;
     background-color: green;
 }
+
 .padding{
     padding-bottom:2.5rem;
 }
+
 
 
 /* welcome */
@@ -106,9 +90,6 @@ background-color: green;
     font-size: 1.8em;
 }
 
-/* .fa-cannabis{
-    color: green;
-} */
 .welcome hr{
     border-top: 2px solid #E5AC06;
     width: 95%;
@@ -144,7 +125,6 @@ background-color: green;
 }
 
 /* dailey Specials */
-
 #Dailey-specials-title{
     text-transform: uppercase;
     font-family: 'acme',Arial, Helvetica, sans-serif;
@@ -180,15 +160,14 @@ background-color: green;
 }
 
 .card-specials{
-    display: flex;
+    /* display: flex; */
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     min-height: 60vh;
-    gap: 3em;
+    gap: 2em;
     border-radius: 10px;
     margin: 2em;
-  
 }
 
 .friday-special ul{
@@ -215,8 +194,6 @@ background-color: green;
     font-family: 'poppins';
     letter-spacing: 1px;
 }
-
-
 
 
 
@@ -252,8 +229,6 @@ background-color: green;
 
 
 
-
-
 /* Vendor Button */
 .vendor{
     width: 100%;
@@ -285,12 +260,11 @@ background-color: green;
     color: #A46204;
     font-size:2.5em;
 }
-.fa-facebook{
+.fa-facebook,
+.fa-instagram{
     color: white;
 }
-.fa-instagram{
-   color: white;
-}
+
 
 .fa-facebook:hover,
 .fa-instagram:hover{
@@ -314,8 +288,6 @@ background-color: green;
      .carousel-caption .btn{
         font-size: 1.2rem;
         padding-top: 3px 10px;
-        
-       
     } 
 
     .card-specials{
@@ -328,7 +300,6 @@ background-color: green;
         margin-top: 5em;
         gap: 3em;
         overflow: auto;
-         
       }
 
     /* jumbotron */
@@ -356,68 +327,86 @@ background-color: green;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
     }
+
     .carousel-caption h1{
         font-size: 3.5rem;
         line-height: 1.2em;
         padding-bottom: 0.3em;
         text-align: center;
     }
+
     .carousel-caption h3{
         font-size: 1.7rem;
      
     }
+
     .carousel-caption .btn{
-    margin-top: .3em;
-    font-size: 1.3rem;
+        margin-top: .3em;
+        font-size: 1.3rem;
     }
 
     /* weed font text */
     .welcome h1{
-        font-size: 2.9rem;
+        font-size: 2.2rem;
     }
+    
     .welcome p{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     #about-us{
         width: 100%;
         margin: 0 auto;
         letter-spacing: 2px;
-        font-size: 1.4em;
+        font-size: 1.2em;
+    }
+
+    .companyPriorities p{
+        font-size: 1.4;
     }
 
 /* Three Column Icons */
      .threeColumnImages{
-        margin-top: -50px;
-        margin-bottom: 2em;
+        margin-top: -90px;
+        margin-bottom: 0;
      }
 
      .fasFaHeading{
-         font-size: 1.9em;
+         font-size: 1.7em;
      }
 
      .FasfaText{
-         font-size: 1.4em;
+         font-size: 1.2em;
      }
 
 
 /* Dailey Specials */
+     #Dailey-specials-title{
+        text-align: center;
+        color: white;
+        font-size: 2.3em;
+        margin: 0;
+        padding: 0;
+      }
+
+
      .card-specials{
         display: grid;
         grid-template-rows: repeat(7, 1fr);
         grid-template-columns: repeat(1, 1fr);
-        height: 65vh;
+        height: 55vh;
         align-self: center;
         justify-self: center;
         margin-top: 5em;
         gap: 3em;
         overflow: auto;
+        margin: 2em;
       }
 
+   
       .title-card{
-        font-size: 2em;
+        font-size: 1.8em;
         text-transform: uppercase;
         color: forestgreen;
         font-weight: 500;
@@ -432,31 +421,25 @@ background-color: green;
         letter-spacing: 1px;
     }
 
-    #Dailey-specials-title{
-        text-align: center;
-        color: white;
-        font-size: 2.5em;
-        margin: 0;
-        padding: 0;
-    }
-
-
+  
+ 
      /* springBig */
+     #springBigHeading{
+         font-size: 1.4em;
+     }
       .springBigContainer{
-        /* margin-top: -5rem; */
         border-top: .1em solid orange;
+        margin: 0;
      }
 
      #springBigText p{
          font-size: 1.2rem;
-         line-height: 1.5em;
      } 
 
-
-     
-   
-
-
+    /* social Media */
+    #connectText{
+        font-size: 1.9em;
+    }
 }
 
 

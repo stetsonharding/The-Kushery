@@ -47,7 +47,6 @@ function Index() {
             <img style={{ height: "900px", width: "100%", objectFit: "cover" }} src={weedImage1} alt="weed" />
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
               <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
@@ -56,7 +55,6 @@ function Index() {
             <img style={{ height: "900px", width: "100%", objectFit: "cover" }} src={weedImage2} alt="weed" />
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-             
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
               <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
             </div>
@@ -91,7 +89,7 @@ function Index() {
           <div className="col-12 about-section">
             <h1 className="display-4">A Little About Us</h1>
             <p id="about-us">The Kushery has 4 locations located in Clearview, East Everett, Lake Forest Park, and Stanwood. Our number one goal is to provide quality customer service.
-            All of our shops provide the highest quality, selection, and price when it comes to marijuana and glass. Whether you're looking for flower, Vape, edibles, pre-rolls, 
+            All of our shops provide the highest quality, selection, and price when it comes to marijuana and glass. Whether you're looking for flower, vape, edibles, pre-rolls, 
             tinctures or topicals, our experienced knowledgeable budtenders will find something that suites your needs.
               </p>
           </div>
@@ -131,7 +129,7 @@ function Index() {
 
         {/* Daily Specials */}
         <div>
-        <h1 id="Dailey-specials-title">Dailey Specials</h1>
+        <h1 id="Dailey-specials-title">Daily Specials</h1>
         </div>
         <div style={{backgroundColor: "black", border: "none"}}className="card text-center cards card-specials">
           <div className="card-specials">  
@@ -210,7 +208,7 @@ function Index() {
 
 
       {/* Vendor Section */}
-      <button className="vendor" data-toggle="collapse" data-target="#emoji">Click to check out some of our vendors!</button>
+      <button className="vendor" data-toggle="collapse" data-target="#emoji">Click to checkout some of our vendors!</button>
       <div id="emoji" className="collapse">
         <div className="container-fluid padding">
           <div className="row text-center ">
@@ -252,7 +250,6 @@ function Index() {
             </div>
           </div>
         </div>
-        <hr className="my-7"/>
       </div>
 
 
@@ -265,12 +262,12 @@ function Index() {
             <h2 id="connectText">Stay Connected!</h2>
           </div>
           <div className="col-12 social padding">
-            <Link to="#"><i className="fab fa-facebook fa-3x"></i></Link>
-            <a href="https://www.instagram.com/thekusheryclearview0/"><i className="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.facebook.com/thekusheryeverett"><i className="fab fa-facebook fa-2x media-icon"></i></a>
+            <a href="https://www.instagram.com/thekusheryclearview0/"><i className="fab fa-instagram fa-2x media-icon"></i></a>
           </div>
         </div>
       </div>
-</div>
+      </div>
 
 
 

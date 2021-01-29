@@ -12,14 +12,12 @@ footer{
 
 .linkColor:hover{
     color: orange;
-    
 }
 
 #rightReserved{
     border-top: 1.5px solid orange;
     padding-top: 8px;
 }
-
 
 .info-links{
     margin-top: 2.8em;
