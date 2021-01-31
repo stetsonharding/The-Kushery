@@ -15,10 +15,7 @@ const returnPolicyInfo={
     
 }
 
-const par ={
-   
-    marginBottom: ".5em"
-}
+
 
 function ReturnPolicy(props){
     return(

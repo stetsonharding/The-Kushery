@@ -3,7 +3,8 @@ import "../Styles/Rewards.css"
 
 
 import Banner from "../Banner"
-import springBigRewardsPg from "../../images/springBigRewardsPg.png"
+// import springBigRewardsPg from "../../images/springBigRewardsPg.png"
+import highEnd from "../../images/highEnd.jpeg"
 
 function Rewards(){
     return(
@@ -11,15 +12,15 @@ function Rewards(){
           {/* Banner */}
       <Banner 
       directory="We Appreciate your Business"
-      description="The Kushery Rewards Program" 
+      description="The Kushery Loyalty Program" 
       />
 
          {/* col-1 */}
       <div className="container-fluid rewards-container">
         <div className="row text-center">
           <div id="col1-springBig" className="col-lg-6">
-            <h1 className="main-text">The Kushery Rewards.<br/> We're Here For You Anytime.</h1>
-           <img className="main-img" src={springBigRewardsPg} alt="SpringBig Logo"/>
+            <h1 className="main-text">The Kushery Loyalty Program.<br/> We're Here For You Anytime.</h1>
+           <img className="main-img" src={highEnd} alt="SpringBig Logo"/>
            <br/>
            <a className="rewards-btn" href="https://enrollnow.vip/join/2617">Join Rewards</a>
            <a className="rewards-btn" href="https://join.mywallet.deals/?id=c183800f-c7a0-4c9e-b101-fcab053b3e63&location=/#/login">View My Rewards</a>
@@ -29,7 +30,7 @@ function Rewards(){
           <div className="col-lg-6 rewardQuestions">
           <div className="row text-center">
             <div className="aboutContainer">
-            <h2 className="aboutHeading">About Our Rewards Program</h2>
+            <h2 className="aboutHeading">About Our Loyalty Program</h2>
             <p className="about-text lead">After every purchase you'll earn 1 point for every dollar that you've spent. 
             These points can be redeemed for great rewards and discounts on your future purchases.</p>
             <p className="about-text lead">In addition to earning points, you'll get access to exclusive offers on your favorite products 

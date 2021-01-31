@@ -5,7 +5,10 @@ import AgeVerificationModal from "../AgeVerificationModal";
 
 import weedImage1 from "../../images/WeedImageFilter.jpg"
 import weedImage2 from "../../images/WeedImageFilter2.jpg"
-import springBig from "../../images/springBig.jpg"
+// import springBig from "../../images/springBig.jpg"
+import mamba from "../../images/mamba.jpeg"
+import swamp from "../../images/Swamp.jpeg"
+import budda from "../../images/budda.jpeg"
 import Vendor1 from "../../images/Logos/Vendor1.jpg"
 import Vendor2 from "../../images/Logos/Vendor2.png"
 import Vendor3 from "../../images/Logos/Vendor3.jpg"
@@ -48,7 +51,7 @@ function Index() {
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
-              <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
+              <a href="/Location" class="location-btn">Locations</a>
             </div>
           </div>
           <div className="carousel-item ">
@@ -56,7 +59,7 @@ function Index() {
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
-              <Link to="/Location"><button type="button" className="btn btn-outline-light btn-lg">Locations</button></Link>
+              <a href="/Location" class="location-btn">Locations</a>
             </div>
           </div>
         </div>
@@ -75,7 +78,7 @@ function Index() {
             The Kushery raises the bar by leading the retail dispensary experience in the State of Washington.</p>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <Link to="/Location"><button type="button" className="btn btn-outline-secondary btn-lg">Order Online!</button></Link>
+            <a href="/Location" class="location-btn">Order Online!</a>
           </div>
         </div>
       </div>
@@ -189,15 +192,17 @@ function Index() {
       <div className="container-fluid padding springBigContainer">
         <div className="row text-center padding">
           <div id="springBigText" className="col-lg-6">
-            <h2 id="springBigHeading">The Kushery Rewards Program</h2>
+            <h2 id="springBigHeading">The Kushery Loyalty Program</h2>
             <p>After every purchase you'll earn one point for every dollar that you've spent.</p>
             <p>These points can be redeemed for great rewards and discounts on your future purchases.</p>
             <br />
-            <Link to="/Rewards"><button type="button" className="btn btn-primary">Learn More</button></Link>
+            <a href="/Rewards" class="learn-more-btn">Learn More</a>
           </div>
           <div className="col-lg-6 springBigLogo">
-            <Link to="/Rewards"><img style={{ height: "100px" }} src={springBig} alt="SpringBig Logo" className="img-fluid"></img></Link>
-            <p  id="springBigtext">The more you spend, the more you save.</p>
+            <Link to="/Rewards"><img style={{ height: "200px", margin:"0 .5em" }} src={mamba} alt="" className="img-fluid"></img></Link>
+            <Link to="/Rewards"><img style={{ height: "200px" }} src={swamp} alt="" className="img-fluid"></img></Link>
+            <Link to="/Rewards"><img style={{ height: "200px", margin:".2em .5em"}} src={budda} alt="" className="img-fluid"></img></Link>
+            <p  id="springBigLogo-subtext">Highest quality, selection, and prices!</p>
           </div>
         </div>
       </div>

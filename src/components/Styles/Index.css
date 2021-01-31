@@ -27,18 +27,23 @@
     font-family: 'Acme', sans-serif,Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px orange;
+    margin-bottom: .8em;
 }
 
-.btn-outline-light{
+.location-btn{
+    background-color: whitesmoke;
+    padding: .8em 1.2em;
     color: green;
-    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
     transition: 0.3s;
-    font-weight: bolder;
+    font-size: 1.1em;
 }
 
-.btn-outline-light:hover{
+.location-btn:hover{
     color: orange;
     background-color: green;
+    text-decoration: none;
 }
 
 
@@ -202,29 +207,40 @@
 .springBigContainer{
     margin: 7em 0;
     padding:  1em;
-    background-color: #242525;
+    background-color: white;
 }
 
-#springBigText{
-    color: white;
+#springBigText p{
+    color: black;
     font-size: 1.3rem; 
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 2;
 }
 #springBigHeading{
     color: #E5AC06;
     font-weight: 600;
-  margin: 1em 0;
+  margin-top: 1em;
+    
 }
-#springBigtext{
-   
-    font-size: 1.3em;
-    color: white; 
-    letter-spacing: 1px;;
+
+.learn-more-btn{
+    background-color: #1183ca;
+    color: white;
+    padding: .5em;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+#springBigLogo-subtext{
+    font-size: 1.3rem;
+    margin: 0;
 }
 
 .springBigLogo img{
     border-radius: 20px;
-    margin: 2em 0;
+    margin: .5em 0;
 }
 
 
@@ -341,10 +357,16 @@
      
     }
 
-    .carousel-caption .btn{
-        margin-top: .3em;
-        font-size: 1.3rem;
-    }
+   
+.location-btn{
+    background-color: whitesmoke;
+    padding: .6em 1em;
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 1.1em;
+}
 
     /* weed font text */
     .welcome h1{

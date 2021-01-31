@@ -1,6 +1,5 @@
 import React from "react"
 
-import { Link } from "react-router-dom"
 import Logo from "../images/TheKusheryLogo.jpg"
 
 import "./Styles/Footer.css"
@@ -13,16 +12,16 @@ function Footer() {
                     <div className="row text-center">
                         <div className="col-lg-6">
                             <img style={{ width: "130px" }} src={Logo} alt="Kushery Logo" />
-                            <hr className="light" />
-                            <Link className="linkColor" to="/">Home</Link><br />
-                            <Link className="linkColor" to="/KnowYourFacts">Know your Facts</Link>
+                            <hr className="light" />                       
+                            <a href="/" class="linkColor">Home</a><br/>                       
+                            <a href="/KnowYourFacts" class="linkColor">Know Your Facts</a><br/>
                         </div>
                         <div className="col-lg-6 info-links">
                             <hr className="light"></hr>
-                            <hr className="light" />
-                            <Link className="linkColor" to="/Location">Location</Link><br />
-                            <Link className="linkColor" to="/Rewards">Rewards</Link><br />
-                            <Link className="linkColor" to="/ReturnPolicy">Return Policy</Link>
+                            <hr className="light" />                      
+                            <a href="/Location" class="linkColor">Locations</a><br/>                       
+                            <a href="/Rewards" class="linkColor">Rewards</a><br/>                        
+                            <a href="/ReturnPolicy" class="linkColor">Return Policy</a><br/>                         
                         </div>
                     </div>
                     <div className="col-12 text-center padding">

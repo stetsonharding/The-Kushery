@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/063cb68f-0450-43c4-8ac0-1274d9b7ced4/resourceGroups/kushery_website/providers/Microsoft.Web/sites/thekushery",
+    "appService.deploySubpath": "build"
+}
