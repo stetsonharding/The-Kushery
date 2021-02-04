@@ -202,7 +202,7 @@ function Index() {
             <Link to="/Rewards"><img style={{ height: "200px", margin:"0 .5em" }} src={mamba} alt="" className="img-fluid"></img></Link>
             <Link to="/Rewards"><img style={{ height: "200px" }} src={swamp} alt="" className="img-fluid"></img></Link>
             <Link to="/Rewards"><img style={{ height: "200px", margin:".2em .5em"}} src={budda} alt="" className="img-fluid"></img></Link>
-            <p  id="springBigLogo-subtext">Highest quality, selection, and prices!</p>
+            <p  id="springBigLogo-subtext">Highest quality and selection, matched with the best prices!</p>
           </div>
         </div>
       </div>
