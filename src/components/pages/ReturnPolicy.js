@@ -5,9 +5,10 @@ import Banner from "../Banner"
 const containerStyle={
  borderLeft: "2px solid green",
  borderRight: "2px solid green",
- padding: "3em",
+ padding: "4em",
  margin: "0 auto",
  color: "white"
+ 
 }
 
 const returnPolicyInfo={
@@ -23,7 +24,7 @@ function ReturnPolicy(props){
         <Banner 
        directory="The Kushery's Return Policy"
         />
-<div style={containerStyle} className="container returnContainer">
+<div style={containerStyle} className="returnContainer">
     <div className="row">
         <div className="md-col">
             <h4 style={returnPolicyInfo} className="return-policy">The States policy is to only allow mechanical returns and exchanges.</h4>
