@@ -9,6 +9,8 @@ import Contact from "./components/pages/Contact"
 import Rewards from "./components/pages/Rewards"
 import KnowYourFacts from "./components/pages/KnowYourFacts"
 import ReturnPolicy from "./components/pages/ReturnPolicy"
+import OrderOnline from "./components/pages/OrderOnline"
+
 
 
 import "./App.css"
@@ -24,7 +26,7 @@ function App() {
          <Route path="/Location" component={Location}/>
          <Route path="/Rewards" component={Rewards}/>
          <Route path="/Contact" component={Contact}/>
-         <Route path="/OrderOnline" component={Location}/>
+         <Route path="/OrderOnline" component={OrderOnline}/>
          <Route path="/KnowYourFacts" component={KnowYourFacts}/>
          <Route path="/ReturnPolicy" component={ReturnPolicy}/>
          </Switch>

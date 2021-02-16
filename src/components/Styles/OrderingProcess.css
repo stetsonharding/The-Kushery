@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap');
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+  max-width: 500px;
+  background-color: rgb(218, 209, 209);
+  margin-top: 1.5em;
+  border-radius: 20px;
+   height: 390px;
+  
+}
+
+.container i{
+  color: green;
+}
+
+.imgContainer{
+    padding: 2em;
+}
+
+.orderProcess_title,
+.orderProcess_description{
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-family: 'Cutive',Arial, Helvetica, sans-serif;
+  padding: .3em
+}
+
+
+
+
+
+
+
+/* mobile */
+@media (max-width: 576px) { 
+  .container i{
+    color: green;
+    font-size: 3.5em;
+  }
+
+  #arrows{
+    transform: rotate(90deg);
+    font-size: 2.8em;
+    margin-bottom: .5em;
+  }
+
+  #smiley{
+    font-size: 2.8em;
+    margin-bottom: .5em;
+  }
+
+  .orderProcess_title,
+.orderProcess_description{
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding-bottom: .5em;
+}
+ }
+
+
+
+
+/* tablets */
+ /* @media (max-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    max-width: 500px;
+    background-color: rgb(218, 209, 209);
+    margin-top: 1.5em;
+    border-radius: 20px;
+    height: 380px;
+  }
+
+  } */
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

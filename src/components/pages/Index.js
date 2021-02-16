@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import { Link } from "react-router-dom"
+
 
 import AgeVerificationModal from "../AgeVerificationModal";
 
@@ -51,7 +51,7 @@ function Index() {
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
-              <a href="/Location" class="location-btn">Locations</a>
+              <a href="/Location" className="location-btn">Locations</a>
             </div>
           </div>
           <div className="carousel-item ">
@@ -59,7 +59,7 @@ function Index() {
             <div className="carousel-caption">
               <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
               <h3 className="carousel-subtitle">Top quality and customer service is our number one goal.</h3>
-              <a href="/Location" class="location-btn">Locations</a>
+              <a href="/Location" className="location-btn">Locations</a>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ function Index() {
             The Kushery raises the bar by leading the retail dispensary experience in the State of Washington.</p>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="/Location" class="location-btn">Order Online!</a>
+            <a href="/Location" className="location-btn">Order Online!</a>
           </div>
         </div>
       </div>
@@ -196,12 +196,12 @@ function Index() {
             <p>After every purchase you'll earn one point for every dollar that you've spent.</p>
             <p>These points can be redeemed for great rewards and discounts on your future purchases.</p>
             <br />
-            <a href="/Rewards" class="learn-more-btn">Learn More</a>
+            <a href="/Rewards" className="learn-more-btn">Learn More</a>
           </div>
           <div className="col-lg-6 springBigLogo">
-            <Link to="/Rewards"><img style={{ height: "200px", margin:"0 .5em" }} src={mamba} alt="" className="img-fluid"></img></Link>
-            <Link to="/Rewards"><img style={{ height: "200px" }} src={swamp} alt="" className="img-fluid"></img></Link>
-            <Link to="/Rewards"><img style={{ height: "200px", margin:".2em .5em"}} src={budda} alt="" className="img-fluid"></img></Link>
+           <img style={{ height: "200px", margin:"0 .5em" }} src={mamba} alt="" className="img-fluid"></img>
+           <img style={{ height: "200px" }} src={swamp} alt="" className="img-fluid"></img>
+          <img style={{ height: "200px", margin:".2em .5em"}} src={budda} alt="" className="img-fluid"></img>
             <p  id="springBigLogo-subtext">Highest quality and selection, matched with the best prices!</p>
           </div>
         </div>

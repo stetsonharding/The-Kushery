@@ -11,6 +11,7 @@ function LocationCards(props){
                     <img src={props.img} alt={props.alt} className="card-img-top card-img"/>
                 </div>
                 <div className="card-body text-dark">
+                   <h2 style={{color: "red", fontStyle:"italic"}} className="orderOnlineText">{props.orderOnline}</h2>
                     <h4 className="card-title">{props.title}</h4>
                     <p className="card-text">{props.phone}</p>
                     <p className="card-text ">{props.hours}</p>

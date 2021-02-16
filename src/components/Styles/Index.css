@@ -235,6 +235,7 @@
 
 #springBigLogo-subtext{
     font-size: 1.3rem;
+    padding-top: 1em;
     margin: 0;
 }
 
@@ -457,6 +458,12 @@
      #springBigText p{
          font-size: 1.2rem;
      } 
+
+     #springBigLogo-subtext{
+        font-size: 1.3rem;
+        padding-top: 2em;
+       
+    }
 
     /* social Media */
     #connectText{

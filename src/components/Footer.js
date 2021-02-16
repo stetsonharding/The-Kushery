@@ -13,15 +13,15 @@ function Footer() {
                         <div className="col-lg-6">
                             <img style={{ width: "130px" }} src={Logo} alt="Kushery Logo" />
                             <hr className="light" />                       
-                            <a href="/" class="linkColor">Home</a><br/>                       
-                            <a href="/KnowYourFacts" class="linkColor">Know Your Facts</a><br/>
+                            <a href="/" className="linkColor">Home</a><br/>                       
+                            <a href="/KnowYourFacts" className="linkColor">Know Your Facts</a><br/>
                         </div>
                         <div className="col-lg-6 info-links">
                             <hr className="light"></hr>
                             <hr className="light" />                      
-                            <a href="/Location" class="linkColor">Locations</a><br/>                       
-                            <a href="/Rewards" class="linkColor">Rewards</a><br/>                        
-                            <a href="/ReturnPolicy" class="linkColor">Return Policy</a><br/>                         
+                            <a href="/Location" className="linkColor">Locations</a><br/>                       
+                            <a href="/Rewards" className="linkColor">Rewards</a><br/>                        
+                            <a href="/ReturnPolicy" className="linkColor">Return Policy</a><br/>                         
                         </div>
                     </div>
                     <div className="col-12 text-center padding">
