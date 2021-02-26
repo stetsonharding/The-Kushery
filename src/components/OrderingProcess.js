@@ -3,12 +3,6 @@ import "./Styles/OrderingProcess.css"
 
 
 function OrderingProcess(props){
-
-
-
-  
-
-
     return(
         <div className="orderProcess container">
             <div className="imgContainer">

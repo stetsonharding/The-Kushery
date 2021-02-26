@@ -2,7 +2,7 @@
 .Products-heading,
 .Laws-heading{
 text-align: center;
-color: white;
+color: orange;
 }
 
 .page-wrapper{
@@ -10,8 +10,9 @@ color: white;
 }
 
 .page-wrapper p{
-    letter-spacing: 1px;
-    color: forestgreen;
+    letter-spacing: 2px;
+    color: white;
+    line-height: 1.3em;
 }
 
 .warning{
@@ -21,4 +22,5 @@ color: white;
 
 b{
     color: white;
+    text-decoration: underline;
 }
