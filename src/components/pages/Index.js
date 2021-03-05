@@ -111,7 +111,7 @@ function Index() {
         <div className="row text-center padding">
           <div className="col-xs-12 col-sm-6 col-md-4 fas-fa-img">
             <i className="fas fa-dog "></i>
-            <h3 className="fasFaHeading">Dog Frendly</h3>
+            <h3 className="fasFaHeading">Dog Friendly</h3>
             <p className="FasfaText">Bring your pup while you stock up!</p>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 fas-fa-img">
@@ -173,7 +173,7 @@ function Index() {
                 </div>
            
                 <div className="card-body text-dark saturday-special single-card">
-                  <h4 className="title-card">Vape Cart Saurdaze</h4>
+                  <h4 className="title-card">Vape Cart Saturdaze</h4>
                   <p className="text-card">All Vape Carts 15% off!</p>
                 </div>
           
