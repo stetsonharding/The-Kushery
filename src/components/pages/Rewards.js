@@ -2,7 +2,7 @@ import React from "react"
 import "../Styles/Rewards.css"
 
 
-import Banner from "../Banner"
+import Banner from "../banner/Banner"
 // import springBigRewardsPg from "../../images/springBigRewardsPg.png"
 import highEnd from "../../images/highEnd.jpeg"
 
@@ -33,9 +33,9 @@ function Rewards() {
               <div className="aboutContainer">
                 <h2 className="aboutHeading">About our Loyalty Program</h2>
                 <p className="about-text">After every purchase you'll earn 1 point for every dollar that you've spent.
-                These points can be redeemed for great rewards and discounts on your future purchases.
+                These points can be redeemed for great rewards and discounts on your future purchases.  
                 In addition to earning points, you'll get access to exclusive offers on your favorite products
-            and notifications of our flash deals. Points never expire and you can use them at any of The Kushery locations.</p>
+                Points never expire and you can use them at any of The Kushery locations.</p>
               </div>
               
               <hr className="about-text-hr"></hr>
@@ -51,9 +51,6 @@ function Rewards() {
 
                 <h4 className="FAQs-subHeading">Do you sell my information?</h4>
                 <p className="FAQs-text">Here at The kushery we respect your privacy. We will never share or sell any of your personal information.</p>
-
-                <h4 className="FAQs-subHeading">Are you going to text me everyday?</h4>
-                <p className="FAQs-text">You will receive text messages about our daily specials each day, plus any flash sales, upcoming holiday specials etc.</p>
 
                 <h4 className="FAQs-subHeading">Can I transfer my points to friends or family?</h4>
                 <p className="FAQs-text">At this time we are unable to transfer any points.</p>

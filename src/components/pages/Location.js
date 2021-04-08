@@ -1,5 +1,5 @@
 import React from "react"
-import "../Styles/Locations.css"
+// import "../Styles/Locations.css"
 
 import Clearview from "../../images/Clearview.PNG"
 import Cathcart from "../../images/Cathcart.PNG"
@@ -7,8 +7,8 @@ import LakeForestPark from "../../images/LakeForestPark.PNG"
 import Stanwood from "../../images/Stanwood.PNG"
 
 
-import LocationCards from "../LocationCards"
-import Banner from "../Banner"
+import LocationCards from "../locationCards/LocationCards"
+import Banner from "../banner/Banner"
 
 
 

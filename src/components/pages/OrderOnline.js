@@ -1,6 +1,6 @@
 import React from "react"
-import LocationCards from "../../components/LocationCards"
-import Banner from "../../components/Banner"
+import LocationCards from "../../components/locationCards/LocationCards"
+import Banner from "../banner/Banner"
 import OrderProcess from "../../components/OrderingProcess"
 
 import Clearview from "../../images/Clearview.PNG"

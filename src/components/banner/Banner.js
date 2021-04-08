@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./Styles/Banner.css"
+import "./Banner.css"
 
 function Banner(props){
     return(

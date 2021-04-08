@@ -1,7 +1,7 @@
 import React from "react"
 
-import "../Banner"
-import Banner from "../Banner"
+import "../banner/Banner"
+import Banner from "../banner/Banner"
 
 
 function Contact(){
