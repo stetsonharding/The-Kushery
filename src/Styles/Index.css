@@ -1,0 +1,493 @@
+
+/* Carousel */
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+
+.carousel-caption{
+    top: 55%;
+    transform: translateY(-55%);
+}
+
+.carousel-caption h1{
+    font-family: 'Acme', sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 5.8rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px orange;
+}
+
+.carousel-subtitle{
+    font-size: 2.2rem;
+    font-family: 'Acme', sans-serif,Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px orange;
+    margin-bottom: .8em;
+}
+
+.location-btn{
+    background-color: whitesmoke;
+    padding: .8em 1.2em;
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 1.1em;
+}
+
+.location-btn:hover{
+    color: orange;
+    background-color: green;
+    text-decoration: none;
+}
+
+
+/* JumpboTron */
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background-color: black;
+}
+
+.jumbotron p{
+   color: white;
+}
+
+.btn-outline-secondary{
+    background-color: white;
+    color:green;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+.btn-outline-secondary:hover{
+    color: #FAAC36;
+    background-color: green;
+}
+
+.padding{
+    padding-bottom:2.5rem;
+}
+
+
+
+/* welcome */
+.welcome{
+    padding-top: 2rem;
+}
+.welcome h1{
+    color: #F6B95C;
+    font-family: 'Acme', Arial, Helvetica, sans-serif;
+   font-size: 4.2rem; 
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+#about-us{
+    width: 75%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+}
+
+.welcome hr{
+    border-top: 2px solid #E5AC06;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.welcome p{
+    color: white;
+    font-size: 2.3em;
+    padding-top: 1.5em;
+}
+
+
+/* 3 columb Icons */
+.fa-dog, .fa-wheelchair, .fa-money-bill-alt{
+    font-size: 3em;
+    margin: 1rem;
+    color: white;
+    margin-top: 2em;
+}
+
+
+/* text under fas fa icons and heading */
+.FasfaText{
+    color: white;
+    font-size: 1.5em;
+}
+.fasFaHeading{
+    color: #E5AC06;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* dailey Specials */
+#Dailey-specials-title{
+    text-transform: uppercase;
+    font-family: 'acme',Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-color: #F69603;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.single-card{
+   align-self: flex-start;
+   height: 100%;
+   background-color: #242525;
+   border-radius: 15px;
+   box-shadow: 1px 4px 4px 4px #A46204;
+}
+
+.single-card-everyday{
+    align-self: flex-start;
+    border: 1.5px solid green;
+    height: 100%;
+    background-color: #242525;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px forestgreen;
+ }
+
+
+
+#Dailey-specials-title{
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+}
+
+.card-specials{
+    /* display: flex; */
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 60vh;
+    gap: 2em;
+    border-radius: 10px;
+    margin: 2em;
+}
+
+.friday-special ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-card{
+    font-size: 2.3em;
+    text-transform: uppercase;
+    color: #18B807;
+    font-weight: 500;
+    font-family: 'Acme', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.text-card{
+    font-size: 1.4em;
+    color: white;
+    font-weight: 300;
+    padding-top: .5em;
+    font-family: 'poppins';
+    letter-spacing: 1px;
+}
+
+
+
+
+/* SpringBig Section */
+.springBigContainer{
+    margin: 7em 0;
+    padding:  1em;
+    background-color: white;
+}
+
+#springBigText p{
+    color: black;
+    font-size: 1.3rem; 
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 2;
+}
+#springBigHeading{
+    color: #E5AC06;
+    font-weight: 600;
+  margin-top: 1em;
+    
+}
+
+.learn-more-btn{
+    background-color: #1183ca;
+    color: white;
+    padding: .5em;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+#springBigLogo-subtext{
+    font-size: 1.3rem;
+    padding-top: 1em;
+    margin: 0;
+}
+
+.springBigLogo img{
+    border-radius: 20px;
+    margin: .5em 0;
+}
+
+
+
+/* Vendor Button */
+.vendor{
+    width: 100%;
+    margin-bottom: 2em;
+}
+.vendor:hover{
+    color: orange;
+    background-color: green;
+    cursor: pointer;
+}
+
+.vendor-logo{
+    border-bottom: 1px solid green;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+/* Social Media Connect */
+.social a{
+    font-size: 2em;
+    padding: 3rem;
+}
+#connectText{
+    color: #A46204;
+    font-size:2.5em;
+}
+.fa-facebook,
+.fa-instagram{
+    color: white;
+}
+
+
+.fa-facebook:hover,
+.fa-instagram:hover{
+    color: teal;
+}
+
+
+@media (max-width: 1520px) {
+ /* carousel */
+    .carousel-caption{
+        top: 49%;
+    }
+     .carousel-caption h1{
+        font-size: 4rem;
+    } 
+     .carousel-caption h3{
+        font-size: 2.5rem;
+        font-weight: 400px;
+        margin-bottom: 1em;
+    } 
+     .carousel-caption .btn{
+        font-size: 1.2rem;
+        padding-top: 3px 10px;
+    } 
+
+    .card-specials{
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        height: 55vh;
+        align-self: center;
+        justify-self: center;
+        margin-top: 5em;
+        gap: 3em;
+        overflow: auto;
+      }
+
+    /* jumbotron */
+    .btn-outline-secondary{
+        background-color: white;
+        color:green;
+        font-size: 18px;
+    }
+
+    /* Welcome  */
+    .display-4{
+        font-size: 250%;
+        padding-bottom: 5px; 
+    }
+}
+
+
+
+    @media (max-width: 576px) {
+
+ /* carousel */
+    .carousel-caption{
+        top: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-caption h1{
+        font-size: 3.5rem;
+        line-height: 1.2em;
+        padding-bottom: 0.3em;
+        text-align: center;
+    }
+
+    .carousel-caption h3{
+        font-size: 1.7rem;
+     
+    }
+
+   
+.location-btn{
+    background-color: whitesmoke;
+    padding: .6em 1em;
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 1.1em;
+}
+
+    /* weed font text */
+    .welcome h1{
+        font-size: 2.2rem;
+    }
+    
+    .welcome p{
+        font-size: 1.4em;
+    }
+
+    #about-us{
+        width: 100%;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        font-size: 1.2em;
+    }
+
+    .companyPriorities p{
+        font-size: 1.4;
+    }
+
+/* Three Column Icons */
+     .threeColumnImages{
+        margin-top: -90px;
+        margin-bottom: 0;
+     }
+
+     .fasFaHeading{
+         font-size: 1.7em;
+     }
+
+     .FasfaText{
+         font-size: 1.2em;
+     }
+
+
+/* Dailey Specials */
+     #Dailey-specials-title{
+        text-align: center;
+        color: white;
+        font-size: 2.3em;
+        margin: 0;
+        padding: 0;
+      }
+
+
+     .card-specials{
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        height: 55vh;
+        align-self: center;
+        justify-self: center;
+        margin-top: 5em;
+        gap: 3em;
+        overflow: auto;
+        margin: 2em;
+      }
+
+   
+      .title-card{
+        font-size: 1.8em;
+        text-transform: uppercase;
+        color: forestgreen;
+        font-weight: 500;
+        font-family: 'Acme', Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    .text-card{
+        font-size: 1em;
+        color: white;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+  
+ 
+     /* springBig */
+     #springBigHeading{
+         font-size: 1.4em;
+     }
+      .springBigContainer{
+        border-top: .1em solid orange;
+        margin: 0;
+     }
+
+     #springBigText p{
+         font-size: 1.2rem;
+     } 
+
+     #springBigLogo-subtext{
+        font-size: 1.3rem;
+        padding-top: 2em;
+       
+    }
+
+    /* social Media */
+    #connectText{
+        font-size: 1.9em;
+    }
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

@@ -1,12 +1,12 @@
 import React from "react";
-import LocationCards from "../../components/locationCards/LocationCards";
-import Banner from "../banner/Banner";
-import OrderProcess from "../onlineOrderingSteps/OrderingProcess";
+import LocationCards from "../components/locationCards/LocationCards";
+import Banner from "../components/banner/Banner";
+import OrderProcess from "../components/onlineOrderingSteps/OrderingProcess";
 
-import Clearview from "../../images/Clearview.PNG";
-import Cathcart from "../../images/Cathcart.PNG";
-import LakeForestPark from "../../images/LakeForestPark.PNG";
-import Stanwood from "../../images/Stanwood.PNG";
+import Clearview from "../images/Clearview.PNG";
+import Cathcart from "../images/Cathcart.PNG";
+import LakeForestPark from "../images/LakeForestPark.PNG";
+import Stanwood from "../images/Stanwood.PNG";
 
 function OrderOnline() {
   const containerSyle = {
