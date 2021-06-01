@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
+//components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
+import MainCarousel from "../components/carousel/MainCarousel";
 
-import weedImage1 from "../images/WeedImageFilter.jpg";
-import weedImage2 from "../images/WeedImageFilter2.jpg";
-// import springBig from "../../images/springBig.jpg"
+
+
 import mamba from "../images/mamba.jpeg";
 import swamp from "../images/Swamp.jpeg";
 import budda from "../images/budda.jpeg";
@@ -37,43 +38,8 @@ function Index() {
         keyboard={false}
       />
 
-      {/* Carousel */}
-      <div id="slides" className="carouselSlide" data-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              style={{ height: "900px", width: "100%", objectFit: "cover" }}
-              src={weedImage1}
-              alt="weed"
-            />
-            <div className="carousel-caption">
-              <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              <h3 className="carousel-subtitle">
-                Top quality and customer service is our number one goal.
-              </h3>
-              <a href="/Location" className="location-btn">
-                Locations
-              </a>
-            </div>
-          </div>
-          <div className="carousel-item ">
-            <img
-              style={{ height: "900px", width: "100%", objectFit: "cover" }}
-              src={weedImage2}
-              alt="weed"
-            />
-            <div className="carousel-caption">
-              <h1 className="display-2">The Kushery Cannabis Dispensary</h1>
-              <h3 className="carousel-subtitle">
-                Top quality and customer service is our number one goal.
-              </h3>
-              <a href="/Location" className="location-btn">
-                Locations
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <MainCarousel />
+
 
       {/* JumboTron */}
       <div className="container-fluid">
