@@ -29,7 +29,7 @@
   margin-bottom: 0.8em;
 } */
 
-.location-btn {
+/* .location-btn {
   background-color: whitesmoke;
   padding: 0.8em 1.2em;
   color: green;
@@ -43,10 +43,10 @@
   color: orange;
   background-color: green;
   text-decoration: none;
-} 
+}  */
 
 /* JumpboTron */
-.jumbotron {
+/* .jumbotron {
   padding: 1rem;
   border-radius: 0;
   background-color: black;
@@ -70,7 +70,7 @@
 
 .padding {
   padding-bottom: 2.5rem;
-}
+} */
 
 /* welcome */
 .welcome {
@@ -299,11 +299,11 @@
   } */
 
   /* jumbotron */
-  .btn-outline-secondary {
+  /* .btn-outline-secondary {
     background-color: white;
     color: green;
     font-size: 18px;
-  }
+  } */
 
   /* Welcome  */
   .display-4 {

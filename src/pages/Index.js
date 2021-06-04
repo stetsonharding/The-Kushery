@@ -3,6 +3,7 @@ import React, { useState } from "react";
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
 import MainCarousel from "../components/carousel/MainCarousel";
+import Jumbotron from "../components/jumbotron/Jumbotron"
 
 
 
@@ -39,10 +40,12 @@ function Index() {
       />
 
       <MainCarousel />
+      <Jumbotron  />
+      
 
 
       {/* JumboTron */}
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row jumbotron">
           <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
             <p className="lead">
@@ -60,7 +63,7 @@ function Index() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Welcome section */}
       <div className="container-fluid padding">

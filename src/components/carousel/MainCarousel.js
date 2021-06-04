@@ -29,7 +29,7 @@ export default function MainCarousel() {
         <img
           src={item.image}
           alt={item.alt}
-          style={{ height: "1000px", width: "100%", objectFit: "cover" }}
+          style={{ height: "950px", width: "100%", objectFit: "cover" }}
         />
         <CarouselCaption
           style={{ visibility: "n" }}

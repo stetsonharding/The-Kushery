@@ -1,0 +1,49 @@
+.jumbotron__container {
+  min-height: 675px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color:#91e764; */
+}
+
+.jumbotron__intro-container {
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+ 
+}
+
+
+#jumbotron__intro-title{
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jumbotron__intro{
+    font-size: 1.2em;
+}
+
+
+.jumbotron__button-container {
+  text-align: center;
+  margin-top: 3em;
+  text-decoration: none;
+}
+
+.jumbotron__button {
+  background-color: greenyellow;
+  padding: 0.8rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black
+}
+
+.jumbotron__button:hover {
+text-decoration: none;
+color: green;
+
+}
