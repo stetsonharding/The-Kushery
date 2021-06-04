@@ -1,10 +1,9 @@
 .jumbotron__container {
-  min-height: 675px;
+  min-height: 655px;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color:#91e764; */
 }
 
 .jumbotron__intro-container {
@@ -13,37 +12,127 @@
   margin: 0 auto;
   color: black;
   text-align: center;
- 
+  padding: 1em;
 }
 
-
-#jumbotron__intro-title{
-  font-size: 2em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#jumbotron__intro-title {
+  font-size: 2.4em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: green;
 }
 
-.jumbotron__intro{
-    font-size: 1.2em;
+.jumbotron__intro {
+  font-size: 1.5em;
 }
-
 
 .jumbotron__button-container {
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
   text-decoration: none;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jumbotron__button {
-  background-color: greenyellow;
   padding: 0.8rem;
-  color: black;
+  color: white;
   font-weight: bold;
-  border-radius: 10px;
-  border: 1px solid black
+  border-radius: 2px;
+  border: 1px inset orange;
+  background-color: green;
+  letter-spacing: 1px;
+  opacity: 0.7;
 }
 
 .jumbotron__button:hover {
-text-decoration: none;
-color: green;
-
+  opacity: 1;
+  text-decoration: none;
+  color: white;
 }
+
+@media (max-width: 540px) {
+  .jumbotron__intro-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    color: black;
+    text-align: left;
+    padding: 1em 0em;
+  }
+  #jumbotron__intro-title {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .jumbotron__intro {
+    text-align: left;
+    width: 100%;
+    padding: 0 0.8em;
+    font-size: 1.2em
+  }
+
+  .jumbotron__button {
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px inset orange;
+    background-color: green;
+    letter-spacing: 1px;
+    opacity: 0.7;
+  }
+}
+
+
+
+/* @media (max-width: 720px)   {
+  .jumbotron__intro-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    color: black;
+    text-align: left;
+    padding: 1em 0em;
+  }
+  #jumbotron__intro-title {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .jumbotron__intro {
+    text-align: left;
+    width: 100%;
+    padding: 0 0.8em;
+    font-size: 1.3em
+  }
+
+  .jumbotron__button {
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px inset orange;
+    background-color: green;
+    letter-spacing: 1px;
+    opacity: 0.7;
+  }
+} */
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

@@ -3,8 +3,14 @@
   text-transform: uppercase;
   text-shadow: 1px 1px 10px orange;
   top: 55%;
-  transform: translateY(-55%);
+  transform: translateY(-50%);
+
+  font-size: 5em;
 }
+
+
+
+
 
 /* fixes caption to display on mobile */
 .d-none {
@@ -16,18 +22,30 @@
 
 @media(min-width: 276px){
   .carousel-caption {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    transform: translateY(-100%);
+    text-align: center;
+   
   }
+
+ 
 }
 
-@media(min-width: 768px){
+ @media(min-width: 768px){
   .carousel-caption {
-    font-size: 3.9rem;
+    font-size: 4.9rem;
+    transform: translateY(-50%);
   }
 }
 
 
+@media (min-width: 992px) {
 
+  .carousel-caption {
+    font-size: 5.9rem;
+    transform: translateY(-50%);
+  }
+  } 
 
 
 

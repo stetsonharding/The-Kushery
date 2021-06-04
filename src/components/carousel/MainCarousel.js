@@ -27,14 +27,16 @@ export default function MainCarousel() {
         key={item.id}
       >
         <img
+        className="image"
           src={item.image}
           alt={item.alt}
-          style={{ height: "950px", width: "100%", objectFit: "cover" }}
+          style={{ height: "1275px", width: "100%", objectFit: "cover" }}
         />
         <CarouselCaption
           style={{ visibility: "n" }}
-          captionHeader={item.subTitle}
+     
           captionText={item.title}
+          
          
         />
       </CarouselItem>
