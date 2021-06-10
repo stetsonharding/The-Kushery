@@ -1,0 +1,66 @@
+.parallax_background {
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.parallax__aboutUs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 60%;
+  padding: 2em 1em;
+}
+
+.parallax__aboutus {
+  visibility: hidden;
+}
+
+@media (max-width: 776px) {
+  .parallax_background {
+    filter: grayscale(30%);
+    background-attachment: inherit;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: unset;
+  }
+
+  .parallax__aboutUs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 100%;
+    padding: 2em 1em;
+  }
+
+  .parallax__aboutus {
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    visibility: visible;
+  }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

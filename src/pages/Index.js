@@ -1,11 +1,14 @@
 import React, { useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
 import MainCarousel from "../components/carousel/MainCarousel";
-import Jumbotron from "../components/jumbotron/Jumbotron"
+import Jumbotron from "../components/jumbotron/Jumbotron";
+import Parallax from "../components/aboutUs/Parallax";
 
-
+import ParallaxImage from "../images/weedImage3.jpg";
 
 import mamba from "../images/mamba.jpeg";
 import swamp from "../images/Swamp.jpeg";
@@ -40,9 +43,7 @@ function Index() {
       />
 
       <MainCarousel />
-      <Jumbotron  />
-      
-
+      <Jumbotron />
 
       {/* JumboTron */}
       {/* <div className="container-fluid">
@@ -66,7 +67,21 @@ function Index() {
       </div> */}
 
       {/* Welcome section */}
-      <div className="container-fluid padding">
+      <Parallax backgroundImage={ParallaxImage}>
+        <div className="parallax__aboutUs-container">
+          <p data-aos="fade-top" className="parallax__aboutus">
+            {" "}
+            The Kushery has 4 locations located in Clearview, East Everett, Lake
+            Forest Park, and Stanwood. Our number one goal is to provide quality
+            customer service. All of our shops provide the highest quality,
+            selection, and price when it comes to marijuana and glass. Whether
+            you're looking for flower, vape, edibles, pre-rolls, tinctures or
+            topicals, our experienced knowledgeable budtenders will find
+            something that suites your needs.
+          </p>
+        </div>
+      </Parallax>
+      {/* <div className="container-fluid padding">
         <div className="row welcome text-center">
           <div className="col-12 about-section">
             <h1 className="display-4">A Little About Us</h1>
@@ -87,7 +102,7 @@ function Index() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Three column images */}
       <div className="container-fluid padding threeColumnImages">
