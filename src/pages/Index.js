@@ -8,6 +8,7 @@ import MainCarousel from "../components/carousel/MainCarousel";
 import Jumbotron from "../components/jumbotron/Jumbotron";
 import Parallax from "../components/parallax/Parallax";
 import StoreTags from "../components/storeTags/StoreTags";
+import DailySpecials from "../components/dailySpecials/DailySpecials";
 
 import ParallaxImage from "../images/parallaxImg.jpg";
 
@@ -81,6 +82,7 @@ function Index() {
           </p>
         </div>
       </Parallax>
+
       {/* <div className="container-fluid padding">
         <div className="row welcome text-center">
           <div className="col-12 about-section">
@@ -105,6 +107,7 @@ function Index() {
       </div> */}
 
       <StoreTags />
+      <DailySpecials />
 
       {/* Three column images */}
       {/* <div className="container-fluid padding threeColumnImages">
@@ -128,7 +131,7 @@ function Index() {
       </div> */}
 
       {/* Daily Specials */}
-      <div>
+      {/* <div>
         <h1 id="Dailey-specials-title">Daily Specials</h1>
       </div>
       <div
@@ -189,7 +192,7 @@ function Index() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Two column section */}
       <div className="container-fluid padding springBigContainer">

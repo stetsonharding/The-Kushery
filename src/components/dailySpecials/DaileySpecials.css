@@ -1,0 +1,52 @@
+.dailySpecials__container {
+  height: 100%;
+  min-height: 1000px;
+  background-image: url(../../images/specalsBg.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  border-bottom: 2px solid green;
+}
+
+.dailySpecial__card {
+  height: 16rem;
+  width: 18rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: green;
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: rgb(214, 207, 207);
+}
+
+.dailySpecials__card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  min-height: 1000px;
+}
+
+.dailySpecials__main-title {
+  text-align: center;
+  font-size: 4em;
+  padding-bottom: 1.5em;
+  color: rgb(221, 209, 156);
+  letter-spacing: 4px;
+  font-family: Pacifico, sans-serif;
+}
+
+@media (max-width: 350px) {
+  .dailySpecial__card {
+    height: 16rem;
+    width: 16rem;
+  }
+}
+@media (max-width: 776px) {
+  .dailySpecials__main-title {
+    font-size: 2.5em;
+    padding: 0;
+    padding-top: 1em;
+  }
+}

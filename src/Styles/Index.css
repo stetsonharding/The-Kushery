@@ -126,7 +126,7 @@
 } */
 
 /* dailey Specials */
-#Dailey-specials-title {
+/* #Dailey-specials-title {
   text-transform: uppercase;
   font-family: "acme", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
@@ -159,7 +159,7 @@
 }
 
 .card-specials {
-  /* display: flex; */
+  display: flex;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -191,7 +191,7 @@
   padding-top: 0.5em;
   font-family: "poppins";
   letter-spacing: 1px;
-}
+} */
 
 /* SpringBig Section */
 .springBigContainer {
@@ -286,7 +286,7 @@
     padding-top: 3px 10px;
   } */
 
-  .card-specials {
+  /* .card-specials {
     display: grid;
     grid-template-rows: repeat(7, 1fr);
     grid-template-columns: repeat(2, 1fr);
@@ -296,7 +296,7 @@
     margin-top: 5em;
     gap: 3em;
     overflow: auto;
-  }
+  } */
 
   /* jumbotron */
   /* .btn-outline-secondary {
@@ -378,7 +378,7 @@
   } */
 
   /* Dailey Specials */
-  #Dailey-specials-title {
+  /* #Dailey-specials-title {
     text-align: center;
     color: white;
     font-size: 2.3em;
@@ -413,7 +413,7 @@
     color: white;
     font-weight: 300;
     letter-spacing: 1px;
-  }
+  } */
 
   /* springBig */
   #springBigHeading {

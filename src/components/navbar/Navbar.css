@@ -1,37 +1,27 @@
-
-.color-nav{
-    background-color: black;
-    border-bottom: 2px solid white;
+.color-nav {
+  background-color: rgb(240, 233, 233);
+  border-bottom: 2px solid white;
 }
 
-#navbar-link{
-    color: green;
-    font-size: 1.7rem;
-    margin: 0 1em;
+#navbar-link {
+  color: green;
+  font-size: 1.7rem;
+  margin: 0 1em;
 }
 
-#navbar-link:hover{
-    color: orange;
-    border-bottom: 1.5px solid green;
-    transform: translateY(-10px);
+#navbar-link:hover {
+  color: orange;
+  border-bottom: 1.5px solid green;
+  transform: translateY(-10px);
 }
 
 /* logo Rotation */
 #logo {
-    -webkit-transition: -webkit-transform .45s ease-in-out;
-            transition:         transform .45s ease-in-out;
-  }
- #logo:hover {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-
-
-
-
-
-
-
-
-
-
+  -webkit-transition: -webkit-transform 0.45s ease-in-out;
+  transition: transform 0.45s ease-in-out;
+  border-radius: 20px;
+}
+#logo:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

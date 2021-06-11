@@ -12,7 +12,7 @@ function NavigationBar() {
       className="color-nav"
       collapseOnSelect
       expand="lg"
-      variant="dark"
+      variant="light"
       sticky="top"
     >
       <Navbar.Brand href="/">
