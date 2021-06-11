@@ -1,3 +1,4 @@
+/* background image for paralax */
 .parallax_background {
   min-height: 350px;
   background-attachment: fixed;
@@ -10,12 +11,13 @@
 .parallax__aboutUs-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   max-width: 60%;
   padding: 2em 1em;
 }
 
+/*hidden on desktop */
 .parallax__aboutus {
   visibility: hidden;
 }
@@ -30,10 +32,6 @@
   }
 
   .parallax__aboutUs-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
     max-width: 100%;
     padding: 2em 1em;
   }

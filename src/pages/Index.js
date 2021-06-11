@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
 import MainCarousel from "../components/carousel/MainCarousel";
 import Jumbotron from "../components/jumbotron/Jumbotron";
-import Parallax from "../components/aboutUs/Parallax";
+import Parallax from "../components/parallax/Parallax";
+import StoreTags from "../components/storeTags/StoreTags";
 
-import ParallaxImage from "../images/weedImage3.jpg";
+import ParallaxImage from "../images/parallaxImg.jpg";
 
 import mamba from "../images/mamba.jpeg";
 import swamp from "../images/Swamp.jpeg";
@@ -69,8 +70,7 @@ function Index() {
       {/* Welcome section */}
       <Parallax backgroundImage={ParallaxImage}>
         <div className="parallax__aboutUs-container">
-          <p data-aos="fade-top" className="parallax__aboutus">
-            {" "}
+          <p className="parallax__aboutus">
             The Kushery has 4 locations located in Clearview, East Everett, Lake
             Forest Park, and Stanwood. Our number one goal is to provide quality
             customer service. All of our shops provide the highest quality,
@@ -104,8 +104,10 @@ function Index() {
         </div>
       </div> */}
 
+      <StoreTags />
+
       {/* Three column images */}
-      <div className="container-fluid padding threeColumnImages">
+      {/* <div className="container-fluid padding threeColumnImages">
         <div className="row text-center padding">
           <div className="col-xs-12 col-sm-6 col-md-4 fas-fa-img">
             <i className="fas fa-dog "></i>
@@ -117,13 +119,13 @@ function Index() {
             <h3 className="fasFaHeading">ADA Accessible</h3>
             <p className="FasfaText">All locations are ADA Accessible</p>
           </div>
-          <div className="col-sm-12 col-md-4 fas-fa-img">
+          <div className="col-xs-12 col-sm-6 col-md-4 fas-fa-img">
             <i className="fas fa-money-bill-alt "></i>
             <h3 className="fasFaHeading">On-Site ATM</h3>
             <p className="FasfaText">All locations are provided with ATM's</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Daily Specials */}
       <div>

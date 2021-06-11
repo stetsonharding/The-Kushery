@@ -73,7 +73,7 @@
 } */
 
 /* welcome */
-.welcome {
+/* .welcome {
   padding-top: 2rem;
 }
 .welcome h1 {
@@ -101,20 +101,20 @@
   color: white;
   font-size: 2.3em;
   padding-top: 1.5em;
-}
+} */
 
 /* 3 columb Icons */
-.fa-dog,
+/* .fa-dog,
 .fa-wheelchair,
 .fa-money-bill-alt {
   font-size: 3em;
   margin: 1rem;
   color: white;
   margin-top: 2em;
-}
+} */
 
 /* text under fas fa icons and heading */
-.FasfaText {
+/* .FasfaText {
   color: white;
   font-size: 1.5em;
 }
@@ -123,7 +123,7 @@
   font-size: 1.7rem;
   font-weight: 600;
   text-transform: uppercase;
-}
+} */
 
 /* dailey Specials */
 #Dailey-specials-title {
@@ -270,7 +270,7 @@
 
 @media (max-width: 1520px) {
   /* carousel */
-   /* .carousel-caption {
+  /* .carousel-caption {
     top: 49%;
   } */
   /* .carousel-caption h1 {
@@ -296,7 +296,7 @@
     margin-top: 5em;
     gap: 3em;
     overflow: auto;
-  } 
+  }
 
   /* jumbotron */
   /* .btn-outline-secondary {
@@ -306,10 +306,10 @@
   } */
 
   /* Welcome  */
-  .display-4 {
+  /* .display-4 {
     font-size: 250%;
     padding-bottom: 5px;
-  }
+  } */
 }
 
 @media (max-width: 576px) {
@@ -344,7 +344,7 @@
   } */
 
   /* weed font text */
-  .welcome h1 {
+  /* .welcome h1 {
     font-size: 2.2rem;
   }
 
@@ -361,10 +361,10 @@
 
   .companyPriorities p {
     font-size: 1.4;
-  }
+  } */
 
   /* Three Column Icons */
-  .threeColumnImages {
+  /* .threeColumnImages {
     margin-top: -90px;
     margin-bottom: 0;
   }
@@ -375,7 +375,7 @@
 
   .FasfaText {
     font-size: 1.2em;
-  }
+  } */
 
   /* Dailey Specials */
   #Dailey-specials-title {

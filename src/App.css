@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-
-
-html, body{
+html,
+body {
   box-sizing: border-box;
   height: 100%;
-  width:100%;
-  font-family: 'Monstserratt', Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-family: "Monstserratt", Arial, Helvetica, sans-serif;
   color: "";
   margin: 0;
-  background-color: #181817;
+  /* background-color: #181817; */
 }
-
-
-
 
 /* @media (max-width: 992px) {
 
@@ -27,7 +23,6 @@ html, body{
   
 } */
 
-
 /*---Firefox Bug Fix --*/
 /* .carousel-item {
   transition: -webkit-transform 0.5s ease;
@@ -37,15 +32,10 @@ html, body{
   backface-visibility: visible;
 } */
 
-
-
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+  padding: 1rem;
 }
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
