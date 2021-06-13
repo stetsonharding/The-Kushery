@@ -2,6 +2,8 @@ import React, { useState } from "react";
 // import Aos from "aos";
 // import "aos/dist/aos.css";
 
+import { StoreTagsData } from "../components/storeTags/StoreTagsData";
+
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
 import MainCarousel from "../components/carousel/MainCarousel";
@@ -106,7 +108,19 @@ function Index() {
         </div>
       </div> */}
 
-      <StoreTags />
+      <div className="container-fluid center storeTags__container">
+        <div data-aos="flip-right" className="row text-center z">
+          {StoreTagsData.map((item) => (
+            <StoreTags
+              key={item.id}
+              image={item.image}
+              title={item.title}
+              subTitle={item.subTitle}
+            />
+          ))}
+        </div>
+      </div>
+
       <DailySpecials />
 
       {/* Three column images */}

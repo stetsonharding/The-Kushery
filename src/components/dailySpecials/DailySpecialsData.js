@@ -32,7 +32,7 @@ export const DailySpecials2 = [
       "Pick any daily special! It's your choice. Up to 20% off with 7 items*.",
   },
   {
-    day: "Everday",
+    day: "Everyday",
     special:
       "Happy Hour: First 2 hours upon opening & last two hours upon closing, 10% off!",
   },
