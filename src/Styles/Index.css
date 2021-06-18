@@ -194,7 +194,7 @@
 } */
 
 /* SpringBig Section */
-.springBigContainer {
+/* .springBigContainer {
   margin: 7em 0;
   padding: 1em;
   background-color: white;
@@ -230,10 +230,10 @@
 .springBigLogo img {
   border-radius: 20px;
   margin: 0.5em 0;
-}
+} */
 
 /* Vendor Button */
-.vendor {
+/* .vendor {
   width: 100%;
   margin-bottom: 2em;
 }
@@ -247,7 +247,7 @@
   border-bottom: 1px solid green;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Social Media Connect */
 .social a {
@@ -416,7 +416,7 @@
   } */
 
   /* springBig */
-  #springBigHeading {
+  /* #springBigHeading {
     font-size: 1.4em;
   }
   .springBigContainer {

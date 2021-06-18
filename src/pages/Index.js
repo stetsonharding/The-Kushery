@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // import "aos/dist/aos.css";
 
 import { StoreTagsData } from "../components/storeTags/StoreTagsData";
+import { vendorImages } from "../components/vendor/VendorData";
 
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
@@ -12,26 +13,22 @@ import Parallax from "../components/parallax/Parallax";
 import StoreTags from "../components/storeTags/StoreTags";
 import DailySpecials from "../components/dailySpecials/DailySpecials";
 import ContactUs from "../components/contactUs/ContactUs";
+import Vendor from "../components/vendor/Vendor";
 
 import ParallaxImage from "../images/parallaxImg.jpg";
 
-import mamba from "../images/mamba.jpeg";
-import swamp from "../images/Swamp.jpeg";
-import budda from "../images/budda.jpeg";
-import Vendor1 from "../images/Logos/Vendor1.jpg";
-import Vendor2 from "../images/Logos/Vendor2.png";
-import Vendor3 from "../images/Logos/Vendor3.jpg";
-import Vendor4 from "../images/Logos/Vendor4.png";
-import doctorCrook from "../images/Logos/doctorCrook.PNG";
-import EGH from "../images/Logos/EGH.png";
-import Fleek from "../images/Logos/Fleek.png";
-import GTP from "../images/Logos/GTP.png";
-import HEF from "../images/Logos/HEF.png";
-import Millenium from "../images/Logos/Millenium.PNG";
-import MM from "../images/Logos/MM.PNG";
-import Optimum from "../images/Logos/Optimum.png";
-
-import mg from "../images/weedImage_2.jpg";
+// import Vendor1 from "../images/Logos/Vendor1.jpg";
+// import Vendor2 from "../images/Logos/Vendor2.png";
+// import Vendor3 from "../images/Logos/Vendor3.jpg";
+// import Vendor4 from "../images/Logos/Vendor4.png";
+// import doctorCrook from "../images/Logos/doctorCrook.PNG";
+// import EGH from "../images/Logos/EGH.png";
+// import Fleek from "../images/Logos/Fleek.png";
+// import GTP from "../images/Logos/GTP.png";
+// import HEF from "../images/Logos/HEF.png";
+// import Millenium from "../images/Logos/Millenium.PNG";
+// import MM from "../images/Logos/MM.PNG";
+// import Optimum from "../images/Logos/Optimum.png";
 
 import "../Styles/Index.css";
 
@@ -260,13 +257,21 @@ function Index() {
       </div> */}
 
       {/* Vendor Section */}
-      <button className="vendor" data-toggle="collapse" data-target="#emoji">
+      <button
+        className="vendor__toggle-button"
+        data-toggle="collapse"
+        data-target="#emoji"
+      >
         Click to checkout some of our vendors!
       </button>
       <div id="emoji" className="collapse">
         <div className="container-fluid padding">
           <div className="row text-center ">
-            <div className="col-sm-6 col-md-3 vendor-logo">
+            {vendorImages.map((item) => (
+              <Vendor item={item} />
+            ))}
+
+            {/* <div className="col-sm-6 col-md-3 vendor-logo">
               <img
                 className="vendor-logo-img"
                 style={{ height: "100px", width: "200px" }}
@@ -361,7 +366,7 @@ function Index() {
                 src={Optimum}
                 alt="Top Vendor"
               ></img>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
