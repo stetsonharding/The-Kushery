@@ -11,6 +11,7 @@ import Jumbotron from "../components/jumbotron/Jumbotron";
 import Parallax from "../components/parallax/Parallax";
 import StoreTags from "../components/storeTags/StoreTags";
 import DailySpecials from "../components/dailySpecials/DailySpecials";
+import ContactUs from "../components/contactUs/ContactUs";
 
 import ParallaxImage from "../images/parallaxImg.jpg";
 
@@ -29,6 +30,8 @@ import HEF from "../images/Logos/HEF.png";
 import Millenium from "../images/Logos/Millenium.PNG";
 import MM from "../images/Logos/MM.PNG";
 import Optimum from "../images/Logos/Optimum.png";
+
+import mg from "../images/weedImage_2.jpg";
 
 import "../Styles/Index.css";
 
@@ -109,7 +112,7 @@ function Index() {
       </div> */}
 
       <div className="container-fluid center storeTags__container">
-        <div data-aos="flip-right" className="row text-center z">
+        <div data-aos="fade-right" className="row text-center z">
           {StoreTagsData.map((item) => (
             <StoreTags
               key={item.id}
@@ -122,6 +125,10 @@ function Index() {
       </div>
 
       <DailySpecials />
+
+      <ContactUs />
+
+      <Parallax backgroundImage={ParallaxImage}></Parallax>
 
       {/* Three column images */}
       {/* <div className="container-fluid padding threeColumnImages">
@@ -209,7 +216,7 @@ function Index() {
       </div> */}
 
       {/* Two column section */}
-      <div className="container-fluid padding springBigContainer">
+      {/* <div className="container-fluid padding springBigContainer">
         <div className="row text-center padding">
           <div id="springBigText" className="col-lg-6">
             <h2 id="springBigHeading">The Kushery Loyalty Program</h2>
@@ -250,7 +257,7 @@ function Index() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Vendor Section */}
       <button className="vendor" data-toggle="collapse" data-target="#emoji">
