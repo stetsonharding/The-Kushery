@@ -1,0 +1,50 @@
+.socialMedia__container {
+  height: 100%;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.social a {
+  font-size: 2em;
+  padding: 3rem;
+}
+#socialMedia__title {
+  color: black;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+.fa-facebook,
+.fa-instagram {
+  color: teal;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover {
+  color: teal;
+}
+
+@media (max-width: 576px) {
+  #socialMedia__title {
+    font-size: 2em;
+  }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

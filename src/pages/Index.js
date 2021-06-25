@@ -14,6 +14,7 @@ import StoreTags from "../components/storeTags/StoreTags";
 import DailySpecials from "../components/dailySpecials/DailySpecials";
 import ContactUs from "../components/contactUs/ContactUs";
 import Vendor from "../components/vendor/Vendor";
+import SocialMedia from "../components/socialMedia/SocialMedia";
 
 import ParallaxImage from "../images/parallaxImg.jpg";
 
@@ -108,7 +109,10 @@ function Index() {
         </div>
       </div> */}
 
-      <div className="container-fluid center storeTags__container">
+      <div
+        className="container-fluid center storeTags__container"
+        style={{ width: "100%" }}
+      >
         <div data-aos="fade-right" className="row text-center z">
           {StoreTagsData.map((item) => (
             <StoreTags
@@ -270,8 +274,10 @@ function Index() {
             {vendorImages.map((item) => (
               <Vendor item={item} />
             ))}
-
-            {/* <div className="col-sm-6 col-md-3 vendor-logo">
+          </div>
+        </div>
+      </div>
+      {/* <div className="col-sm-6 col-md-3 vendor-logo">
               <img
                 className="vendor-logo-img"
                 style={{ height: "100px", width: "200px" }}
@@ -367,12 +373,12 @@ function Index() {
                 alt="Top Vendor"
               ></img>
             </div> */}
-          </div>
+      {/* </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Connect */}
-      <div className="container-fluid padding">
+      {/* <div className="container-fluid padding">
         <div id="connectBackground" className="row text-center padding">
           <div className="col-12">
             <h2 id="connectText">Stay Connected!</h2>
@@ -386,7 +392,8 @@ function Index() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
+      <SocialMedia />
     </div>
   );
 }

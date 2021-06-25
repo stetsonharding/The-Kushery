@@ -250,7 +250,7 @@
 } */
 
 /* Social Media Connect */
-.social a {
+/* .social a {
   font-size: 2em;
   padding: 3rem;
 }
@@ -266,7 +266,7 @@
 .fa-facebook:hover,
 .fa-instagram:hover {
   color: teal;
-}
+} */
 
 @media (max-width: 1520px) {
   /* carousel */

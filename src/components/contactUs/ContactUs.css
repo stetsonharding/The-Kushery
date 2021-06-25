@@ -10,14 +10,14 @@
 }
 #contactUs__title {
   color: white;
-  font-size: 2em;
+  font-size: 2.5em;
   letter-spacing: 2px;
 }
 
 #contactUs__title::after {
   content: "";
   width: 20px;
-  border-bottom: solid 1px rgb(133, 3, 3);
+  border-bottom: solid 1px rgb(26, 112, 4);
   position: absolute;
   left: 0;
   top: 50%;

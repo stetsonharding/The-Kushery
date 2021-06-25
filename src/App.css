@@ -11,6 +11,11 @@ body {
   color: "";
   margin: 0;
   /* background-color: #181817; */
+  /* overflow-x: hidden; */
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* @media (max-width: 992px) {
