@@ -8,7 +8,7 @@ import "./DaileySpecials.css";
 export default function DailySpecials() {
   const dileySpecials = DaileySpecials.map((special) => {
     return (
-      <Col className="col-md-6 col-lg-6 col-xl-3">
+      <Col className="col-md-6 col-lg-6 col-xl-3" key={special.id}>
         <Card className="dailySpecial__card">
           <Card.Body>
             <Card.Title
@@ -28,7 +28,7 @@ export default function DailySpecials() {
 
   const dileySpecials2 = DailySpecials2.map((special) => {
     return (
-      <Col className="col-md-6 col-lg-6 col-xl-3">
+      <Col className="col-md-6 col-lg-6 col-xl-3" key={special.id}>
         <Card className="dailySpecial__card">
           <Card.Body>
             <Card.Title

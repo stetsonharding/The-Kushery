@@ -1,112 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap");
 
 /* Location CARD COMPONENT */
-.cards-container{
-    display: flex;
-    flex-flow: column wrap;
-    margin: 1em;
+.cards-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1em;
+  /* background-color: orange; */
 }
 
-.cards{
-    display:flex;
-    height: 100%;
-    border: 2px solid green;
-   background-color: rgb(218, 209, 209);
+.cards {
+  display: flex;
+  height: 100%;
+  border: 1.5px solid black;
+  background-color: rgb(209, 209, 209);
 }
 
-.cards:hover{
-    box-shadow: 5px 10px 20px 5px rgba(6, 116, 2, 0.815) !important;
-}
-
-.card-img{
-   max-width: 90%;
-   height: 250px;
-   object-fit: cover;
-   padding: 1em
+.card-img {
+  max-width: 90%;
+  height: 250px;
+  object-fit: cover;
+  padding: 1em;
 }
 
 /* zoom picture on hover */
-.overflow{
-    overflow: hidden;
+.overflow {
+  overflow: hidden;
 }
 
-.card-img-top{
-    transform: scale(1);
-    transition: transform 0.5s ease;
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
 }
 
-.card-img-top:hover{
-    transform: scale(1.3);
+.card-img-top:hover {
+  transform: scale(1.3);
 }
 
 /* == */
 
-.card-title{
-    font-size: 2.2rem;
-    color: green;
-    font-weight: 600;
-    font-family: 'Cutive',sans-serif;
+.card-title {
+  font-size: 2.2rem;
+  color: green;
+  font-family: "Cutive", sans-serif;
+  letter-spacing: 1px;
 }
 
-.card-text{
-    font-size: 1.3rem;
-    font-weight: 700;
+.card-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
-
 
 /* buttons div and individual buttons */
-.card-buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1em 0; 
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
 }
 
-.locationBtn{
-    margin: .5em;
-    width: 80%;
-    font-weight: 300;
-    font-size: 1.1rem;
-    padding: .5em;
+.locationBtn {
+  margin: 0.5em;
+  width: 80%;
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding: 0.5em;
 }
 
-.locationBtn:hover{
-    color: orange;
+.locationBtn:hover {
+  color: orange;
 }
 
 /* ======================-> */
 
 /* Media Queries mobile */
- @media (max-width: 576px) { 
-
-     /* banner */
-    .banner{
-        height: 55vh;  
-    }
-
-    .banner-directory{
-        padding-top: 3.3em;
-    }
-
+@media (max-width: 576px) {
+  /* banner */
+  .banner {
+    height: 55vh;
   }
 
+  .banner-directory {
+    padding-top: 3.3em;
+  }
+}
+
 /* tablet */
-  @media (min-width: 768px) {
-    /* banner */
-    .banner{
-        height: 45vh;  
-    }
+@media (min-width: 768px) {
+  /* banner */
+  .banner {
+    height: 45vh;
+  }
 
-    .banner-directory{
-        padding-top: 2em;
-    }
-   }
+  .banner-directory {
+    padding-top: 2em;
+  }
+}
 
-
-
-
-
- /*
+/*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
@@ -122,19 +113,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

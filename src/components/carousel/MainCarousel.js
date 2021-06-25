@@ -27,18 +27,12 @@ export default function MainCarousel() {
         key={item.id}
       >
         <img
-        className="image"
+          className="image"
           src={item.image}
           alt={item.alt}
           style={{ height: "1100px", width: "100%", objectFit: "cover" }}
         />
-        <CarouselCaption
-          style={{ visibility: "n" }}
-     
-          captionText={item.title}
-          
-         
-        />
+        <CarouselCaption style={{ visibility: "n" }} captionText={item.title} />
       </CarouselItem>
     );
   });
@@ -54,4 +48,3 @@ export default function MainCarousel() {
     </Carousel>
   );
 }
-
