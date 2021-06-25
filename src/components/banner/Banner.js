@@ -1,22 +1,21 @@
-import React from "react"
+import React from "react";
 
-import "./Banner.css"
+import "./Banner.css";
 
-function Banner(props){
-    return(
-    
-        <div>
-        <div className="container-fluid banner">
-            <div className="row">
-                <div className="col banner-wrapper">
-                    <h1 className="banner-title">{props.directory}</h1>
-                    <h2 className="banner-description">{props.description}</h2>
-                    <h3 className="banner-message">{props.welcome}</h3>
-                </div>
-            </div>
+function Banner(props) {
+  return (
+    <div>
+      <div className="container-fluid banner">
+        <div className="row">
+          <div className="col banner__wrapper">
+            <h1 className="banner__title">{props.directory}</h1>
+            <h2 className="banner__description">{props.description}</h2>
+            <h3 className="banner__message">{props.welcome}</h3>
+          </div>
         </div>
-        </div>
-    )
+      </div>
+    </div>
+  );
 }
 
 export default Banner;

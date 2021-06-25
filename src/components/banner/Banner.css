@@ -1,77 +1,63 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap");
 
 /* banner-wrappers */
-.banner{
-    height: 40vh;
+.banner {
+  height: 40vh;
 }
 
-.banner-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   height: 42vh;
-   text-align: center;
-   background-color: black;
-   text-transform: uppercase;
-   border-bottom: 1.5px solid orange;
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 42vh;
+  text-align: center;
+  background-color: rgb(223, 186, 139);
+  text-transform: uppercase;
+  border-bottom: 1.5px solid orange;
 }
-
 
 /* banner texts */
-.banner-description,
-.banner-message,
-.banner-title{
-    color: orange;
-    letter-spacing: 4px;
-    font-family: 'Cutive', sans-serif;
-    padding: .3em;
+.banner__description,
+.banner__message,
+.banner__title {
+  color: green;
+  letter-spacing: 4px;
+  font-family: "Cutive", sans-serif;
+  padding: 0.3em;
 }
 
-.banner-title{
-    font-size: 4rem;
+.banner__title {
+  font-size: 4rem;
 }
-
 
 /* Mobile */
-@media (max-width: 576px) { 
-.banner-title{
+@media (max-width: 576px) {
+  .banner__title {
     font-size: 1.7em;
-}
+  }
 
-.banner-description,
-.banner-message
-{
-  font-size: 1.2rem;
-  padding: .1em; 
- }
-
+  .banner__description,
+  .banner__message {
+    font-size: 1.2rem;
+    padding: 0.1em;
+  }
 }
 
 /* tablets */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+  .banner__title {
+    font-size: 1.5em;
+  }
 
-    .banner-title{
-        font-size: 1.5em;
-    }
-    
-    .banner-description,
-    .banner-message
-    {
-      font-size: 1.2rem;
-      padding: .1em; 
-     }
+  .banner__description,
+  .banner__message {
+    font-size: 1.2rem;
+    padding: 0.1em;
+  }
+}
 
- }
-
-
-
-
-
-
- /*
+/*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 

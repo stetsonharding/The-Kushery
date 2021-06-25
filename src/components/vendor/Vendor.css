@@ -18,3 +18,10 @@
   margin: 0;
   padding: 1;
 }
+
+@media (max-width: 1000px) {
+  .vendor__toggle-button {
+    font-size: 1em;
+    padding: 0.4em;
+  }
+}
