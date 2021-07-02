@@ -1,8 +1,17 @@
 import React from "react";
-import "../Styles/Rewards.css";
 
+//components
+import RewardsFAQ from "../components/rewardsFAQ/RewardsFAQ";
+import Jumbotron from "../components/jumbotron/Jumbotron";
+import Parallax from "../components/parallax/Parallax";
 import Banner from "../components/banner/Banner";
-import highEnd from "../images/highEnd.jpeg";
+import StoreTags from "../components/storeTags/StoreTags";
+
+// images
+import ParallaxeImage from "../images/weedImage_2.jpg";
+
+//data
+import { rewardsData } from "../components/rewardsProcess/RewardsProcessData";
 
 function Rewards() {
   return (
@@ -13,78 +22,45 @@ function Rewards() {
         description="The Kushery Loyalty Program"
       />
 
-      {/* col-1 */}
+      {/* about loyalty */}
+      <Jumbotron
+        title="Our Loyalty Program."
+        intro="  
+            After every purchase you'll earn 1 point for every dollar that
+            you've spent. These points can be redeemed for great rewards and
+            discounts on your future purchases. In addition to earning points,
+            you'll get access to exclusive offers on your favorite products.
+            Points never expire, and you can use them at any of The Kushery
+            locations."
+        button="View Rewards"
+        link="https://join.mywallet.deals/?id=c183800f-c7a0-4c9e-b101-fcab053b3e63&location=/#/login"
+      />
+
+      {/* parallax */}
+      <Parallax backgroundImage={ParallaxeImage} />
+
+      {/* tags */}
       <div
-        style={{ backgroundColor: "white" }}
-        className="container-fluid rewards-container"
+        className="container-fluid center storeTags__container"
+        style={{
+          width: "100%",
+          border: "1px solid black",
+        }}
       >
-        <div className="row text-center">
-          <div className="col-lg-6 col-1-rewards">
-            <h2 className="main-text">The Kushery loyalty program.</h2>
-            <h3 className="main-sub-text">We're here for you anytime</h3>
-            <img className="main-img" src={highEnd} alt="SpringBig Logo" />
-            <br />
-            <a className="rewards-btn" href="https://enrollnow.vip/join/2617">
-              Join Rewards
-            </a>
-            <a
-              className="rewards-btn"
-              href="https://join.mywallet.deals/?id=c183800f-c7a0-4c9e-b101-fcab053b3e63&location=/#/login"
-            >
-              View Rewards
-            </a>
-          </div>
-
-          {/* col-2 */}
-          <div className="col-lg-6 rewardQuestions">
-            <div className="row text-center">
-              <div className="aboutContainer">
-                <h2 className="aboutHeading">About our Loyalty Program</h2>
-                <p className="about-text">
-                  After every purchase you'll earn 1 point for every dollar that
-                  you've spent. These points can be redeemed for great rewards
-                  and discounts on your future purchases. In addition to earning
-                  points, you'll get access to exclusive offers on your favorite
-                  products Points never expire and you can use them at any of
-                  The Kushery locations.
-                </p>
-              </div>
-
-              <hr className="about-text-hr"></hr>
-
-              <div className="FAQs-container">
-                <h4 className="FAQs-subHeading">
-                  Do I have to have a cellphone to be a member?
-                </h4>
-                <p className="FAQs-text">
-                  No you do not. You can access your wallet from any computer,
-                  tablet, or smart phone. We will also be able to access your
-                  wallet to redeem rewards and inform you of your points balance
-                  whenever you stop by.
-                </p>
-
-                <h4 className="FAQs-subHeading"> Do points expire?</h4>
-                <p className="FAQs-text">
-                  No, your points will never expire at any of our locations.
-                </p>
-
-                <h4 className="FAQs-subHeading">Do you sell my information?</h4>
-                <p className="FAQs-text">
-                  Here at The kushery we respect your privacy. We will never
-                  share or sell any of your personal information.
-                </p>
-
-                <h4 className="FAQs-subHeading">
-                  Can I transfer my points to friends or family?
-                </h4>
-                <p className="FAQs-text">
-                  At this time we are unable to transfer any points.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div data-aos="fade-right" className="row text-center z">
+          {rewardsData.map((item) => (
+            <StoreTags
+              key={item.id}
+              image={item.image}
+              title={item.title}
+              subTitle={item.subTitle}
+            />
+          ))}
         </div>
       </div>
+
+      {/* FAQ */}
+      <RewardsFAQ />
     </>
   );
 }

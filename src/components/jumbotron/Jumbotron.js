@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 import "./Jumbotron.css";
 
-export default function Jumbotron() {
+export default function Jumbotron(props) {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -14,20 +14,13 @@ export default function Jumbotron() {
       <div className="row">
         <div className="jumbotron__intro-container">
           <p id="jumbotron__intro-title" data-aos="fade-right">
-            PERSONALIZED SERVICE, EXPERIENCED STAFF, COMPETITIVE PRICES.{" "}
+            {props.title}
           </p>
 
-          <p className="jumbotron__intro">
-            As the best recreational marijuana dispensary in Washington, we
-            offer cannabis products with varying levels of THC. Whether you are
-            looking for products with low THC or ones with high THC
-            concentration, we've got something for you. The Kushery raises the
-            bar by leading the retail dispensary experience in the State of
-            Washington.
-          </p>
+          <p className="jumbotron__intro">{props.intro}</p>
           <div className="jumbotron__button-container">
-            <a href="/Location" className="jumbotron__button">
-              View Locations
+            <a href={props.link} className="jumbotron__button">
+              {props.button}
             </a>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import LocationCards from "../components/locationCards/LocationCards";
 import Banner from "../components/banner/Banner";
-import OrderProcess from "../components/onlineOrderingSteps/OrderingProcess";
+// import OrderProcess from "../components/onlineOrderingSteps/OrderingProcess";
 
 import Clearview from "../images/Clearview.PNG";
 import Cathcart from "../images/Cathcart.PNG";
@@ -9,17 +9,16 @@ import LakeForestPark from "../images/LakeForestPark.PNG";
 import Stanwood from "../images/Stanwood.PNG";
 
 function OrderOnline() {
-  const containerSyle = {
-    backgroundColor: "#181817",
-    marginTop: "1.7em",
-  };
+  // const containerSyle = {
+  //   backgroundColor: "#181817",
+  //   marginTop: "1.7em",
 
   return (
     <div>
       <Banner directory="Order Online" description="skip the line" />
 
       {/* Order Processing */}
-      <div
+      {/* <div
         style={containerSyle}
         className="container-fluid order_proccess_container"
       >
@@ -51,7 +50,7 @@ function OrderOnline() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Card Component */}
       <div className="container-fuild d-flex justify-content-center cards-container">

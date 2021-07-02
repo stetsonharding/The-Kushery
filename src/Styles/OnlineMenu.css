@@ -1,7 +1,7 @@
-.onlineMenu{
-    margin: 1em;
-    display: flex;
-    border: 3px solid black;
-   justify-content: center;
-   padding: 3em;
+.onlineMenu {
+  margin: 1em;
+  display: flex;
+  border: 3px solid black;
+  justify-content: center;
+  padding: 3em;
 }

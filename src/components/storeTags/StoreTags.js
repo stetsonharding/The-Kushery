@@ -12,6 +12,7 @@ export default function StoreTags(props) {
         <i className={`${props.image} storeTag__image`} />
         <h3 className="storeTag__title">{props.title}</h3>
         <p className="storeTag__sub-title">{props.subTitle}</p>
+        <i className={props.arrow} />
       </div>
     </div>
   );

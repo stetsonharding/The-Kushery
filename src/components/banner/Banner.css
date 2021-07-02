@@ -2,7 +2,7 @@
 
 /* banner-wrappers */
 .banner {
-  height: 40vh;
+  height: 41vh;
 }
 
 .banner__wrapper {
@@ -28,7 +28,7 @@
 }
 
 .banner__title {
-  font-size: 4rem;
+  font-size: 3.2rem;
 }
 
 /* Mobile */
@@ -45,9 +45,9 @@
 }
 
 /* tablets */
-@media (max-width: 768px) {
+@media (max-width: 1168px) {
   .banner__title {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
   .banner__description,
