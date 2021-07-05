@@ -1,0 +1,84 @@
+.locationSelection__title-container {
+  background-color: rgb(32, 32, 32);
+  border-radius: 25px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+}
+
+.locationSelection__title {
+  text-align: center;
+  color: rgb(17, 16, 16);
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.locationSelection__select {
+  width: 100%;
+}
+
+form label {
+  font-size: 1.1em;
+  margin-top: 1em;
+}
+
+@media (min-width: 250px) {
+  .locationSelection__title {
+    font-size: 1.9em;
+    letter-spacing: 1px;
+  }
+
+  .locationSelection__select {
+    min-width: 250px;
+  }
+}
+
+@media (min-width: 576px) {
+  .locationSelection__title {
+    font-size: 2em;
+  }
+
+  .locationSelection__select {
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .locationSelection__title {
+    font-size: 2.2em;
+  }
+
+  .locationSelection__select {
+    min-width: 375px;
+  }
+}
+
+@media (min-width: 992px) {
+  .locationSelection__title {
+    font-size: 2.7em;
+  }
+  .locationSelection__select {
+    width: 100%;
+    min-width: 450px;
+  }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

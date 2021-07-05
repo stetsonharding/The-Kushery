@@ -1,12 +1,14 @@
 import React from "react";
-import LocationCards from "../components/locationCards/LocationCards";
+// import LocationCards from "../components/locationCards/LocationCards";
 import Banner from "../components/banner/Banner";
 // import OrderProcess from "../components/onlineOrderingSteps/OrderingProcess";
 
-import Clearview from "../images/Clearview.PNG";
-import Cathcart from "../images/Cathcart.PNG";
-import LakeForestPark from "../images/LakeForestPark.PNG";
-import Stanwood from "../images/Stanwood.PNG";
+// import Clearview from "../images/Clearview.PNG";
+// import Cathcart from "../images/Cathcart.PNG";
+// import LakeForestPark from "../images/LakeForestPark.PNG";
+// import Stanwood from "../images/Stanwood.PNG";
+
+import LocationSelection from "../components/locationSelection/LocationSelection";
 
 function OrderOnline() {
   // const containerSyle = {
@@ -53,7 +55,7 @@ function OrderOnline() {
       </div> */}
 
       {/* Card Component */}
-      <div className="container-fuild d-flex justify-content-center cards-container">
+      {/* <div className="container-fuild d-flex justify-content-center cards-container">
         <div className="row cardRows">
           <div className="col-xl-3 col-sm-6">
             <LocationCards
@@ -108,8 +110,10 @@ function OrderOnline() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <===========> */}
+
+      <LocationSelection />
     </div>
   );
 }

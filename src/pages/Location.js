@@ -25,6 +25,7 @@ function Location(props) {
                 alt={location.alt}
                 title={location.title}
                 phone={location.phone}
+                phoneLink={location.phoneLink}
                 hours={location.hours}
                 hours2={location.hours2}
                 address={location.address}

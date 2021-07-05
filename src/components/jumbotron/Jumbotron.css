@@ -62,7 +62,7 @@
     padding: 1em 0em;
   }
   #jumbotron__intro-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
   }
 
@@ -70,7 +70,7 @@
     text-align: left;
     width: 100%;
     padding: 0 0.8em;
-    font-size: 1.2em
+    font-size: 1.1em;
   }
 
   .jumbotron__button {
@@ -84,8 +84,6 @@
     opacity: 0.7;
   }
 }
-
-
 
 /* @media (max-width: 720px)   {
   .jumbotron__intro-container {
