@@ -13,9 +13,9 @@ export default function Jumbotron(props) {
     <div className="container-fluid jumbotron__container">
       <div className="row">
         <div className="jumbotron__intro-container">
-          <p id="jumbotron__intro-title" data-aos="fade-right">
+          <h3 id="jumbotron__intro-title" data-aos="fade-right">
             {props.title}
-          </p>
+          </h3>
 
           <p className="jumbotron__intro">{props.intro}</p>
           <div className="jumbotron__button-container">

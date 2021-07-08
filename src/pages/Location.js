@@ -2,6 +2,7 @@ import React from "react";
 
 import { locationData } from "../components/locationCards/locationData";
 
+//components
 import LocationCards from "../components/locationCards/LocationCards";
 import Banner from "../components/banner/Banner";
 

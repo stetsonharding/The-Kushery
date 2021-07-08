@@ -17,7 +17,7 @@ function NavigationBar() {
     >
       <Navbar.Brand href="/">
         <img
-          style={{ width: "190px" }}
+          style={{ width: "130px" }}
           id="logo"
           src={Logo}
           alt="The Kushery Logo"

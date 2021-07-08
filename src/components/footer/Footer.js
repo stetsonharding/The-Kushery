@@ -21,6 +21,10 @@ function Footer() {
                 Know Your Facts
               </a>
               <br />
+              <a href="/OrderOnline" className="linkColor">
+                Order Online
+              </a>
+              <br />
             </div>
             <div className="col-lg-6 info-links">
               <hr className="light"></hr>

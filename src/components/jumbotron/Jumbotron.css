@@ -6,23 +6,11 @@
   align-items: center;
 }
 
-.jumbotron__intro-container {
-  width: 100%;
-  max-width: 70%;
-  margin: 0 auto;
-  color: black;
-  text-align: center;
-  padding: 1em;
-}
-
 #jumbotron__intro-title {
   font-size: 2.3em;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: green;
-}
-
-.jumbotron__intro {
-  font-size: 1.4em;
+  padding: 0.6em;
 }
 
 .jumbotron__button-container {
@@ -52,17 +40,10 @@
   color: white;
 }
 
-@media (max-width: 540px) {
-  .jumbotron__intro-container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    color: black;
-    text-align: left;
-    padding: 1em 0em;
-  }
+/* mobile */
+@media (min-width: 250px) {
   #jumbotron__intro-title {
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
   }
 
@@ -85,38 +66,64 @@
   }
 }
 
-/* @media (max-width: 720px)   {
-  .jumbotron__intro-container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    color: black;
-    text-align: left;
-    padding: 1em 0em;
-  }
+/* mobile landscape */
+@media (min-width: 576px) {
   #jumbotron__intro-title {
     font-size: 1.5em;
     text-align: center;
   }
-
   .jumbotron__intro {
     text-align: left;
     width: 100%;
-    padding: 0 0.8em;
-    font-size: 1.3em
+    padding: 0 0.9em;
+    font-size: 1.18em;
   }
+}
 
-  .jumbotron__button {
-    padding: 0.5rem;
-    color: white;
-    font-weight: bold;
-    border-radius: 2px;
-    border: 1px inset orange;
-    background-color: green;
-    letter-spacing: 1px;
-    opacity: 0.7;
+/* ipads */
+@media (min-width: 768px) {
+  #jumbotron__intro-title {
+    font-size: 1.5em;
   }
-} */
+  .jumbotron__intro {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+/* desktops */
+@media (min-width: 935px) {
+  .jumbotron__intro-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 90%;
+  }
+  #jumbotron__intro-title {
+    font-size: 1.65em;
+  }
+  .jumbotron__intro {
+    text-align: left;
+    width: 100%;
+    font-size: 1.25em;
+  }
+}
+
+/* large desktops */
+@media (min-width: 1200px) {
+  .jumbotron__intro-container {
+    text-align: center;
+    width: 100%;
+    max-width: 67%;
+    margin: 0 auto;
+  }
+  #jumbotron__intro-title {
+    font-size: 1.75em;
+  }
+  .jumbotron__intro {
+    font-size: 1.35em;
+    text-align: center;
+  }
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

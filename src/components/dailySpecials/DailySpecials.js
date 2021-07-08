@@ -5,20 +5,18 @@ import { DaileySpecials } from "./DailySpecialsData";
 import { DailySpecials2 } from "./DailySpecialsData";
 import "./DaileySpecials.css";
 
+const cardSyles = {
+  color: "green",
+  fontSize: "1.9rem",
+};
+
 export default function DailySpecials() {
   const dileySpecials = DaileySpecials.map((special) => {
     return (
       <Col className="col-md-6 col-lg-6 col-xl-3" key={special.id}>
         <Card className="dailySpecial__card">
           <Card.Body>
-            <Card.Title
-              style={{
-                color: "black",
-                fontSize: "2rem",
-              }}
-            >
-              {special.day}
-            </Card.Title>
+            <Card.Title style={cardSyles}>{special.day}</Card.Title>
             <Card.Text>{special.special}</Card.Text>
           </Card.Body>
         </Card>
@@ -31,13 +29,7 @@ export default function DailySpecials() {
       <Col className="col-md-6 col-lg-6 col-xl-3" key={special.id}>
         <Card className="dailySpecial__card">
           <Card.Body>
-            <Card.Title
-              style={{
-                color: "black",
-              }}
-            >
-              {special.day}
-            </Card.Title>
+            <Card.Title style={cardSyles}>{special.day}</Card.Title>
             <Card.Text>{special.special}</Card.Text>
           </Card.Body>
         </Card>

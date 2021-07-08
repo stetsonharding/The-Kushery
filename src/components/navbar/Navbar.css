@@ -19,9 +19,22 @@
 #logo {
   -webkit-transition: -webkit-transform 0.45s ease-in-out;
   transition: transform 0.45s ease-in-out;
-  border-radius: 20px;
+  border-radius: 10px;
+  height: 70px;
 }
 #logo:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
+}
+
+@media (max-width: 600px) {
+  .color-nav {
+    height: 50px auto;
+  }
+
+  #logo {
+    border-radius: 10px;
+    height: 40px;
+    max-width: 68px;
+  }
 }

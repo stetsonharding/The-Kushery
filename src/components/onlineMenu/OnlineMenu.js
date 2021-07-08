@@ -6,7 +6,7 @@ export default function OnlineMenu({ menuID }) {
     <div className="row">
       <div
         className="orderOnline__menu-container col"
-        style={{ padding: "1.1em" }}
+        style={{ padding: "0 1em 0 1em" }}
       >
         <iframe
           className="orderonline__menu"

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 //data
 import { StoreTagsData } from "../components/storeTags/StoreTagsData";
@@ -18,20 +18,15 @@ import SocialMedia from "../components/socialMedia/SocialMedia";
 import ParallaxImage from "../images/parallaxImg.jpg";
 
 function Index() {
-  // Age Verification btn state
-  const [modalShow, setModalShow] = useState(true);
-
   return (
     <div>
       {/* Age Verification Check */}
-      <AgeVerificationModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-        backdrop={"static"}
-        keyboard={false}
-      />
+      <AgeVerificationModal />
 
+      {/* carousel */}
       <MainCarousel />
+
+      {/* jumbotron */}
       <Jumbotron
         title=" PERSONALIZED SERVICE, EXPERIENCED STAFF, COMPETITIVE PRICES."
         intro="As the best recreational marijuana dispensary in Washington, we

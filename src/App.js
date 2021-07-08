@@ -25,7 +25,7 @@ function App() {
           <Route path="/KnowYourFacts" component={KnowYourFacts} />
           <Route path="/ReturnPolicy" component={ReturnPolicy} />
         </Switch>
-        <Footer />
+        {window.location.pathname !== "/OrderOnline" ? <Footer /> : null}
       </div>
     </Router>
   );
