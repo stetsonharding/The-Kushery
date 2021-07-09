@@ -6,7 +6,7 @@ import { vendorImages } from "../components/vendor/VendorData";
 
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
-import MainCarousel from "../components/carousel/MainCarousel";
+import Hero from "../components/hero/Hero";
 import Jumbotron from "../components/jumbotron/Jumbotron";
 import Parallax from "../components/parallax/Parallax";
 import StoreTags from "../components/storeTags/StoreTags";
@@ -23,8 +23,8 @@ function Index() {
       {/* Age Verification Check */}
       <AgeVerificationModal />
 
-      {/* carousel */}
-      <MainCarousel />
+      {/* Hero */}
+      <Hero />
 
       {/* jumbotron */}
       <Jumbotron

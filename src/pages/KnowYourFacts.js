@@ -5,7 +5,10 @@ import "../Styles/KnowYourFacts.css";
 function KnowYourFacts() {
   return (
     <div>
-      <div className="Container-fluid page-wrapper">
+      <div
+        className="Container-fluid page-wrapper"
+        style={{ padding: "1.5em" }}
+      >
         <div class="row">
           <div class="col-md-6">
             <h2 className="Information-heading">Information</h2>

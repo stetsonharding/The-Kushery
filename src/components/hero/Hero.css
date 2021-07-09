@@ -1,0 +1,107 @@
+.hero__container {
+  background-image: url(../../images/WeedImageFilter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  text-transform: uppercase;
+  color: peru;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0.3em;
+  font-weight: 600;
+}
+
+/* small devices */
+@media (min-width: 230px) {
+  .hero__title {
+    font-size: 2.2em;
+    text-shadow: 1px 1px 1px black;
+  }
+  .hero__titleContainer h3 {
+    font-size: 1.3em;
+    margin-bottom: 3em;
+    text-shadow: 1px 1px 1px black;
+  }
+  .hero__container {
+    min-height: 700px;
+    max-height: 900px;
+    border-bottom: 2px solid orange;
+  }
+}
+
+/* landscape mobile phones */
+@media (min-width: 576px) {
+  .hero__title {
+    font-size: 2.4em;
+  }
+
+  .hero__titleContainer h3 {
+    font-size: 1.5em;
+  }
+
+  .hero__container {
+    min-height: 800px;
+    max-height: 1000px;
+    border-bottom: 2px solid orange;
+  }
+}
+
+/* med desktop/tablets */
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 2.5em;
+  }
+
+  .hero__titleContainer h3 {
+    font-size: 1.6em;
+  }
+
+  .hero__container {
+    min-height: 900px;
+    max-height: 1000px;
+    border-bottom: 2px solid orange;
+  }
+}
+
+/* lg desktop */
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 3.2em;
+  }
+
+  .hero__titleContainer h3 {
+    font-size: 1.8em;
+  }
+}
+
+/*xl large Desktop */
+@media (min-width: 1200px) {
+  .hero__title {
+    text-transform: uppercase;
+
+    color: peru;
+    font-size: 4.1em;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 0.2em;
+  }
+
+  .hero__titleContainer h3 {
+    font-size: 2.3em;
+    margin-bottom: 2em;
+  }
+
+  .hero__container {
+    width: 100%;
+    height: 100%;
+    min-height: 1100px;
+    max-height: 1100px;
+  }
+}

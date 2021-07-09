@@ -17,7 +17,7 @@ export const rewardsData = [
     id: 3,
     image: "far fa-check-square fa-3x",
     title: "step 3",
-    subTitle: "redeem points for dicounts!",
+    subTitle: "redeem points for discounts!",
     arrow: "fas fa-smile-beam fa-2x",
   },
 ];

@@ -8,6 +8,7 @@ import "./DaileySpecials.css";
 const cardSyles = {
   color: "green",
   fontSize: "1.9rem",
+  fontFamily: "Arial, Helvetica, sans-serif",
 };
 
 export default function DailySpecials() {

@@ -5,8 +5,12 @@
 
 #navbar-link {
   color: green;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin: 0 1em;
+}
+
+.navbar-toggler {
+  background-color: white;
 }
 
 #navbar-link:hover {
@@ -21,6 +25,7 @@
   transition: transform 0.45s ease-in-out;
   border-radius: 10px;
   height: 70px;
+  margin-left: 2em;
 }
 #logo:hover {
   -webkit-transform: rotate(360deg);
@@ -33,8 +38,9 @@
   }
 
   #logo {
+    margin-left: 0;
     border-radius: 10px;
-    height: 40px;
-    max-width: 68px;
+    height: 48px;
+    max-width: 109px;
   }
 }

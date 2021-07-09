@@ -2,11 +2,13 @@ import React from "react";
 import Banner from "../components/banner/Banner";
 
 const containerStyle = {
-  borderLeft: "2px solid green",
-  borderRight: "2px solid green",
+  // borderLeft: "2px solid green",
+  // borderRight: "2px solid green",
   padding: "4em",
   margin: "0 auto",
+  backgroundColor: "black",
   color: "white",
+  borderBottom: "2px solid orange",
 };
 
 const returnPolicyInfo = {
@@ -35,7 +37,7 @@ function ReturnPolicy(props) {
             </ul>
             <p style={returnPolicyInfo} className="lead">
               **We will process your exchange for a diffrent product. Cash
-              refunds are not aloud.
+              refunds are not accepted.
             </p>
           </div>
         </div>

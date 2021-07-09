@@ -12,10 +12,13 @@
   width: 288px;
   margin: 0 auto;
   text-align: center;
-  /* color: rgb(161, 111, 4); */
-  /* border: 1px solid orange; */
   border-radius: 10px;
   background-color: rgb(214, 207, 207);
+}
+
+.dailySpecial__card:hover {
+  border: 5px solid orange;
+  cursor: default;
 }
 
 .dailySpecials__card-container {
@@ -37,8 +40,8 @@
 
 @media (max-width: 350px) {
   .dailySpecial__card {
-    height: 16rem;
-    width: 16rem;
+    height: 256px;
+    width: 256px;
   }
 }
 @media (max-width: 1176px) {
