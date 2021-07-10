@@ -15,7 +15,7 @@ import ContactUs from "../components/contactUs/ContactUs";
 import Vendor from "../components/vendor/Vendor";
 import SocialMedia from "../components/socialMedia/SocialMedia";
 
-import ParallaxImage from "../images/parallaxImg.jpg";
+import ParallaxImage from "../images/parallax_Image_home_Page.jpg";
 
 function Index() {
   return (
@@ -78,7 +78,14 @@ function Index() {
       <ContactUs />
 
       {/* parallax */}
-      <Parallax backgroundImage={ParallaxImage}></Parallax>
+      <Parallax backgroundImage={ParallaxImage}>
+        <div className="parallax__aboutUs-container">
+          <p className="parallax__aboutus">Order online for pickup</p>
+          <a href={"/OrderOnline"} className="orderOnline__button">
+            View Menus
+          </a>
+        </div>
+      </Parallax>
 
       {/* Vendor Section */}
       <button
@@ -86,7 +93,7 @@ function Index() {
         data-toggle="collapse"
         data-target="#emoji"
       >
-        Click to checkout some of our vendors!
+        Click to check out some of our vendors!
       </button>
       <div id="emoji" className="collapse">
         <div className="container-fluid padding">

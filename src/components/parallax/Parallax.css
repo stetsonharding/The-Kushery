@@ -17,7 +17,20 @@
   padding: 2em 1em;
 }
 
+/* order online button */
+.orderOnline__button {
+  padding: 0.3rem;
+  margin: 0 auto;
+  width: 110px;
+  color: white;
+  border-radius: 2px;
+  border: 1px inset orange;
+  background-color: green;
+  letter-spacing: 1px;
+}
+
 /*hidden on desktop */
+.orderOnline__button,
 .parallax__aboutus {
   visibility: hidden;
 }
@@ -42,6 +55,10 @@
     letter-spacing: 1px;
     width: 100%;
     text-align: center;
+    visibility: visible;
+  }
+
+  .orderOnline__button {
     visibility: visible;
   }
 }

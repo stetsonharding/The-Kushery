@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../Styles/KnowYourFacts.css";
-
 function KnowYourFacts() {
   return (
     <div>

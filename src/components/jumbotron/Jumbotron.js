@@ -6,7 +6,7 @@ import "./Jumbotron.css";
 
 export default function Jumbotron(props) {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1700 });
   }, []);
 
   return (

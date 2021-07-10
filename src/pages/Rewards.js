@@ -8,7 +8,7 @@ import Banner from "../components/banner/Banner";
 import StoreTags from "../components/storeTags/StoreTags";
 
 // images
-import ParallaxeImage from "../images/weedImage_2.jpg";
+import ParallaxeImage from "../images/parallax_Image_home_Page.jpg";
 
 //data
 import { rewardsData } from "../components/rewardsProcess/RewardsProcessData";
@@ -37,7 +37,11 @@ function Rewards() {
       />
 
       {/* parallax */}
-      <Parallax backgroundImage={ParallaxeImage} />
+      <Parallax backgroundImage={ParallaxeImage}>
+        <div className="parallax__aboutUs-container">
+          <p className="parallax__aboutus">Shop. Save. Enjoy.</p>
+        </div>
+      </Parallax>
 
       {/* tags */}
       <div

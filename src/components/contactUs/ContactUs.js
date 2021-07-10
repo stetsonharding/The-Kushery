@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Form, Button } from "react-bootstrap";
 
 import "./ContactUs.css";
 
 export default function ContactUs() {
+  const [messageNotification, setMessageNotification] = useState("");
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -17,10 +19,12 @@ export default function ContactUs() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setMessageNotification("Message sent.");
         },
         (error) => {
-          console.log(error.text);
+          setMessageNotification(
+            "Error sending your message, please try again."
+          );
         }
       );
 
@@ -83,6 +87,9 @@ export default function ContactUs() {
             <Button variant="primary" type="submit" className="text-center">
               Submit
             </Button>
+            <p className="contactUs__message-notification">
+              {messageNotification}
+            </p>
           </Form>
         </div>
       </div>
