@@ -35,7 +35,7 @@
   visibility: hidden;
 }
 
-@media (max-width: 776px) {
+@media (max-width: 1300px) {
   .parallax_background {
     filter: grayscale(30%);
     background-attachment: inherit;
