@@ -18,7 +18,7 @@ export default function LocationSelection() {
                 : menuID === "2618"
                 ? "Cathcart"
                 : menuID === "2620"
-                ? "Lake Forest park"
+                ? "Lake Forest Park"
                 : menuID === "2619"
                 ? "Stanwood"
                 : "The Kushery online ordering"}
@@ -26,7 +26,7 @@ export default function LocationSelection() {
           </div>
           <form>
             <label>
-              Choose a location :
+              Choose a location:
               <br />
               <select
                 className="locationSelection__select"

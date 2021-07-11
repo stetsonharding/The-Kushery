@@ -21,12 +21,12 @@
 .orderOnline__button {
   padding: 0.3rem;
   margin: 0 auto;
-  width: 110px;
+  width: 99px;
   color: white;
   border-radius: 2px;
-  border: 1px inset orange;
   background-color: green;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 /*hidden on desktop */

@@ -40,8 +40,7 @@ export const DailySpecials2 = [
   },
   {
     id: 4,
-    day: "Everyday",
-    special:
-      "Happy Hour: First 2 hours upon opening & last two hours upon closing, 10% off!",
+    day: "Happy Hour",
+    special: "First 2 hours upon opening & last 2 hours upon closing, 10% off!",
   },
 ];

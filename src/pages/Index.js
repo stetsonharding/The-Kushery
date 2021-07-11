@@ -29,8 +29,8 @@ function Index() {
       {/* jumbotron */}
       <Jumbotron
         title=" PERSONALIZED SERVICE, EXPERIENCED STAFF, COMPETITIVE PRICES."
-        intro="As the best recreational marijuana dispensary in Washington, we
-            offer cannabis products with varying levels of THC. Whether you are
+        intro="As the best recreational cannabis dispensary in Washington, we
+            offer products with varying levels of THC. Whether you are
             looking for products with low THC or ones with high THC
             concentration, we've got something for you. The Kushery raises the
             bar by leading the retail dispensary experience in the State of
@@ -46,7 +46,7 @@ function Index() {
             The Kushery has 4 locations located in Clearview, East Everett, Lake
             Forest Park, and Stanwood. Our number one goal is to provide quality
             customer service. All of our shops provide the highest quality,
-            selection, and price when it comes to marijuana and glass. Whether
+            selection, and price when it comes to cannabis and glass. Whether
             you're looking for flower, vape, edibles, pre-rolls, tinctures or
             topicals, our experienced knowledgeable budtenders will find
             something that suites your needs.
@@ -82,7 +82,7 @@ function Index() {
         <div className="parallax__aboutUs-container">
           <p className="parallax__aboutus">Order online for pickup</p>
           <a href={"/OrderOnline"} className="orderOnline__button">
-            View Menus
+            View Menu
           </a>
         </div>
       </Parallax>
