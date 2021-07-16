@@ -1,45 +1,57 @@
 import React from "react";
-// import {Link} from "react-router-dom"
 
 import "./Locations.css";
 
 function LocationCards(props) {
   return (
-    <div className="card text-center cards">
-      <div className="overflow">
-        <img
-          src={props.img}
-          alt={props.alt}
-          className="card-img-top card-img"
-        />
-      </div>
-      <div className="card-body text-dark">
-        <h2
-          style={{ color: "red", fontStyle: "italic" }}
-          className="orderOnlineText"
-        >
-          {props.orderOnline}
-        </h2>
-        <h4 className="card-title">{props.title}</h4>
-        <a href={`tel:${props.phoneLink}`} className="card-text">
-          {props.phone}
-        </a>
-        <p className="card-text ">{props.hours}</p>
-        <p className="card-text ">{props.hours2}</p>
-        <p className="card-text ">{props.address}</p>
-      </div>
-      <div className="card-buttons">
-        <a href={props.directions} className="btn btn-success locationBtn">
-          Directions
-        </a>
-        <a
-          href={props.menu}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-success locationBtn"
-        >
-          Order Online
-        </a>
+    <div className="card locations__card-container">
+      <div className="row">
+        <div className="col-md-4">
+          <img
+            src={props.img}
+            alt={props.alt}
+            className="img-fluid  locations-image locations-image-hover"
+          />
+        </div>
+        <div className="col-md-8">
+          <h2 className="locations__title">{props.title}</h2>
+          <a
+            href={`tel:${props.phoneLink}`}
+            className="card-text locations__phone"
+          >
+            {props.phone}
+          </a>
+
+          <p className="card-text locations__address">
+            {props.address}
+            <br />
+            {props.stateAndZip}
+          </p>
+          <p className="card-text locations__hours">
+            {props.hours}
+            <br />
+            {props.hours2}
+          </p>
+
+          <div className="card-buttons locations__button-container">
+            <a
+              href={props.menu}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="locations__orderButton"
+            >
+              Order Online
+            </a>
+            <a
+              href={props.directions}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="locations__directionButton "
+            >
+              Directions
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

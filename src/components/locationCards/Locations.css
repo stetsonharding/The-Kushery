@@ -1,115 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Inline&family=Cutive&display=swap");
-
-/* Location CARD COMPONENT */
-.cards-container {
-  display: flex;
-  flex-flow: column wrap;
-  margin: 1em;
-  /* background-color: orange; */
-}
-
-.cards {
-  display: flex;
-  height: 100%;
-  border: 1.5px solid black;
-  background-color: rgb(209, 209, 209);
-}
-
-.card-img {
-  max-width: 90%;
-  height: 250px;
-  object-fit: cover;
+/* Image */
+.locations__card-container {
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  margin: 0.3em;
   padding: 1em;
 }
-
-/* zoom picture on hover */
-.overflow {
-  overflow: hidden;
+.locations-image {
+  width: 100%;
+  height: 100%;
+  margin-left: 0.3em;
 }
-
-.card-img-top {
+.locations-image-hover {
   transform: scale(1);
   transition: transform 0.5s ease;
 }
-
-.card-img-top:hover {
-  transform: scale(1.3);
+.locations-image-hover:hover {
+  transform: scale(1.1);
 }
 
-/* == */
-
-.card-title {
-  font-size: 2.2rem;
+/* title */
+.locations__title {
+  font-size: 2rem;
   color: green;
   font-family: "Cutive", sans-serif;
   letter-spacing: 1px;
+  padding-left: 0.3em;
 }
 
+/* all card texts */
 .card-text {
   font-size: 1.3rem;
-  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.5px;
+  padding-left: 0.3em;
 }
 
-/* buttons div and individual buttons */
-.card-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1em 0;
+/* phone */
+.locations__phone {
+  text-decoration: none;
+  color: black;
+}
+.locations__phone:hover {
+  text-decoration: none;
+  text-decoration: none;
 }
 
-.locationBtn {
-  margin: 0.5em;
-  width: 80%;
-  font-weight: 300;
-  font-size: 1.1rem;
-  padding: 0.5em;
+/* address */
+.locations__address {
+  padding-top: 1em;
 }
 
-.locationBtn:hover {
-  color: orange;
+/* hours */
+.locations__hours {
+  padding-bottom: 1em;
 }
 
-/* ======================-> */
-
-/* Media Queries mobile */
-@media (max-width: 576px) {
-  /* banner */
-  .banner {
-    height: 55vh;
-  }
-
-  .banner-directory {
-    padding-top: 3.3em;
-  }
+/* buttons */
+.locations__directionButton {
+  border: 1px solid black;
+  color: black;
+}
+.locations__directionButton:hover {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
-/* tablet */
-@media (min-width: 768px) {
-  /* banner */
-  .banner {
-    height: 45vh;
-  }
-
-  .banner-directory {
-    padding-top: 2em;
-  }
+.locations__orderButton {
+  background-color: green;
+  color: white;
+}
+.locations__orderButton:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+.locations__orderButton,
+.locations__directionButton {
+  padding: 1em;
+  margin: 0.4em;
+  border-radius: 3px;
+}

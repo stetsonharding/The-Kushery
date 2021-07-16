@@ -1,12 +1,11 @@
 import React from "react";
 
-import { locationData } from "../components/locationCards/locationData";
-
 //components
 import LocationCards from "../components/locationCards/LocationCards";
 import Banner from "../components/banner/Banner";
+import { locationData } from "../components/locationCards/locationData";
 
-function Location(props) {
+function Location() {
   return (
     <>
       {/* Banner */}
@@ -17,25 +16,30 @@ function Location(props) {
       />
 
       {/* Card Component */}
-      <div className="container-fuild d-flex justify-content-center cards-container">
-        <div className="row cardRows">
-          {locationData.map((location) => (
-            <div className="col-xl-3 col-sm-6" key={location.id}>
-              <LocationCards
-                img={location.image}
-                alt={location.alt}
-                title={location.title}
-                phone={location.phone}
-                phoneLink={location.phoneLink}
-                hours={location.hours}
-                hours2={location.hours2}
-                address={location.address}
-                directions={location.directions}
-                menu={location.menu}
-              />
-            </div>
-          ))}
-        </div>
+      <div className="container mt-5 mb-5">
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "Arial, Helvetica, sans-serif",
+          }}
+        >
+          Find Locations.
+        </h1>
+        {locationData.map((location) => (
+          <LocationCards
+            img={location.image}
+            alt={location.alt}
+            title={location.title}
+            phone={location.phone}
+            phoneLink={location.phoneLink}
+            hours={location.hours}
+            hours2={location.hours2}
+            address={location.address}
+            stateAndZip={location.stateAndZip}
+            directions={location.directions}
+            menu={location.menu}
+          />
+        ))}
       </div>
     </>
   );
