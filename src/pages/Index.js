@@ -100,7 +100,7 @@ function Index() {
         <div className="container-fluid padding">
           <div className="row text-center ">
             {vendorImages.map((item) => (
-              <Vendor item={item} />
+              <Vendor item={item} key={item.id} />
             ))}
           </div>
         </div>

@@ -20,9 +20,7 @@ function AgeVerificationModal(props) {
 
   const underAge = () => {
     setIsToYoung(true);
-    setToYoung(
-      "Sorry! This web page requires visitors 21 years or older to enter!"
-    );
+    setToYoung("Sorry! This webpage requires visitors age 21+ to enter!");
   };
 
   const onHideModal = () => {
@@ -37,7 +35,7 @@ function AgeVerificationModal(props) {
       centered
       show={modalShow}
     >
-      <Modal.Header closeButton>
+      <Modal.Header closeButton style={{ borderBottom: "1px solid black" }}>
         <Modal.Title id="contained-modal-title-vcenter">
           The Kushery Age Verification
         </Modal.Title>

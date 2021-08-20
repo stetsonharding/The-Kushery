@@ -19,6 +19,7 @@ function Location() {
       <div className="container mt-5 mb-5">
         {locationData.map((location) => (
           <LocationCards
+            key={location.id}
             img={location.image}
             alt={location.alt}
             title={location.title}

@@ -5,7 +5,7 @@ import "./Locations.css";
 function LocationCards(props) {
   return (
     <div className="card locations__card-container">
-      <div className="row">
+      <div className="row" key={props.id}>
         <div className="col-md-4">
           <img
             src={props.img}
