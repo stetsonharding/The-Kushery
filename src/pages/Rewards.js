@@ -8,7 +8,7 @@ import Banner from "../components/banner/Banner";
 import StoreTags from "../components/storeTags/StoreTags";
 
 // images
-import ParallaxeImage from "../images/parallax_Image_home_Page.jpg";
+import ParallaxeImage from "../images/Parallax.jpg";
 
 //data
 import { rewardsData } from "../components/rewardsProcess/RewardsProcessData";

@@ -17,14 +17,6 @@ function Location() {
 
       {/* Card Component */}
       <div className="container mt-5 mb-5">
-        <h1
-          style={{
-            textAlign: "center",
-            fontFamily: "Arial, Helvetica, sans-serif",
-          }}
-        >
-          Find Locations.
-        </h1>
         {locationData.map((location) => (
           <LocationCards
             img={location.image}

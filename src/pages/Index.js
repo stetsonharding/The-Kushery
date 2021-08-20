@@ -15,7 +15,8 @@ import ContactUs from "../components/contactUs/ContactUs";
 import Vendor from "../components/vendor/Vendor";
 import SocialMedia from "../components/socialMedia/SocialMedia";
 
-import ParallaxImage from "../images/parallax_Image_home_Page.jpg";
+// import ParallaxImage from "../images/parallax_Image_home_Page.jpg";
+import ParallaxImage from "../images/Parallax.jpg";
 
 function Index() {
   return (
@@ -43,13 +44,13 @@ function Index() {
       <Parallax backgroundImage={ParallaxImage}>
         <div className="parallax__aboutUs-container">
           <p className="parallax__aboutus">
-            The Kushery has 4 locations located in Clearview, East Everett, Lake
-            Forest Park, and Stanwood. Our number one goal is to provide quality
-            customer service. All of our shops provide the highest quality,
-            selection, and price when it comes to cannabis and glass. Whether
-            you're looking for flower, vape, edibles, pre-rolls, tinctures or
-            topicals, our experienced knowledgeable budtenders will find
-            something that suites your needs.
+            The Kushery has 5 locations located in Clearview, East Everett,
+            Evergreen Way, Lake Forest Park, and Stanwood. Our number one goal
+            is to provide quality customer service. All of our shops provide the
+            highest quality, selection, and price when it comes to cannabis and
+            glass. Whether you're looking for flower, vape, edibles, pre-rolls,
+            tinctures or topicals, our experienced knowledgeable budtenders will
+            find something that suites your needs.
           </p>
         </div>
       </Parallax>

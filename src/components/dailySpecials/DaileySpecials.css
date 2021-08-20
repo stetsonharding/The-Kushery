@@ -1,7 +1,7 @@
 .dailySpecials__container {
   height: 100%;
   min-height: 1100px;
-  background-image: url(../../images/specalsBg.PNG);
+  background-image: url(../../images/backgroundSpecials.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
