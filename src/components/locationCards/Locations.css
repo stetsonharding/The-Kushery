@@ -20,7 +20,7 @@
 
 /* title */
 .locations__title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: green;
   font-family: "Cutive", sans-serif;
   letter-spacing: 1px;
@@ -97,6 +97,16 @@
 
   .locations__title {
     font-size: 1.8rem;
+    color: green;
+    font-family: "Cutive", sans-serif;
+    letter-spacing: 1px;
+    padding-left: 0.3em;
+  }
+}
+
+@media (max-width: 340px) {
+  .locations__title {
+    font-size: 1.5rem;
     color: green;
     font-family: "Cutive", sans-serif;
     letter-spacing: 1px;

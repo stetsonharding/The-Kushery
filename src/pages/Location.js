@@ -31,6 +31,7 @@ function Location() {
             stateAndZip={location.stateAndZip}
             directions={location.directions}
             menu={location.menu}
+            comingSoon={location.comingSoon}
           />
         ))}
       </div>

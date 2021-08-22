@@ -2,13 +2,14 @@ import Clearview from "../../images/Clearview.PNG";
 import Cathcart from "../../images/Cathcart.PNG";
 import LakeForestPark from "../../images/LakeForestPark.PNG";
 import Stanwood from "../../images/Stanwood.PNG";
+import EvergreenWayOpen from "../../images/EvergreenWayOpen.jpg";
 
 export const locationData = [
   {
     id: 1,
-    image: Clearview,
+    image: EvergreenWayOpen,
     alt: "Everett Evergreen Way Building",
-    title: "Everett Evergreen Way",
+    title: "Evergreen Way",
     phone: "(425) 259-7958",
     phoneLink: "4252597958",
     hours: "Monday - Sunday: 8AM - 12AM",
@@ -17,6 +18,7 @@ export const locationData = [
     directions:
       "https://www.google.com/maps/place/The+Kushery+Everett+Evergreen+Way/@47.9539101,-122.2159336,17z/data=!3m1!4b1!4m5!3m4!1s0x549001f2b162925d:0xbbeef621ecfeb9e6!8m2!3d47.9538939!4d-122.2135758",
     menu: "",
+    comingSoon: "Online ordering coming soon.",
   },
   {
     id: 2,

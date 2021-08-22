@@ -27,10 +27,15 @@ function LocationCards(props) {
             <br />
             {props.stateAndZip}
           </p>
-          <p className="card-text locations__hours">
+          <p className="card-text locations__hours" style={{ margin: "0 0" }}>
             {props.hours}
             <br />
             {props.hours2}
+          </p>
+          <p className="card-text locations__hours">
+            <p style={{ color: "red", margin: "0", fontSize: ".8em" }}>
+              {props.comingSoon}
+            </p>
           </p>
 
           <div className="card-buttons locations__button-container">
@@ -39,6 +44,7 @@ function LocationCards(props) {
               target="_blank"
               rel="noopener noreferrer"
               className="locations__orderButton"
+              style={{ display: `${props.menu}` === "" ? "none" : "inline" }}
             >
               Order Online
             </a>
