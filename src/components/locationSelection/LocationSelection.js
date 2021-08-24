@@ -15,6 +15,8 @@ export default function LocationSelection() {
             <h1 className="locationSelection__title">
               {menuID === "2617"
                 ? "Clearview"
+                : menuID === "3585"
+                ? "Evergreen Way"
                 : menuID === "2618"
                 ? "Cathcart"
                 : menuID === "2620"
@@ -34,6 +36,7 @@ export default function LocationSelection() {
                 onChange={(e) => setMenuID(e.target.value)}
               >
                 <option value="2617">Clearview</option>
+                <option value="3585">Evergreen Way</option>
                 <option value="2618">Cathcart</option>
                 <option value="2620">Lake Forest Park</option>
                 <option value="2619">Stanwood</option>

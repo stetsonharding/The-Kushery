@@ -32,19 +32,12 @@ function LocationCards(props) {
             <br />
             {props.hours2}
           </p>
-          <p className="card-text locations__hours">
-            <p style={{ color: "red", margin: "0", fontSize: ".8em" }}>
-              {props.comingSoon}
-            </p>
-          </p>
-
           <div className="card-buttons locations__button-container">
             <a
               href={props.menu}
               target="_blank"
               rel="noopener noreferrer"
               className="locations__orderButton"
-              style={{ display: `${props.menu}` === "" ? "none" : "inline" }}
             >
               Order Online
             </a>

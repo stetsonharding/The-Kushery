@@ -16,9 +16,8 @@ export const locationData = [
     address: "4808 Evergreen Way",
     stateAndZip: "Everett, WA 98203",
     directions:
-      "https://www.google.com/maps/place/The+Kushery+Everett+Evergreen+Way/@47.9539101,-122.2159336,17z/data=!3m1!4b1!4m5!3m4!1s0x549001f2b162925d:0xbbeef621ecfeb9e6!8m2!3d47.9538939!4d-122.2135758",
-    menu: "",
-    comingSoon: "Online ordering coming soon.",
+      "https://www.google.com/maps/dir/48.0313344,-122.1296128/4808+Evergreen+Way,+Everett,+WA+98203/@47.9926549,-122.2052678,13z/data=!3m2!4b1!5s0x5490088c964031df:0x267cb74ba90c61cb!4m9!4m8!1m1!4e1!1m5!1m1!1s0x54900088c8c453cf:0xf70ff920a7aa5b99!2m2!1d-122.2137449!2d47.9539065",
+    menu: "https://www.iheartjane.com/embed/stores/3585",
   },
   {
     id: 2,
