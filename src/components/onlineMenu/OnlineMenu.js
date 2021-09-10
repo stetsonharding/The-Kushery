@@ -10,7 +10,7 @@ export default function OnlineMenu({ menuID }) {
       >
         <iframe
           className="orderonline__menu"
-          src={`https://www.iheartjane.com/stores/${menuID}`}
+          src={`https://www.iheartjane.com/embed/stores/${menuID}`}
           title="description"
         ></iframe>
       </div>
