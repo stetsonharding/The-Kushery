@@ -29,7 +29,7 @@ function Footer() {
                 href="https://www.termsfeed.com/live/785f2d4b-df4e-438e-ad93-795b83535ac8"
                 className="linkColor"
               >
-                Private Policy
+                Privacy Policy
               </a>
 
               <br />
