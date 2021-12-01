@@ -25,6 +25,14 @@ function Footer() {
                 Order Online
               </a>
               <br />
+              <a
+                href="https://www.termsfeed.com/live/785f2d4b-df4e-438e-ad93-795b83535ac8"
+                className="linkColor"
+              >
+                Private Policy
+              </a>
+
+              <br />
             </div>
             <div className="col-lg-6 info-links">
               <hr className="light"></hr>
