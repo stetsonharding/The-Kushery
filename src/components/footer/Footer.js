@@ -5,6 +5,7 @@ import Logo from "../../images/TheKusheryLogo.jpg";
 import "./Footer.css";
 
 function Footer() {
+  let date = new Date();
   return (
     <div>
       <footer>
@@ -53,7 +54,9 @@ function Footer() {
           </div>
           <div className="col-12 text-center padding">
             <hr style={{ color: "orange" }}></hr>
-            <p id="rightReserved">©2021 All Rights The Kushery</p>
+            <p id="rightReserved">
+              ©{date.getFullYear()} All Rights The Kushery
+            </p>
             <p>
               Disclaimer: Cannabis can impair concentration, coordination, and
               judgment. Do not operate a vehicle or machinery under the

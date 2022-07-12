@@ -17,7 +17,7 @@ export const locationData = [
     stateAndZip: "Everett, WA 98203",
     directions:
       "https://www.google.com/maps/place/The+Kushery+Everett+Evergreen+Way/@47.9539101,-122.2159336,17z/data=!3m1!4b1!4m5!3m4!1s0x549001f2b162925d:0xbbeef621ecfeb9e6!8m2!3d47.9538939!4d-122.2135758",
-    menu: "https://www.iheartjane.com/embed/stores/3585",
+    menu: "https://dutchie.com/stores/the-kushery-evergreen-way",
   },
   {
     id: 2,

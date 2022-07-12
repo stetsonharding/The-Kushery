@@ -11,6 +11,7 @@
 *.sln.docstates
 *.eslintcache
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -89,7 +90,7 @@ StyleCopReport.xml
 *.log
 *.vspscc
 *.vssscc
-.builds
+*.builds
 *.pidb
 *.svclog
 *.scc
