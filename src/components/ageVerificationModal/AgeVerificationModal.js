@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button } from "react-bootstrap";
 
-function AgeVerificationModal(props) {
+function AgeVerificationModal({ setShowGoingAllCity, ...props }) {
   const [modalShow, setModalShow] = useState(true);
   const [isToYoung, setIsToYoung] = useState(false);
   const [toYoung, setToYoung] = useState("");
 
   useEffect(() => {
-    let visited = sessionStorage["alreadyVisited"];
-    if (visited) {
-      setModalShow(false);
-      //do not view modal
-    } else {
-      //this is the first time
-      sessionStorage["alreadyVisited"] = true;
-      setModalShow(true);
-    }
+    // let visited = sessionStorage["alreadyVisited"];
+    // if (visited) {
+    setModalShow(false);
+    //do not view modal
+    //} else {
+    //this is the first time
+    // sessionStorage["alreadyVisited"] = true;
+    setModalShow(true);
+    // }
   }, []);
 
   const underAge = () => {
@@ -25,6 +25,7 @@ function AgeVerificationModal(props) {
 
   const onHideModal = () => {
     setModalShow(false);
+    setShowGoingAllCity(true);
   };
 
   return (

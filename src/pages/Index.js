@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 //data
 import { StoreTagsData } from "../components/storeTags/StoreTagsData";
@@ -6,6 +6,7 @@ import { vendorImages } from "../components/vendor/VendorData";
 
 //components
 import AgeVerificationModal from "../components/ageVerificationModal/AgeVerificationModal";
+import GoingAllCityModal from "../components/GoingAllCityModal";
 import Hero from "../components/hero/Hero";
 import Jumbotron from "../components/jumbotron/Jumbotron";
 import Parallax from "../components/parallax/Parallax";
@@ -19,10 +20,15 @@ import SocialMedia from "../components/socialMedia/SocialMedia";
 import ParallaxImage from "../images/Parallax.jpg";
 
 function Index() {
+  const [showGoingAllCity, setShowGoingAllCity] = useState(false);
   return (
     <div>
       {/* Age Verification Check */}
-      <AgeVerificationModal />
+      <AgeVerificationModal setShowGoingAllCity={setShowGoingAllCity} />
+      <GoingAllCityModal
+        showGoingAllCity={showGoingAllCity}
+        setShowGoingAllCity={setShowGoingAllCity}
+      />
 
       {/* Hero */}
       <Hero />
