@@ -31,7 +31,7 @@ export const locationData = [
     stateAndZip: "Snohomish, WA 98296",
     directions:
       "https://www.google.com/maps/place/The+Kushery+Clearview/@47.8333666,-122.1290446,17z/data=!3m2!4b1!5s0x5490088c964031df:0x267cb74ba90c61cb!4m5!3m4!1s0x5490088cbde3e777:0x2bcec041a50b8fcb!8m2!3d47.833363!4d-122.1268559",
-    menu: "https://www.iheartjane.com/embed/stores/2617",
+    menu: "https://dutchie.com/stores/the-kushery-clearview1",
   },
   {
     id: 3,
