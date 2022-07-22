@@ -17,7 +17,7 @@ function GoingAllCityModal({
     backgroundRepeat: "no-repeat",
     backgroundPosition: "left",
     backgroundSize: "349px",
-    height: "240px",
+    height: "270px",
     backgroundColor: "black",
   };
 
