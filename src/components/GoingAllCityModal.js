@@ -15,14 +15,16 @@ function GoingAllCityModal({
   const modalStyle = {
     backgroundImage: `url(${GoingAllCityBackground})`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "left",
-    backgroundSize: "349px",
-    height: "270px",
+    backgroundPosition: "top left",
+    backgroundSize: "180px",
+    height: "320px",
     backgroundColor: "black",
   };
 
   const text = {
     color: "white",
+    fontFamily: "cursive",
+    padding: ".2em",
   };
 
   return (
@@ -42,7 +44,14 @@ function GoingAllCityModal({
             width: "100%",
           }}
         >
-          <h2 style={{ color: "white" }}>
+          <h2
+            style={{
+              color: "white",
+              fontWeight: "bold",
+              fontFamily: "cursive",
+              padding: ".2em",
+            }}
+          >
             GOING ALL CITY{" "}
             <span
               style={{ color: "purple", fontWeight: "bold", fontSize: "39px" }}
@@ -53,6 +62,8 @@ function GoingAllCityModal({
           {/* <h3 style={text}>Hosted By The Kushery</h3> */}
           <h3 style={{ textAlign: "center", color: "white" }}>
             @ The Kushery Evergreen Way!
+            <br />
+            All Ages Welcome!
           </h3>
           <h3 style={text}>
             {" "}
@@ -62,7 +73,13 @@ function GoingAllCityModal({
       </Modal.Header>
       <Modal.Body>
         <h4 style={{ textAlign: "center" }} id="modal_body">
-          FOOD | MUSIC | PAINT | LIVE MURALS
+          <span style={{ color: "blue", fontWeight: "bold" }}>FOOD!</span> |
+          <span style={{ color: "PURPLE", fontWeight: "bold" }}> MUSIC! </span>{" "}
+          |<span style={{ color: "RED", fontWeight: "bold" }}> PAINT! </span> |{" "}
+          <span style={{ color: "GREEN", fontWeight: "bold" }}>
+            {" "}
+            LIVE MURALS!{" "}
+          </span>
         </h4>
       </Modal.Body>
       <Modal.Footer style={{ backgroundColor: "black", border: "" }}>
