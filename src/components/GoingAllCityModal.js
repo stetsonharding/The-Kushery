@@ -59,7 +59,6 @@ function GoingAllCityModal({
               EVENT!
             </span>{" "}
           </h2>
-          {/* <h3 style={text}>Hosted By The Kushery</h3> */}
           <h3 style={{ textAlign: "center", color: "white" }}>
             @ The Kushery Evergreen Way!
             <br />
@@ -73,10 +72,37 @@ function GoingAllCityModal({
       </Modal.Header>
       <Modal.Body>
         <h4 style={{ textAlign: "center" }} id="modal_body">
-          <span style={{ color: "blue", fontWeight: "bold" }}>FOOD!</span> |
-          <span style={{ color: "PURPLE", fontWeight: "bold" }}> MUSIC! </span>{" "}
-          |<span style={{ color: "RED", fontWeight: "bold" }}> PAINT! </span> |{" "}
-          <span style={{ color: "GREEN", fontWeight: "bold" }}>
+          <span
+            style={{ color: "blue", fontWeight: "bold", fontFamily: "cursive" }}
+          >
+            FOOD!
+          </span>{" "}
+          |
+          <span
+            style={{
+              color: "PURPLE",
+              fontWeight: "bold",
+              fontFamily: "cursive",
+            }}
+          >
+            {" "}
+            MUSIC!{" "}
+          </span>{" "}
+          |
+          <span
+            style={{ color: "RED", fontWeight: "bold", fontFamily: "cursive" }}
+          >
+            {" "}
+            PAINT!{" "}
+          </span>{" "}
+          |{" "}
+          <span
+            style={{
+              color: "GREEN",
+              fontWeight: "bold",
+              fontFamily: "cursive",
+            }}
+          >
             {" "}
             LIVE MURALS!{" "}
           </span>
