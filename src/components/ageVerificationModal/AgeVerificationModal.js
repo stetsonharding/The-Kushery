@@ -7,15 +7,15 @@ function AgeVerificationModal({ setShowGoingAllCity, ...props }) {
   const [toYoung, setToYoung] = useState("");
 
   useEffect(() => {
-    // let visited = sessionStorage["alreadyVisited"];
-    // if (visited) {
-    setModalShow(false);
-    //do not view modal
-    //} else {
-    //this is the first time
-    // sessionStorage["alreadyVisited"] = true;
-    setModalShow(true);
-    // }
+    let visited = sessionStorage["alreadyVisited"];
+    if (visited) {
+      setModalShow(false);
+      //do not view modal
+    } else {
+      //this is the first time
+      sessionStorage["alreadyVisited"] = true;
+      setModalShow(true);
+    }
   }, []);
 
   const underAge = () => {
